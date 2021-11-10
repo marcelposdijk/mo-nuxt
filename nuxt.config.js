@@ -16,6 +16,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: ' https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js' },
     ]
   },
 

@@ -124,19 +124,27 @@
                             >
                           </li>
                           <li>
-                            <a href="single-project.html">Project Sconedorp</a>
+                            <NuxtLink to="/portfolio/sconedorp"
+                              >Project Sconedorp</NuxtLink
+                            >
                           </li>
+                          <li>
+                            <NuxtLink to="/portfolio/sieboldlaan"
+                              >Project Sieboldlaan</NuxtLink
+                            >
+                          </li>
+
+                          <li>
+                            <NuxtLink to="/portfolio/christinastraat"
+                              >Project Christinastraat</NuxtLink
+                            >
+                          </li>
+
                           <li>
                             <a href="single-project-2.html"
                               >Project Sieboldlaan</a
                             >
                           </li>
-                          <li>
-                            <a href="single-project-3.html"
-                              >Project Christinastraat</a
-                            >
-                          </li>
-                          <li><a href="single-project-4.html">Project 4</a></li>
                         </ul>
                       </li>
                       <li><NuxtLink to="/contact">Contact</NuxtLink></li>
@@ -168,7 +176,7 @@ import Loading from "../components/Loading";
 export default {
   components: {
     Loading,
-  }
+  },
 };
 </script>
 

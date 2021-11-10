@@ -1,10 +1,10 @@
 <template>
   <article>
-    <h1>{{ article.title }}</h1>
-    <p>{{ article.description }}</p>
+    <div>
+      <page-title :title="article.title" backgroundImage="/img/bg/bg-02.jpg" />
+    </div>
     <img :src="article.img" :alt="article.alt" />
     <nuxt-content :document="article" />
-    <p>Post last updated: {{article.updatedAt }}</p>
   </article>
 </template>
 
@@ -42,7 +42,7 @@ img {
 }
 
 .icon.icon-link {
-  background-image: url('~assets/svg/icon-hashtag.svg');
+  background-image: url("~assets/svg/icon-hashtag.svg");
   display: inline-block;
   width: 20px;
   height: 20px;
