@@ -1,8 +1,18 @@
 <template>
   <div>
     <page-title :title="project.title" :backgroundImage="backGroundImage" />
-    <section>
+    <section class="p-1-6">
       <div class="container">
+        <div class="mb-2-9" v-if="project.images">
+          <div class="single-project-carousel">
+            <slideshow
+              :starting-image="1"
+              :images="project.images"
+              :auto-slide-interval="5000"
+              :show-progress-bar="false"
+            ></slideshow>
+          </div>
+        </div>
         <div class="row mb-2-6">
           <div class="col-lg-7 mb-2-6 mb-lg-0">
             <article>
@@ -18,7 +28,7 @@
                     <i class="ti-location-pin align-middle mr-3 display-24"></i>
                     <div class="media-body">
                       <h4 class="h6 mb-3">Locatie</h4>
-                      <p class="mb-0 mt-n2">{{project.location}}</p>
+                      <p class="mb-0 mt-n2">{{ project.location }}</p>
                     </div>
                   </div>
                 </li>
@@ -28,7 +38,7 @@
                     <div class="media-body">
                       <h4 class="h6 mb-3">Vierkante Meters</h4>
                       <p class="mb-0 mt-n2">
-                        {{project.m2}} m<sup class="letter-spacing-1">2</sup>
+                        {{ project.m2 }} m<sup class="letter-spacing-1">2</sup>
                       </p>
                     </div>
                   </div>
@@ -38,7 +48,7 @@
                     <i class="ti-calendar align-middle mr-3 display-24"></i>
                     <div class="media-body">
                       <h4 class="h6 mb-3">Project Jaar</h4>
-                      <p class="mb-0 mt-n2">{{project.year}}</p>
+                      <p class="mb-0 mt-n2">{{ project.year }}</p>
                     </div>
                   </div>
                 </li>
@@ -47,7 +57,13 @@
                     <i class="ti-user align-middle mr-3 display-24"></i>
                     <div class="media-body">
                       <h4 class="h6 mb-3">Hoofd van het Project</h4>
-                      <p class="mb-0 mt-n2">{{project.lead ? project.lead : "Monique van den Nouweland"}}</p>
+                      <p class="mb-0 mt-n2">
+                        {{
+                          project.lead
+                            ? project.lead
+                            : "Monique van den Nouweland"
+                        }}
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -61,30 +77,34 @@
 </template>
 
 <script>
+import Slideshow from "@/components/Slideshow";
 export default {
   async asyncData({ $content, params }) {
-    const project = await $content("projects", params.slug).fetch()
-
-    return { project }
+    const project = await $content("projects", params.slug).fetch();
+    
+    return { project };
+  },
+  components: {
+    Slideshow,
   },
   methods: {
     formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" }
-      return new Date(date).toLocaleDateString("nl", options)
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("nl", options);
     },
   },
   computed: {
-    backGroundImage () {
-      return this.project.img || "/img/bg/bg-02.jpg"
-    }
-  }
+    backGroundImage() {
+      return this.project.img || "/img/bg/bg-02.jpg";
+    },
+  },
 };
 </script>
 
 <style>
-img {
-  width: 300px;
-  height: 300px;
+.single-project-carousel img {
+  width: 100%;
+  height: 100%;
 }
 .nuxt-content h1 {
   font-size: 1.75rem;

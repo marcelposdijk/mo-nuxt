@@ -5,9 +5,21 @@ location: Sconedorp, Kudelstaart
 img: /img/bg/bg-01.jpg
 m2: 119
 year: 2021
+images:
+  -
+    id: 1
+    big: /img/portfolio/sconedorp/project-01.jpg
+    thumb: /img/portfolio/sconedorp/project-01.jpg
+  -
+    id: 2
+    big: /img/portfolio/sconedorp/project-02.jpg
+    thumb: /img/portfolio/sconedorp/project-02.jpg
+  -
+    id: 3
+    big: /img/portfolio/sconedorp/project-03.jpg
+    thumb: /img/portfolio/sconedorp/project-03.jpg
 ---
-
-# Project Sconedorp
+# Over project Sconedorp
 
 Onze klant heeft een bestaande woning gekocht. Eline van Lenthe, onze interieuradviseur, heeft een interieurontwerp gemaakt. En klusvrouw Monique heeft dit uitgevoerd.
 

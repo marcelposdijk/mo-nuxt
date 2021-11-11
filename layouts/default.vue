@@ -46,7 +46,7 @@
                       <a href="/" class="navbar-brand"
                         ><img
                           id="logo"
-                          src="img/logos/logo-inner.png"
+                          src="/img/logos/logo-inner.png"
                           alt="logo"
                       /></a>
                       <!-- end logo -->
