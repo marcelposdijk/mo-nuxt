@@ -1,7 +1,7 @@
 <template>
   <div>
     <page-title :title="project.title" :backgroundImage="backGroundImage" />
-    <section class="p-1-6">
+    <section class="mt-1-6" style="padding: 0">
       <div class="container">
         <div class="mb-2-9" v-if="project.images">
           <div class="single-project-carousel">
@@ -37,6 +37,7 @@
                     <i class="ti-ruler-pencil align-middle mr-3 display-24"></i>
                     <div class="media-body">
                       <h4 class="h6 mb-3">Vierkante Meters</h4>
+                      q
                       <p class="mb-0 mt-n2">
                         {{ project.m2 }} m<sup class="letter-spacing-1">2</sup>
                       </p>
@@ -72,11 +73,60 @@
           </div>
         </div>
       </div>
+      <div class="row mb-2-3 mb-lg-2-9">
+        <div class="col-lg-12">
+          <div
+            class="
+              portfolio-navigation-wrap
+              border-top border-bottom border-color-extra-light-gray
+            "
+          >
+            <ul class="portfolio-navigation">
+              <li>
+                <NuxtLink
+                  v-if="prev"
+                  :to="{ name: 'portfolio-slug', params: { slug: prev.slug } }"
+                  rel="prev"
+                >
+                  <i class="fas fa-angle-left display-30 display-md-29"></i>
+                  <span class="ml-3 display-30 display-md-29 font-weight-600"
+                    >Vorige</span
+                  >
+                </NuxtLink>
+              </li>
+              <li>
+                <a href="index.html">
+                  <i
+                    class="
+                      fas
+                      fa-th
+                      display-29 display-md-28 display-xl-27
+                      vertical-align-middle
+                    "
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <NuxtLink
+                  v-if="next"
+                  :to="{ name: 'portfolio-slug', params: { slug: next.slug } }"
+                  rel="next"
+                >
+                  <span class="mr-3 display-30 display-md-29 font-weight-600"
+                    >Volgende</span
+                  >
+                  <i class="fas fa-angle-right display-30 display-md-29"></i>
+                </NuxtLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <ul v-if="relatedProjects">
       <h3>Gerelateerde projecten</h3>
       <li v-for="rp in relatedProjects" :key="rp.slug">
-          {{rp.title}} => {{rp.description}}
+        {{ rp.title }} => {{ rp.description }}
       </li>
     </ul>
   </div>
@@ -87,11 +137,19 @@ import Slideshow from "@/components/Slideshow";
 export default {
   async asyncData({ $content, params }) {
     const project = await $content("projects", params.slug).fetch();
-    let relatedProjects = []
+    const [prev, next] = await $content("projects")
+      .only(["title", "slug"])
+      .sortBy("createdAt", "asc")
+      .surround(params.slug)
+      .fetch();
+    let relatedProjects = [];
     if (project.relatedProjects) {
-      relatedProjects = await $content('projects').only(["slug", "title", "description"]).where({ slug: { $in: project.relatedProjects } }).fetch()
+      relatedProjects = await $content("projects")
+        .only(["slug", "title", "description"])
+        .where({ slug: { $in: project.relatedProjects } })
+        .fetch();
     }
-    return { project, relatedProjects }
+    return { project, relatedProjects, prev, next };
   },
   components: {
     Slideshow,

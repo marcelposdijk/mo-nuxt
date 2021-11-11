@@ -12,7 +12,7 @@
     </div>
     <div class="m-sm-1-6" style="text-align: center">
       <template v-for="(image, index) in images">
-        <span :key="image.id" :class="dotClass(index)"></span>
+        <span :key="image.id" :class="dotClass(index)" @click="activateImage(index)"></span>
       </template>
     </div>
   </div>
@@ -155,7 +155,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
@@ -188,7 +188,7 @@ img {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 4.5s ease;
+  transition: background-color 1s ease;
 }
 
 .active {
@@ -198,9 +198,9 @@ img {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 4.5s;
+  -webkit-animation-duration: 3.5s;
   animation-name: fade;
-  animation-duration: 4.5s;
+  animation-duration: 3.5s;
 }
 
 @-webkit-keyframes fade {
