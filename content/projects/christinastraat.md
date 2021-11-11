@@ -1,6 +1,6 @@
 ---
 title: Project Christinastraat
-description: Ontwerp en uitvoering inrichting
+description: Opknappen hal
 img: slide1.jpg
 location: Christinastraat, Aalsmeer
 year: 2021

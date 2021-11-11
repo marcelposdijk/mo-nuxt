@@ -5,6 +5,9 @@ location: Sconedorp, Kudelstaart
 img: /img/bg/bg-01.jpg
 m2: 119
 year: 2021
+relatedProjects:
+  - sieboldlaan
+  - christinastraat
 images:
   -
     id: 1

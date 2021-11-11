@@ -73,6 +73,12 @@
         </div>
       </div>
     </section>
+    <ul v-if="relatedProjects">
+      <h3>Gerelateerde projecten</h3>
+      <li v-for="rp in relatedProjects" :key="rp.slug">
+          {{rp.title}} => {{rp.description}}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -81,8 +87,11 @@ import Slideshow from "@/components/Slideshow";
 export default {
   async asyncData({ $content, params }) {
     const project = await $content("projects", params.slug).fetch();
-    
-    return { project };
+    let relatedProjects = []
+    if (project.relatedProjects) {
+      relatedProjects = await $content('projects').only(["slug", "title", "description"]).where({ slug: { $in: project.relatedProjects } }).fetch()
+    }
+    return { project, relatedProjects }
   },
   components: {
     Slideshow,
