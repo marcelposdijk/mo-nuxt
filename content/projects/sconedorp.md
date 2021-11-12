@@ -2,7 +2,8 @@
 title: Project Sconedorp
 description: Ontwerp en uitvoering inrichting
 location: Sconedorp, Kudelstaart
-img: /img/bg/bg-01.jpg
+backgroundImage: /img/bg/bg-01.jpg
+image: ""
 m2: 119
 year: 2021
 relatedProjects:

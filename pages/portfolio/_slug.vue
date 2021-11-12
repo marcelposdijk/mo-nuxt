@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title :title="project.title" :backgroundImage="backGroundImage" />
+    <page-title :title="project.title" :backgroundImage="backgroundImage" />
     <section class="mt-1-6" style="padding: 0">
       <div class="container">
         <div class="mb-2-9" v-if="project.images">
@@ -123,7 +123,7 @@
         </div>
       </div>
     </section>
-    <ul v-if="relatedProjects">
+    <ul v-if="relatedProjects.length > 0">
       <h3>Gerelateerde projecten</h3>
       <li v-for="rp in relatedProjects" :key="rp.slug">
         {{ rp.title }} => {{ rp.description }}
@@ -161,8 +161,8 @@ export default {
     },
   },
   computed: {
-    backGroundImage() {
-      return this.project.img || "/img/bg/bg-02.jpg";
+    backgroundImage() {
+      return this.project.backgroundImage || "/img/bg/bg-02.jpg";
     },
   },
 };
