@@ -6,8 +6,8 @@
         <div class="mb-2-9" v-if="project.images">
           <div class="single-project-carousel">
             <slideshow
-              :starting-image="1"
-              :images="project.images"
+              :starting-image="0"
+              :images="carouselImages"
               :auto-slide-interval="5000"
               :show-progress-bar="false"
             ></slideshow>
@@ -37,7 +37,6 @@
                     <i class="ti-ruler-pencil align-middle mr-3 display-24"></i>
                     <div class="media-body">
                       <h4 class="h6 mb-3">Vierkante Meters</h4>
-                      q
                       <p class="mb-0 mt-n2">
                         {{ project.m2 }} m<sup class="letter-spacing-1">2</sup>
                       </p>
@@ -57,7 +56,7 @@
                   <div class="media">
                     <i class="ti-user align-middle mr-3 display-24"></i>
                     <div class="media-body">
-                      <h4 class="h6 mb-3">Hoofd van het Project</h4>
+                      <h4 class="h6 mb-3">Projectleider</h4>
                       <p class="mb-0 mt-n2">
                         {{
                           project.lead
@@ -122,6 +121,73 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="project-gallery w-100">
+            <h3 class="mb-1-6">Related Projects</h3>
+            <div class="related-project-carousel owl-carousel owl-theme">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="img/portfolio/grid-portfolio-01.jpg" alt="..." />
+                </div>
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h4>
+                      <a href="#!" class="white-hover"
+                        >Stylish Family Appartment</a
+                      >
+                    </h4>
+                    <p>[Interior]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="img/portfolio/grid-portfolio-02.jpg" alt="..." />
+                </div>
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h4>
+                      <a href="#!" class="white-hover">Minimal Guests House</a>
+                    </h4>
+                    <p>[Decor, Interior]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="img/portfolio/grid-portfolio-03.jpg" alt="..." />
+                </div>
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h4>
+                      <a href="#!" class="white-hover"
+                        >Kitchen for Small family</a
+                      >
+                    </h4>
+                    <p>[Architecture]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="img/portfolio/grid-portfolio-04.jpg" alt="..." />
+                </div>
+                <div class="portfolio-overlay">
+                  <div class="portfolio-content">
+                    <h4>
+                      <a href="#!" class="white-hover"
+                        >Interior Design for Bathroom</a
+                      >
+                    </h4>
+                    <p>[Interior]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <ul v-if="relatedProjects.length > 0">
       <h3>Gerelateerde projecten</h3>
@@ -145,7 +211,7 @@ export default {
     let relatedProjects = [];
     if (project.relatedProjects) {
       relatedProjects = await $content("projects")
-        .only(["slug", "title", "description"])
+        .only(["slug", "title", "description", "image"])
         .where({ slug: { $in: project.relatedProjects } })
         .fetch();
     }
@@ -162,8 +228,17 @@ export default {
   },
   computed: {
     backgroundImage() {
-      return this.project.backgroundImage || "/img/bg/bg-02.jpg";
+      return this.project.backgroundImage || "/img/bg/bg-01.jpg";
     },
+    carouselImages() {
+      const x = {a: 1, b: 2};
+      const y = {...x, c: 3}
+      return this.project.images
+        .filter(a => a.showInCarousel)
+        .map((img, index) => {
+          return {...img, id: index }
+        })
+    }
   },
 };
 </script>

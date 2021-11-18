@@ -1,20 +1,29 @@
 ---
-title: Project Christinastraat
-description: Opknappen hal
+title: Project Jenni
+description: Van chaos naar geweldig
+image: "/img/portfolio/christinastraat/main.jpg"
 backgroundImage: /img/banner/slide2.jpg
-location: Christinastraat, Aalsmeer
+location: Tussenwoning, AALSMEER
 year: 2021
+relatedProjects:
+  - opknappenhal
 images:
   -
     url: /img/portfolio/christinastraat/project-01.jpg
     showInCarousel: true
+    services:
+      - schilderwerk
+      - timmerwerk
   -
     url: /img/portfolio/christinastraat/project-02.jpg
     showInCarousel: true
+    services: 
+      - schilderwerk
   -
-    big: /img/portfolio/christinastraat/project-03.jpg
-    thumb: /img/portfolio/christinastraat/project-03.jpg
+    url: /img/portfolio/christinastraat/project-03.jpg
     showInCarousel: true
+    services: 
+      - tuinonderhoud
 ---
 
 # Over het project

@@ -1,27 +1,24 @@
 ---
 title: Project Sconedorp
 description: Ontwerp en uitvoering inrichting
-location: Sconedorp, Kudelstaart
+location: Sconedorp, KUDELSTAART
 backgroundImage: /img/bg/bg-01.jpg
-image: ""
+image: "/img/portfolio/sconedorp/main.jpg"
 m2: 119
 year: 2021
 relatedProjects:
   - sieboldlaan
-  - christinastraat
+  - opknappenhal
 images:
   -
-    id: 1
-    big: /img/portfolio/sconedorp/project-01.jpg
-    thumb: /img/portfolio/sconedorp/project-01.jpg
+    url: /img/portfolio/sconedorp/project-01.jpg
+    showInCarousel: true
   -
-    id: 2
-    big: /img/portfolio/sconedorp/project-02.jpg
-    thumb: /img/portfolio/sconedorp/project-02.jpg
+    url: /img/portfolio/sconedorp/project-02.jpg
+    showInCarousel: true
   -
-    id: 3
-    big: /img/portfolio/sconedorp/project-03.jpg
-    thumb: /img/portfolio/sconedorp/project-03.jpg
+    url: /img/portfolio/sconedorp/project-03.jpg
+    showInCarousel: true
 ---
 # Over project Sconedorp
 
