@@ -4,14 +4,9 @@
     <section class="mt-1-6" style="padding: 0">
       <div class="container">
         <div class="mb-2-9" v-if="project.images">
-          <div class="single-project-carousel">
-            <slideshow
-              :starting-image="0"
-              :images="carouselImages"
-              :auto-slide-interval="5000"
-              :show-progress-bar="false"
-            ></slideshow>
-          </div>
+          <slick-slideshow
+            :images="carouselImages"
+          ></slick-slideshow>
         </div>
         <div class="row mb-2-6">
           <div class="col-lg-7 mb-2-6 mb-lg-0">
@@ -124,7 +119,6 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="project-gallery w-100">
-            <h3 class="mb-1-6">Related Projects</h3>
             <div class="related-project-carousel owl-carousel owl-theme">
               <div class="portfolio-wrapper">
                 <div class="portfolio-image">
@@ -199,7 +193,7 @@
 </template>
 
 <script>
-import Slideshow from "@/components/Slideshow";
+import SlickSlideshow from "@/components/SlickSlideshow";
 export default {
   async asyncData({ $content, params }) {
     const project = await $content("projects", params.slug).fetch();
@@ -218,7 +212,7 @@ export default {
     return { project, relatedProjects, prev, next };
   },
   components: {
-    Slideshow,
+    SlickSlideshow,
   },
   methods: {
     formatDate(date) {
@@ -231,14 +225,14 @@ export default {
       return this.project.backgroundImage || "/img/bg/bg-01.jpg";
     },
     carouselImages() {
-      const x = {a: 1, b: 2};
-      const y = {...x, c: 3}
+      const x = { a: 1, b: 2 };
+      const y = { ...x, c: 3 };
       return this.project.images
-        .filter(a => a.showInCarousel)
+        .filter((a) => a.showInCarousel)
         .map((img, index) => {
-          return {...img, id: index }
-        })
-    }
+          return { ...img, id: index };
+        });
+    },
   },
 };
 </script>
