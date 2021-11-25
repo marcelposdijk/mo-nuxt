@@ -1,10 +1,8 @@
 ---
 sequenceNumber: 1
 title: Schilderwerk binnen en buiten
-description: lajlkajsdlaskdj
+description: Muren sausen, deurkozijnen en deuren schilderen, raamkozijnen binnen en buiten schilderen, buitendeuren schilderen
 ---
 # Schilderwerk binnen en buiten
 
-Heel verhaal over de aanpak
-
-
+Muren sausen, deurkozijnen en deuren schilderen, raamkozijnen binnen en buiten schilderen, buitendeuren schilderen
