@@ -196,8 +196,7 @@
               <li>
                 <h6>Email</h6>
                 <p>
-                  Klusvrouwmonique@live.com<br />
-                  Moniquevanlenthe@live.com
+                  info@klusvrouwmonique.nl<br />
                 </p>
               </li>
             </ul>
@@ -210,8 +209,8 @@
                 <li><a href="#!">Behangen</a></li>
                 <li><a href="#!">Klussen in de tuin</a></li>
                 <li><a href="#!">Timmerklussen</a></li>
-                <li><a href="#!">extra optie 1</a></li>
-                <li><a href="#!">extra optie 2</a></li>
+                <li><a href="#!">Sanitair</a></li>
+                <li><a href="#!">Electra</a></li>
               </ul>
             </div>
           </div>
