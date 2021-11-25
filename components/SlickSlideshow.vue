@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vue-slick-carousel :arrows="true" :dots="true">
+    <vue-slick-carousel :arrows="true" :dots="true" :autoplay="true">
       <div v-for="image in images" :key="image.id">
         <img :src="image.url" style="height:550px;width:1140px;" />
       </div>

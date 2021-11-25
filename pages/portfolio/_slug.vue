@@ -5,6 +5,7 @@
       <div class="container">
         <div class="mb-2-9" v-if="project.images">
           <slick-slideshow
+            ref="carousel"
             :images="carouselImages"
           ></slick-slideshow>
         </div>
@@ -66,134 +67,81 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row mb-2-3 mb-lg-2-9">
-        <div class="col-lg-12">
-          <div
-            class="
-              portfolio-navigation-wrap
-              border-top border-bottom border-color-extra-light-gray
-            "
-          >
-            <ul class="portfolio-navigation">
-              <li>
-                <NuxtLink
-                  v-if="prev"
-                  :to="{ name: 'portfolio-slug', params: { slug: prev.slug } }"
-                  rel="prev"
-                >
-                  <i class="fas fa-angle-left display-30 display-md-29"></i>
-                  <span class="ml-3 display-30 display-md-29 font-weight-600"
-                    >Vorige</span
+
+        <div class="row mb-2-3 mb-lg-2-9">
+          <div class="col-lg-12">
+            <div
+              class="
+                portfolio-navigation-wrap
+                border-top border-bottom border-color-extra-light-gray
+              "
+            >
+              <ul class="portfolio-navigation">
+                <li>
+                  <NuxtLink
+                    v-if="prev"
+                    :to="{
+                      name: 'portfolio-slug',
+                      params: { slug: prev.slug },
+                    }"
+                    rel="prev"
                   >
-                </NuxtLink>
-              </li>
-              <li>
-                <a href="index.html">
-                  <i
-                    class="
-                      fas
-                      fa-th
-                      display-29 display-md-28 display-xl-27
-                      vertical-align-middle
-                    "
-                  ></i>
-                </a>
-              </li>
-              <li>
-                <NuxtLink
-                  v-if="next"
-                  :to="{ name: 'portfolio-slug', params: { slug: next.slug } }"
-                  rel="next"
-                >
-                  <span class="mr-3 display-30 display-md-29 font-weight-600"
-                    >Volgende</span
+                    <i class="fas fa-angle-left display-30 display-md-29"></i>
+                    <span class="ml-3 display-30 display-md-29 font-weight-600"
+                      >Vorige</span
+                    >
+                  </NuxtLink>
+                </li>
+                <li>
+                  <a href="index.html">
+                    <i
+                      class="
+                        fas
+                        fa-th
+                        display-29 display-md-28 display-xl-27
+                        vertical-align-middle
+                      "
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <NuxtLink
+                    v-if="next"
+                    :to="{
+                      name: 'portfolio-slug',
+                      params: { slug: next.slug },
+                    }"
+                    rel="next"
                   >
-                  <i class="fas fa-angle-right display-30 display-md-29"></i>
-                </NuxtLink>
-              </li>
-            </ul>
+                    <span class="mr-3 display-30 display-md-29 font-weight-600"
+                      >Volgende</span
+                    >
+                    <i class="fas fa-angle-right display-30 display-md-29"></i>
+                  </NuxtLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="project-gallery w-100">
-            <div class="related-project-carousel owl-carousel owl-theme">
-              <div class="portfolio-wrapper">
-                <div class="portfolio-image">
-                  <img src="img/portfolio/grid-portfolio-01.jpg" alt="..." />
-                </div>
-                <div class="portfolio-overlay">
-                  <div class="portfolio-content">
-                    <h4>
-                      <a href="#!" class="white-hover"
-                        >Stylish Family Appartment</a
-                      >
-                    </h4>
-                    <p>[Interior]</p>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-wrapper">
-                <div class="portfolio-image">
-                  <img src="img/portfolio/grid-portfolio-02.jpg" alt="..." />
-                </div>
-                <div class="portfolio-overlay">
-                  <div class="portfolio-content">
-                    <h4>
-                      <a href="#!" class="white-hover">Minimal Guests House</a>
-                    </h4>
-                    <p>[Decor, Interior]</p>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-wrapper">
-                <div class="portfolio-image">
-                  <img src="img/portfolio/grid-portfolio-03.jpg" alt="..." />
-                </div>
-                <div class="portfolio-overlay">
-                  <div class="portfolio-content">
-                    <h4>
-                      <a href="#!" class="white-hover"
-                        >Kitchen for Small family</a
-                      >
-                    </h4>
-                    <p>[Architecture]</p>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-wrapper">
-                <div class="portfolio-image">
-                  <img src="img/portfolio/grid-portfolio-04.jpg" alt="..." />
-                </div>
-                <div class="portfolio-overlay">
-                  <div class="portfolio-content">
-                    <h4>
-                      <a href="#!" class="white-hover"
-                        >Interior Design for Bathroom</a
-                      >
-                    </h4>
-                    <p>[Interior]</p>
-                  </div>
-                </div>
-              </div>
+        <div class="row" v-if="relatedProjects.length > 0">
+          <div class="col-lg-12">
+            <div class="project-gallery w-100">
+              <h3 class="mb-1-6">Related Projects</h3>
+              <related-projects
+                ref="relatedCarousel"
+                :projects="relatedProjects"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
-    <ul v-if="relatedProjects.length > 0">
-      <h3>Gerelateerde projecten</h3>
-      <li v-for="rp in relatedProjects" :key="rp.slug">
-        {{ rp.title }} => {{ rp.description }}
-      </li>
-    </ul>
   </div>
 </template>
 
 <script>
 import SlickSlideshow from "@/components/SlickSlideshow";
+import RelatedProjects from "@/components/RelatedProjects";
 export default {
   async asyncData({ $content, params }) {
     const project = await $content("projects", params.slug).fetch();
@@ -213,6 +161,7 @@ export default {
   },
   components: {
     SlickSlideshow,
+    RelatedProjects,
   },
   methods: {
     formatDate(date) {
@@ -237,7 +186,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .single-project-carousel img {
   width: 100%;
   height: 100%;
