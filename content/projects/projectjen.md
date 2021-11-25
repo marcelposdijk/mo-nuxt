@@ -4,6 +4,9 @@ description: Plafond in hal na lekkage gerepareerd, muren behangen, muren keuken
 image: "/portfolio/projectjen/main.jpg"
 backgroundImage: /img/banner/slide2.jpg
 location: Tussenwoning Amstelveen
+services:
+  - timmerwerk
+  - schilderwerk
 year: 2021
 relatedProjects:
   - projectmo
