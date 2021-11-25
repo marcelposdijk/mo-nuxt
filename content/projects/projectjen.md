@@ -1,13 +1,14 @@
 ---
 title: Project Jen
-description: Van chaos naar geweldig
-image: "/img/portfolio/projectjen/main.jpg"
+description: Plafond in hal na lekkage gerepareerd, muren behangen, muren keuken geschilderd en schrootjes geschilderd
+image: "/portfolio/projectjen/main.jpg"
 backgroundImage: /img/banner/slide2.jpg
-location: Tussenwoning, AALSMEER
+location: Tussenwoning Amstelveen
 year: 2021
 relatedProjects:
   - projectmo
   - projectmars
+  - projectmarg
 images:
   -
     url: /portfolio/projectjen/carousel01.jpg
@@ -37,9 +38,6 @@ images:
       - tuinonderhoud
 ---
 
-# Over het project
+# Over het project Jen
 
-Kapstok in de hal verwijderd. Hal behangen. Meterkast zijwand vervangen. Meterkast en voorraadkast geschilderd. Bankje gemaakt. Verwarmingsombouw gemaakt. Trap geschilderd.
-
-Woonkamer alle wanden geschilderd. Openhaard wand geisoleerd en geschilderd.
-
+Plafond verwijderd en vervangen door gipsplaten, gestuct en gesausd. Muren behangen, schrootjes muur geschilderd. Keuken wanden gesausd.

@@ -2,8 +2,8 @@
 title: Project Jul
 description: Behangen, lampen ophangen, kasten in elkaar zetten
 image: "/portfolio/projectjul/main.jpg"
-backgroundImage: 
-location: AALSMEER
+backgroundImage: /img/banner/slide2.jpg 
+location: Tussenwoning Aalsmeer
 year: 2021
 relatedProjects:
   - projectmars
@@ -32,14 +32,13 @@ images:
     url: /portfolio/projectjul/carousel07.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel8.jpg
+    url: /portfolio/projectjul/carousel08.jpg
     showInCarousel: true
 ---
 
 
 # Over het project
 
-Kozijnen gegrond en 2 x afgelakt. Rabatdelen gegrond en 2 x afgelakt. 
-2 onderdorpels met houtrot zelf verwijderd en nieuwe laten plaatsen. 
-Onderdorpels gegrond en 2 x afgelakt.
+Bij een klant heb ik in vier slaapkamers een enkele muur behangen. Ikeakasten in elkaar gezet. Lampen opgehangen. Accessoires aan de muur gemaakt. Magneetsticker op de muur bevestigd.
+
 
