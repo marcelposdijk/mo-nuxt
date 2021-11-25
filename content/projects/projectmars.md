@@ -1,9 +1,9 @@
 ---
 title: Project Mars
 description: Ontwerp, uitvoering en inrichting
-location: KUDELSTAART
+location: Tussenwoning Kudelstaart
 backgroundImage: /img/bg/bg-01.jpg
-image: "/portfolio/projectmars/main.jpg"
+image: /portfolio/projectmars/main.jpg
 m2: 119
 year: 2021
 relatedProjects:
@@ -25,7 +25,7 @@ images:
     url: /portfolio/projectmars/carousel04.jpg
     showInCarousel: true
 ---
-# Over project Sconedorp
+# Over project Mars
 
 Onze klant heeft een bestaande woning gekocht. Eline van Lenthe, onze interieuradviseur, heeft een interieurontwerp gemaakt. En klusvrouw Monique heeft dit uitgevoerd.
 

@@ -249,6 +249,10 @@ export default {
   margin-bottom: 20px;
 }
 
+.slick-slide img {
+  height: 550px;
+  width: 1140px;
+}
 /* .icon.icon-link {
   background-image: url('~assets/svg/icon-hashtag.svg');
   display: inline-block;
