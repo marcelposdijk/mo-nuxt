@@ -1,34 +1,33 @@
 <template>
   <div>
-    <vue-slick-carousel
-      class="related-projects"
-      :arrows="true"
-      :dots="true"
-      :autoplay="true"
-      :slidesPerRow="3"
-      :infinite="true"
-    >
-      <template v-for="project in projects">
-        <swiper-slide :key="project.slug"
-          ><img :src="project.image"
-        /></swiper-slide>
-      </template>
+    <vue-slick-carousel class="related-projects" :arrows="true" :dots="true" :autoplay="true" :slidesPerRow="3" :infinite="true">
+      <div class="single-item" v-for="project in projects" :key="project.slug">
+        <div>
+          <img :src="project.image" />
+        </div>
+        <div class="title-holder">
+          <h4>
+            <a href="#!">{{ project.descrioption }}</a>
+          </h4>
+          <a href="#!" class="read-more">read more<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
+        </div>
+      </div>
     </vue-slick-carousel>
   </div>
 </template>
 
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import VueSlickCarousel from "vue-slick-carousel"
+import "vue-slick-carousel/dist/vue-slick-carousel.css"
 // optional style for arrows & dots
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
 export default {
   name: "SlickSlideshow",
   components: {
     VueSlickCarousel,
   },
   props: ["projects"],
-};
+}
 </script>
 
 
