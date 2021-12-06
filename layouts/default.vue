@@ -58,48 +58,14 @@
                     <ul class="navbar-nav ml-auto" id="nav">
                       <li><NuxtLink to="/">Home</NuxtLink></li>
                       <li>
-                        <a href="#!">Pagina's</a>
+                        <a href="#!">Over ons</a>
                         <ul>
                           <li><NuxtLink to="/about">Over ons</NuxtLink></li>
-                          <li><a href="services.html">Diensten</a></li>
-                          <li>
-                            <a href="#!">Enkele diensten</a>
-                            <ul>
-                              <li>
-                                <a href="interior-design.html"
-                                  >Schilderwerk binnen en buiten</a
-                                >
-                              </li>
-                              <li>
-                                <a href="concept-designs.html">Behangen</a>
-                              </li>
-                              <li>
-                                <a href="consultations.html"
-                                  >Klussen in de tuin</a
-                                >
-                              </li>
-                              <li>
-                                <a href="space-planning.html">Timmerklussen</a>
-                              </li>
-                              <li>
-                                <a href="decorative-services.html"
-                                  >Interieuradvies</a
-                                >
-                              </li>
-                            </ul>
-                          </li>
+                          <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
                           <li><a href="our-team.html">Ons team</a></li>
                           <li><a href="testimonials.html">Reviews</a></li>
                           <li><a href="pricing.html">Prijzen</a></li>
                           <li><a href="faq.html">Vraag en antwoordt</a></li>
-                          <li>
-                            <a href="#!">Overig</a>
-                            <ul>
-                              <li><a href="comingsoon.html">Binnenkort </a></li>
-                              <li><a href="503-page.html">503 Page</a></li>
-                              <li><a href="404-page.html">404 Page</a></li>
-                            </ul>
-                          </li>
                         </ul>
                       </li>
                       <li>
