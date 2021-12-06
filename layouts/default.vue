@@ -101,7 +101,7 @@
                   <h6>Telefoon</h6>
                   <p>
                     06-14968712<br />
-                    <span>Maandag t/m vrijdag: </span> 8:00 to 16:00 uur
+                    <span>Maandag t/m vrijdag: </span><br/>8:00 tot 16:00 uur
                   </p>
                 </li>
                 <li>
