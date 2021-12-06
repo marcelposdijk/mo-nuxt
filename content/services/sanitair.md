@@ -1,7 +1,8 @@
 ---
 sequenceNumber: 6
 title: Sanitair   
-description: Sanitair   
+description: Sanitair
+backgroundImage: /img/banner/slide2.jpg
 ---
 # Sanitair
 

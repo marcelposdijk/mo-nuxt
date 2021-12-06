@@ -60,35 +60,19 @@
                       <li>
                         <a href="#!">Over ons</a>
                         <ul>
-                          <li><NuxtLink to="/about">Over ons</NuxtLink></li>
                           <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
-                          <li><a href="our-team.html">Ons team</a></li>
-                          <li><a href="testimonials.html">Reviews</a></li>
-                          <li><a href="pricing.html">Prijzen</a></li>
-                          <li><a href="faq.html">Vraag en antwoordt</a></li>
+                          <li><NuxtLink to="/team">Ons team</NuxtLink></li>
                         </ul>
                       </li>
                       <li>
                         <a href="#!">Portfolio</a>
                         <ul>
                           <li>
-                            <a href="grid-portfolio.html">Grid Portfolio</a>
-                          </li>
-                          <li>
                             <a href="full-width-portfolio.html"
-                              >Full Width Portfolio</a
+                              >Overzicht</a
                             >
                           </li>
-                          <li>
-                            <a href="masonry-portfolio.html"
-                              >Masonry Portfolio</a
-                            >
-                          </li>
-                          <li>
-                            <a href="full-width-masonry-portfolio.html"
-                              >Full Width Masonry</a
-                            >
-                          </li>
+                          
                           <li>
                             <NuxtLink to="/portfolio/projectmars"
                               >Project Mars</NuxtLink
@@ -121,16 +105,6 @@
                       <li><NuxtLink to="/contact">Contact</NuxtLink></li>
                     </ul>
                     <!-- end menu area -->
-
-                    <!-- start attribute navigation -->
-                    <div class="attr-nav">
-                      <ul>
-                        <li class="search">
-                          <a href="#!"><i class="fas fa-search"></i></a>
-                        </li>
-                      </ul>
-                    </div>
-                    <!-- end attribute navigation -->
                   </nav>
                 </div>
               </div>

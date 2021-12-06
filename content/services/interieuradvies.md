@@ -2,6 +2,7 @@
 sequenceNumber: 5
 title: Interieuradvies
 description: Interieuradvies.
+backgroundImage: /img/banner/slide2.jpg
 ---
 # Interieuradvies
 

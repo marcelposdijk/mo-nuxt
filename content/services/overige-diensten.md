@@ -2,6 +2,7 @@
 sequenceNumber: 8
 title: Overige diensten
 description: Overige diensten
+backgroundImage: /img/banner/slide2.jpg
 ---
 # Overige diensten
 

@@ -2,6 +2,7 @@
 sequenceNumber: 7
 title: Electra  
 description: Electra
+backgroundImage: /img/banner/slide2.jpg
 ---
 # Electra
 
