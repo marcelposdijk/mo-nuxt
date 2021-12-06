@@ -1,15 +1,15 @@
 <template>
   <div>
-    <vue-slick-carousel class="related-projects" :arrows="true" :dots="true" :autoplay="true" :slidesPerRow="3" :infinite="true">
+    <vue-slick-carousel class="related-projects footer-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slidesPerRow="3" :infinite="true">
       <div class="single-item" v-for="project in projects" :key="project.slug">
         <div>
           <img :src="project.image" />
         </div>
         <div class="title-holder">
           <h4>
-            <a href="#!">{{ project.descrioption }}</a>
+            <a href="#!">{{ project.description }}</a>
           </h4>
-          <a href="#!" class="read-more">read more<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
+          <NuxtLink :to="`/portfolio/${project.slug}`" class="read-more">Lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
         </div>
       </div>
     </vue-slick-carousel>
