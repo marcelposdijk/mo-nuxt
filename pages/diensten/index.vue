@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title title="Diensten" backgroundImage="/img/bg/bg-01.jpg" />
+    <page-title title="Diensten" backgroundImage="/img/bg/bg-04.jpg" />
     <section>
       <div class="container">
         <div class="section-heading">
