@@ -17,8 +17,7 @@
                 <a href="#!">{{ service.title }}</a>
               </h3>
               <p>{{ service.description }}</p>
-              <NuxtLink :to="`/diensten/${service.slug}`" class="read-more">Lees meer<i class="fas fa-long-arrow-alt-right align-middle ml-2"></i></NuxtLink>
-              <div class="service-counter number-ordered-item"></div>
+               <div class="service-counter number-ordered-item"></div>
             </div>
           </div>
         </div>
