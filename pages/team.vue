@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title title="Over ons" backgroundImage="/img/bg/bg-04.jpg" />
+    <page-title title="Over ons" backgroundImage="/img/bg/bg-06.jpg" />
     <!-- end page title section -->
 
     <!-- start about us section -->
