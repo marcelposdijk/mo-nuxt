@@ -39,7 +39,17 @@ images:
     showInCarousel: true
     services: 
       - tuinonderhoud
----
+  -
+    url: /img/portfolio/grid-portfolio-07.jpg
+    showInCarousel: false
+    services: 
+      - timmerwerk
+  -
+    url: /img/portfolio/grid-portfolio-09.jpg
+    showInCarousel: false
+    services: 
+      - behangen
+ ---
 
 # Over het project Jen
 
