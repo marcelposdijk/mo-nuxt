@@ -47,7 +47,7 @@
                         <a href="#!">Portfolio</a>
                         <ul>
                           <li>
-                            <a href="full-width-portfolio.html">Overzicht</a>
+                            <a href="/portfolio">Overzicht</a>
                           </li>
 
                           <li>
@@ -140,7 +140,7 @@
                   <a href="#!" class="white-hover"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#!" class="white-hover"><i class="fab fa-youtube"></i></a>
+                  <a href="#!" class="white-hover"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
                   <a href="#!" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
