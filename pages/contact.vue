@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title title="Contact" backgroundImage="/img/bg/bg-12.jpg" />
+    <page-title title="Contact" backgroundImage="/img/bg/bg-14.jpg" />
   </div>
 </template>
 
