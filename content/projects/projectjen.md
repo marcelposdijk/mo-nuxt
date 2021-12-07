@@ -2,7 +2,7 @@
 title: Project Jen
 description: Plafond in hal na lekkage gerepareerd, muren behangen, muren keuken geschilderd en schrootjes geschilderd
 image: "/portfolio/projectjen/main.jpg"
-backgroundImage: /img/banner/slide2.jpg
+backgroundImage: /img/bg/bg-11.jpg
 location: Tussenwoning Amstelveen
 services:
   - timmerwerk
