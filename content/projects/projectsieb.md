@@ -2,7 +2,7 @@
 title: Project Sieb
 description: Buitenschilderwerk
 image: "/portfolio/projectsieb/main.jpg"
-backgroundImage: 
+backgroundImage: /img/bg/bg-13.jpg
 location: Tussenwoning Aalsmeer
 year: 2021
 images:

@@ -2,7 +2,7 @@
 title: Project Jul
 description: Behangen, lampen ophangen, kasten in elkaar zetten
 image: "/portfolio/projectjul/main.jpg"
-backgroundImage: /img/banner/slide2.jpg 
+backgroundImage: /img/bg/bg-08.jpg 
 location: Tussenwoning Aalsmeer
 year: 2021
 relatedProjects:
