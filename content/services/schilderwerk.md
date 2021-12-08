@@ -7,4 +7,7 @@ backgroundImage: /img/banner/slide2.jpg
 ---
 # Schilderwerk binnen en buiten
 
-Muren sausen, deurkozijnen en deuren schilderen, raamkozijnen binnen en buiten schilderen, buitendeuren schilderen
+Muren sausen
+Schilderen van deurkozijnen en deuren
+Schilderen van raamkozijnen
+Houtrot verwijderen en behandelen
