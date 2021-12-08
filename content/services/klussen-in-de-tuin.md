@@ -6,4 +6,4 @@ backgroundImage: /img/banner/slide2.jpg
 ---
 # Klussen in de tuin
 
-Onkruid verwijderen, snoeiwerkzaamheden, schoffelen, plaatsen van een windvanger, schutting beitsen/olién
+Onkruid verwijderen, snoeiwerkzaamheden, schoffelen, plaatsen van een windvanger, schutting beitsen of oliën
