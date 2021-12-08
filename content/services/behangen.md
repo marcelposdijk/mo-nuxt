@@ -12,4 +12,4 @@ images:
 ---
 # Behangen
 
-Muren behangen, fotobehang 
+Muren behangen, fotobehang plaatsen
