@@ -7,7 +7,7 @@ location: Tussenwoning Aalsmeer
 year: 2021
 releatedProjects:
   - projectmars
-  - projectjul
+  - projectjuul
   - projectmarg
   - projectjen
 images:

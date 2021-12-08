@@ -9,7 +9,7 @@ year: 2021
 relatedProjects:
   - projectmo
   - projectjen
-  - projectjul
+  - projectjuul
   - projectmarg
 images:
   -
