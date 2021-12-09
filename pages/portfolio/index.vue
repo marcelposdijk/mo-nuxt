@@ -22,8 +22,11 @@
                       <a class="popimg ml-0" :href="item.image">
                         <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
                       </a>
-                      <h4>{{item.title}}</h4>
-                      <p>[{{getImageServiceTitles(item)}}]</p>
+                      <h4 v-if="!item.project">{{ item.title }}</h4>
+                      <h4 v-if="item.project">
+                        <nuxt-link :to="`/portfolio/${item.project}`">{{ item.title }}</nuxt-link>
+                      </h4>
+                      <p>[{{ getImageServiceTitles(item) }}]</p>
                     </div>
                   </div>
                 </div>
@@ -41,7 +44,7 @@ export default {
   async asyncData({ $content, params }) {
     const portfolio = await $content("portfolio-overview").fetch()
     const services = await $content("services").only(["slug", "title", "shortTitle"]).fetch()
-    return { portfolio,  services }
+    return { portfolio, services }
   },
   components: {},
   methods: {
@@ -50,7 +53,7 @@ export default {
       return new Date(date).toLocaleDateString("nl", options)
     },
     getServiceTitle(slug) {
-      const service = this.services.find(a => a.slug == slug)
+      const service = this.services.find((a) => a.slug == slug)
       return service ? service.shortTitle || service.title : slug
     },
     getImageServiceSlugs(image) {
@@ -58,22 +61,28 @@ export default {
         return ""
       }
       return image.services.join(" ")
-    
     },
     getImageServiceTitles(image) {
       if (!image.services) {
         return ""
       }
-      const titles = image.services.map(a => this.getServiceTitle(a))
+      const titles = image.services.map((a) => this.getServiceTitle(a))
       return titles.join(",")
-    
-    }
-
+    },
   },
   computed: {},
   mounted() {
-    window.$gallery = $(".gallery").isotope({
-    })
+    setTimeout(() => {
+      window.$gallery = $(".gallery").isotope({})
+      $('.gallery').magnificPopup({
+            delegate: '.popimg',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+
+    }, 100)
 
     // filter items on button click
     $(".filtering").on("click", "span", function () {
@@ -89,3 +98,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+h4 > a:hover {
+  color: blue;
+}
+</style>
