@@ -4,6 +4,8 @@ description: Buitenschilderwerk
 image: "/portfolio/projectsieb/main.jpg"
 backgroundImage: /img/bg/bg-13.jpg
 location: Tussenwoning Aalsmeer
+sequenceNumber: 6
+showInMenu: true
 year: 2021
 images:
   -

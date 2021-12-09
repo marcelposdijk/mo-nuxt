@@ -2,6 +2,8 @@
 title: Project Mars
 description: Ontwerp, uitvoering en inrichting
 location: Tussenwoning Kudelstaart
+sequenceNumber: 4
+showInMenu: true
 backgroundImage: /img/bg/bg-10.jpg
 image: /portfolio/projectmars/main.jpg
 m2: 119

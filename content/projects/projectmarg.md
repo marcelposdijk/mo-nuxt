@@ -2,6 +2,8 @@
 title: Project Marg
 description: Sausen van wanden appartement
 location: Appartement Delft
+sequenceNumber: 3
+showInMenu: true
 backgroundImage: /img/bg/bg-01.jpg
 image: /portfolio/projectmarg/main.jpg
 m2: 180
