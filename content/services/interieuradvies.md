@@ -1,6 +1,7 @@
 ---
 sequenceNumber: 5
 title: Interieuradvies
+shortTitle: Interieuradvies
 description: Interieuradvies, moodboard, kleurvoorstel, ontwerp, bank opstelling, vloeren voorstel, behang voorstel, muurkleur voorstel, materialen voorstel, meubel voorstel, licht plan
 backgroundImage: /img/banner/slide2.jpg
 ---

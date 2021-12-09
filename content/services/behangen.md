@@ -1,6 +1,7 @@
 ---
 sequenceNumber: 2
 title: Behangen
+shortTitle: Behangen
 description: Muren behangen, fotobehang plaatsen
 backgroundImage: /img/banner/slide2.jpg
 images:
