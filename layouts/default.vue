@@ -65,7 +65,7 @@
                             <NuxtLink to="/portfolio/projectjen">Project Jen</NuxtLink>
                           </li>
                           <li>
-                            <NuxtLink to="/portfolio/projectjul">Project Jul</NuxtLink>
+                            <NuxtLink to="/portfolio/projectjuul">Project Jul</NuxtLink>
                           </li>
                         </ul>
                       </li>

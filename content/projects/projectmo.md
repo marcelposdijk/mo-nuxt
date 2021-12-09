@@ -1,13 +1,13 @@
 ---
 title: Project Mo
 description: Opknappen hal
-backgroundImage: /img/banner/slide2.jpg
+backgroundImage: /img/bg/bg-15.jpg
 image: /portfolio/projectmo/main.jpg
 location: Tussenwoning Aalsmeer
 year: 2021
 releatedProjects:
   - projectmars
-  - projectjul
+  - projectjuul
   - projectmarg
   - projectjen
 images:

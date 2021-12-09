@@ -1,8 +1,8 @@
 ---
-title: Project Jul
+title: Project Juul
 description: Behangen, lampen ophangen, kasten in elkaar zetten
-image: "/portfolio/projectjul/main.jpg"
-backgroundImage: /img/banner/slide2.jpg 
+image: "/portfolio/projectjuul/main.jpg"
+backgroundImage: /img/bg/bg-08.jpg 
 location: Tussenwoning Aalsmeer
 year: 2021
 relatedProjects:
@@ -11,28 +11,28 @@ relatedProjects:
   - projectmo
 images:
   -
-    url: /portfolio/projectjul/carousel01.jpg
+    url: /portfolio/projectjuul/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel02.jpg
+    url: /portfolio/projectjuul/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel03.jpg
+    url: /portfolio/projectjuul/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel04.jpg
+    url: /portfolio/projectjuul/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel05.jpg
+    url: /portfolio/projectjuul/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel06.jpg
+    url: /portfolio/projectjuul/carousel06.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel07.jpg
+    url: /portfolio/projectjuul/carousel07.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjul/carousel08.jpg
+    url: /portfolio/projectjuul/carousel08.jpg
     showInCarousel: true
 ---
 
