@@ -1,80 +1,272 @@
 <template>
   <div>
     <page-title title="Portfolio" backgroundImage="/img/bg/bg-01.jpg" />
-    <!-- end page title section -->
-
-    <!-- start about us section -->
-    <section class="pb-0">
+    <section>
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-7 mb-2-8 mb-lg-0">
-            <div class="horizontaltab tab-style1">
-              <div class="pr-lg-1-9 pr-xl-2-5">
-                <ul class="resp-tabs-list hor_1">
-                  <li><span>About</span></li>
-                  <li><span>Mission</span></li>
-                  <li><span>Goals</span></li>
-                </ul>
-                <div class="resp-tabs-container hor_1">
-                  <div>
-                    <h3 class="mb-1-6">
-                      We are leading interior designer since last 10+ years.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
+        <div class="row no-gutters">
+          <div class="filtering col-sm-12 text-center">
+            <span data-filter="*" class="active">Alle</span>
+            <span data-filter=".architecture">Timmerwerk</span>
+            <span data-filter=".decor">Behangen</span>
+            <span data-filter=".interior">Schilderwerk</span>
+          </div>
+          <div class="col-12 text-center w-100">
+            <div class="form-row gallery">
+              <div class="col-sm-6 col-lg-4 mb-2 interior">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-01.jpg" alt="..." />
                   </div>
-                  <div>
-                    <h3 class="mb-1-6">
-                      Best interior and service provide for our great customers.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
-                  </div>
-                  <div>
-                    <h3 class="mb-1-6">
-                      Best remarkable architecture and interior plan create for
-                      our clients.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-01.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Sconedorp</h4>
+                      <p>[Schilderen]</p>
+                    </div>
                   </div>
                 </div>
-                <a href="#!" class="butn"><span>Learn More</span></a>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <div
-              class="
-                position-relative
-                bg-img
-                text-center
-                py-8 py-sm-12 py-md-14 py-lg-16
-                rounded
-                theme-overlay-dark
-                z-index-9
-              "
-              data-overlay-dark="2"
-              data-background="img/content/about-01.jpg"
-            >
-              <div class="position-relative z-index-1 py-6">
-                <a
-                  class="popup-social-video video_btn"
-                  href="https://www.youtube.com/watch?v=x7gqoHNgO-g"
-                >
-                  <span>
-                    <i class="fas fa-play"></i>
-                  </span>
-                </a>
+              <div class="col-sm-6 col-lg-4 decor">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-02.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-02.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Citroenvlinderstraat</h4>
+                      <p>[Behangen]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-03.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-03.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Verwarmingsombouw</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-07.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-07.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Plafond vervangen</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 mb-lg-0 interior">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-04.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-04.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Trap</h4>
+                      <p>[Schilderen]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 mb-lg-0 interior">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-05.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-05.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Schilderen]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 decor">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-06.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-06.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Kinderkamer</h4>
+                      <p>[Behang]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 decor">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-08.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-08.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Citroenvlinderstraat</h4>
+                      <p>[Behang]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 decor">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-09.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-09.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Turfschip</h4>
+                      <p>[Behang]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 decor">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-10.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-10.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Behang]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 decor">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-11.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-11.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Citroenvlinderstraat</h4>
+                      <p>[Behang]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-12.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-12.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-13.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-13.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-14.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-14.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-15.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-15.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-2 architecture">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img src="/img/portfolio/grid-portfolio-16.jpg" alt="..." />
+                  </div>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" href="/img/portfolio/grid-portfolio-16.jpg">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>Christinastraat</h4>
+                      <p>[Timmeren]</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -85,7 +277,35 @@
 </template>
 
 <script>
-data : {
-  tabs : ["Timmerwerk", "Schilderwerk", "Sanitair"]
+export default {
+  async asyncData({ $content, params }) {
+    const projects = await $content("projects").only(["slug", "title", "description", "image"]).fetch()
+    return { projects }
+  },
+  components: {},
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" }
+      return new Date(date).toLocaleDateString("nl", options)
+    },
+  },
+  computed: {},
+  mounted() {
+    var $gallery = $(".gallery").isotope({
+      // options
+    })
+
+    // filter items on button click
+    $(".filtering").on("click", "span", function () {
+      var filterValue = $(this).attr("data-filter")
+      $gallery.isotope({
+        filter: filterValue,
+      })
+    })
+
+    $(".filtering").on("click", "span", function () {
+      $(this).addClass("active").siblings().removeClass("active")
+    })
+  },
 }
 </script>
