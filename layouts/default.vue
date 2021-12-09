@@ -86,7 +86,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-2-5 mb-lg-0">
             <div class="mb-1-6">
-              <img src="img/logos/logo-footer.png" alt="..." />
+              <img src="/img/logos/logo-footer.png" alt="..." />
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-2-5 mb-lg-0">
