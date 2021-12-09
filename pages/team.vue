@@ -1,80 +1,76 @@
 <template>
   <div>
-    <page-title title="Over ons" backgroundImage="/img/bg/bg-06.jpg" />
-    <!-- end page title section -->
-
-    <!-- start about us section -->
-    <section class="pb-0">
+    <page-title title="Ons team" backgroundImage="/img/bg/bg-06.jpg" />
+    <section>
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-7 mb-2-8 mb-lg-0">
-            <div class="horizontaltab tab-style1">
-              <div class="pr-lg-1-9 pr-xl-2-5">
-                <ul class="resp-tabs-list hor_1">
-                  <li><span>About</span></li>
-                  <li><span>Mission</span></li>
-                  <li><span>Goals</span></li>
+        <div class="section-heading">
+          <h2 class="display-20 display-md-18 display-lg-16">Our Team Members</h2>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Consectetur adipiscing amet lorem ipsum dolor sit elit sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+        </div>
+        <div class="row justify-content-center justify-content-sm-start">
+          <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
+            <div class="team-wrapper">
+              <div>
+                <img src="/img/team/team-01.jpg" alt="..." class="rounded" />
+              </div>
+              <div class="team-info team-overlay">
+                <h3 style="font-size: 16px;" class="team-title">Monique van den Nouweland</h3>
+                <h6 class="team-position">Eigenaar, klusvrouw</h6>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
                 </ul>
-                <div class="resp-tabs-container hor_1">
-                  <div>
-                    <h3 class="mb-1-6">
-                      We are leading interior designer since last 10+ years.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
-                  </div>
-                  <div>
-                    <h3 class="mb-1-6">
-                      Best interior and service provide for our great customers.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
-                  </div>
-                  <div>
-                    <h3 class="mb-1-6">
-                      Best remarkable architecture and interior plan create for
-                      our clients.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
-                  </div>
-                </div>
-                <a href="#!" class="butn"><span>Learn More</span></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div
-              class="
-                position-relative
-                bg-img
-                text-center
-                py-8 py-sm-12 py-md-14 py-lg-16
-                rounded
-                theme-overlay-dark
-                z-index-9
-              "
-              data-overlay-dark="2"
-              data-background="img/content/about-01.jpg"
-            >
-              <div class="position-relative z-index-1 py-6">
-                <a
-                  class="popup-social-video video_btn"
-                  href="https://www.youtube.com/watch?v=x7gqoHNgO-g"
-                >
-                  <span>
-                    <i class="fas fa-play"></i>
-                  </span>
-                </a>
+          <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
+            <div class="team-wrapper">
+              <div>
+                <img src="/img/team/team-02.jpg" alt="..." class="rounded" />
+              </div>
+              <div class="team-info team-overlay">
+                <h3 class="team-title">Eline van Lenthe</h3>
+                <h6 class="team-position">Interieur advies- en ontwerp</h6>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
+            <div class="team-wrapper">
+              <div>
+                <img src="/img/team/team-03.jpg" alt="..." class="rounded" />
+              </div>
+              <div class="team-info team-overlay">
+                <h3 class="team-title">Anthony Dean</h3>
+                <h6 class="team-position">Structural Architect</h6>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

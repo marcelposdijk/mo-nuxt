@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import carousel from "vue-owl-carousel"
 
 export default {
   layout(context) {
