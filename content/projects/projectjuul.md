@@ -1,6 +1,6 @@
 ---
 title: Project Juul
-description: Behangen, lampen ophangen, kasten in elkaar zetten
+description: Slaapkamers opgeknapt
 image: "/portfolio/projectjuul/main.jpg"
 backgroundImage: /img/bg/bg-08.jpg 
 location: Tussenwoning Aalsmeer

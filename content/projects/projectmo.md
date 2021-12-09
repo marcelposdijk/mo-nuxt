@@ -1,6 +1,6 @@
 ---
 title: Project Mo
-description: Opknappen hal
+description: Hal, trap en woonkamer opgeknapt
 backgroundImage: /img/bg/bg-15.jpg
 image: /portfolio/projectmo/main.jpg
 location: Tussenwoning Aalsmeer

@@ -1,6 +1,6 @@
 ---
 title: Project Marg
-description: Sausen van wanden appartement
+description: Alle wanden in een appartement gesaust
 location: Appartement Delft
 sequenceNumber: 3
 showInMenu: true
