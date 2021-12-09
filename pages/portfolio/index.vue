@@ -291,14 +291,13 @@ export default {
   },
   computed: {},
   mounted() {
-    var $gallery = $(".gallery").isotope({
-      // options
+    window.$gallery = $(".gallery").isotope({
     })
 
     // filter items on button click
     $(".filtering").on("click", "span", function () {
       var filterValue = $(this).attr("data-filter")
-      $gallery.isotope({
+      window.$gallery.isotope({
         filter: filterValue,
       })
     })
