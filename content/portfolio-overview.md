@@ -91,28 +91,28 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-13-autox400px.jpg
     image: /img/portfolio/grid-portfolio-13.jpg
-    title: Schoenenkast
-    project: projectmo
-    services:
-      - timmerwerk-en-montage
-  -
-    thumbnail: /img/portfolio/grid-portfolio-14-autox400px.jpg
-    image: /img/portfolio/grid-portfolio-14.jpg
-    title: Kapstok
-    project: projectmo
-    services:
-      - timmerwerk-en-montage
-  -
-    thumbnail: /img/portfolio/grid-portfolio-15-autox400px.jpg
-    image: /img/portfolio/grid-portfolio-15.jpg
-    title: Muren gesaust
+    title: muren gesaust
     project: projectmo
     services:
       - schilderwerk
   -
+    thumbnail: /img/portfolio/grid-portfolio-14-autox400px.jpg
+    image: /img/portfolio/grid-portfolio-14.jpg
+    title: schoenenkast
+    project: projectmo
+    services:
+      - timmerwerk-en-montage
+  -
     thumbnail: /img/portfolio/grid-portfolio-15-autox400px.jpg
     image: /img/portfolio/grid-portfolio-15.jpg
-    title: Kapstok
+    title: kapstok
+    project: projectmo
+    services:
+      - timmerwerk-en-montage
+  -
+    thumbnail: /img/portfolio/grid-portfolio-15-autox400px.jpg
+    image: /img/portfolio/grid-portfolio-15.jpg
+    title: kapstok
     project: projectmo
     services:
       - timmerwerk-en-montage
