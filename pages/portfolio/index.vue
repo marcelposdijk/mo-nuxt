@@ -1,80 +1,32 @@
 <template>
   <div>
     <page-title title="Portfolio" backgroundImage="/img/bg/bg-01.jpg" />
-    <!-- end page title section -->
-
-    <!-- start about us section -->
-    <section class="pb-0">
+    <section>
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-7 mb-2-8 mb-lg-0">
-            <div class="horizontaltab tab-style1">
-              <div class="pr-lg-1-9 pr-xl-2-5">
-                <ul class="resp-tabs-list hor_1">
-                  <li><span>About</span></li>
-                  <li><span>Mission</span></li>
-                  <li><span>Goals</span></li>
-                </ul>
-                <div class="resp-tabs-container hor_1">
-                  <div>
-                    <h3 class="mb-1-6">
-                      We are leading interior designer since last 10+ years.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
+        <div class="row no-gutters">
+          <div class="filtering col-sm-12 text-center">
+            <span data-filter="*" class="active">Alle</span>
+            <span data-filter=".timmerwerk-en-montage">Timmerwerk</span>
+            <span data-filter=".behangen">Behangen</span>
+            <span data-filter=".schilderwerk">Schilderwerk</span>
+          </div>
+          <div class="col-12 text-center w-100">
+            <div class="form-row gallery">
+              <div v-for="item in portfolio.images" :key="item.image" :class="`col-sm-6 col-lg-4 mb-2 ${getImageServiceSlugs(item)}`">
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-image">
+                    <img :src="item.thumbnail" :alt="item.title" />
                   </div>
-                  <div>
-                    <h3 class="mb-1-6">
-                      Best interior and service provide for our great customers.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
-                  </div>
-                  <div>
-                    <h3 class="mb-1-6">
-                      Best remarkable architecture and interior plan create for
-                      our clients.
-                    </h3>
-                    <p class="display-29 display-md-28 mb-0">
-                      We universally perceived and grant winning interior plan
-                      firm with aptitude in private, business, neighborliness,
-                      retail, medical care and magnificence ventures.
-                    </p>
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-content">
+                      <a class="popimg ml-0" :href="item.image">
+                        <i class="ti-zoom-in display-24 display-md-23 display-lg-22 display-xl-20"></i>
+                      </a>
+                      <h4>{{item.title}}</h4>
+                      <p>[{{getImageServiceTitles(item)}}]</p>
+                    </div>
                   </div>
                 </div>
-                <a href="#!" class="butn"><span>Learn More</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5">
-            <div
-              class="
-                position-relative
-                bg-img
-                text-center
-                py-8 py-sm-12 py-md-14 py-lg-16
-                rounded
-                theme-overlay-dark
-                z-index-9
-              "
-              data-overlay-dark="2"
-              data-background="img/content/about-01.jpg"
-            >
-              <div class="position-relative z-index-1 py-6">
-                <a
-                  class="popup-social-video video_btn"
-                  href="https://www.youtube.com/watch?v=x7gqoHNgO-g"
-                >
-                  <span>
-                    <i class="fas fa-play"></i>
-                  </span>
-                </a>
               </div>
             </div>
           </div>
@@ -85,7 +37,55 @@
 </template>
 
 <script>
-data : {
-  tabs : ["Timmerwerk", "Schilderwerk", "Sanitair"]
+export default {
+  async asyncData({ $content, params }) {
+    const portfolio = await $content("portfolio-overview").fetch()
+    const services = await $content("services").only(["slug", "title", "shortTitle"]).fetch()
+    return { portfolio,  services }
+  },
+  components: {},
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" }
+      return new Date(date).toLocaleDateString("nl", options)
+    },
+    getServiceTitle(slug) {
+      const service = this.services.find(a => a.slug == slug)
+      return service ? service.shortTitle || service.title : slug
+    },
+    getImageServiceSlugs(image) {
+      if (!image.services) {
+        return ""
+      }
+      return image.services.join(" ")
+    
+    },
+    getImageServiceTitles(image) {
+      if (!image.services) {
+        return ""
+      }
+      const titles = image.services.map(a => this.getServiceTitle(a))
+      return titles.join(",")
+    
+    }
+
+  },
+  computed: {},
+  mounted() {
+    window.$gallery = $(".gallery").isotope({
+    })
+
+    // filter items on button click
+    $(".filtering").on("click", "span", function () {
+      var filterValue = $(this).attr("data-filter")
+      window.$gallery.isotope({
+        filter: filterValue,
+      })
+    })
+
+    $(".filtering").on("click", "span", function () {
+      $(this).addClass("active").siblings().removeClass("active")
+    })
+  },
 }
 </script>
