@@ -4,12 +4,13 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-01-autox400px.jpg
     image: /img/portfolio/grid-portfolio-01.jpg
-    title: Sconedorp
+    title: woonkamer gesaust
     project: projectmars
     services:
       - timmerwerk-en-montage
       - behangen
       - schilderwerk
+      - interieuradvies
   -
     thumbnail: /img/portfolio/grid-portfolio-02-autox400px.jpg
     image: /img/portfolio/grid-portfolio-02.jpg
