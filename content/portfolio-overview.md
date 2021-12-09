@@ -16,7 +16,7 @@ images:
     title: Citroenvlinderstraat
     project: projectjuul
     services:
-      - schilderwerk
+      - behangen
   -
     thumbnail: /img/portfolio/grid-portfolio-03-autox400px.jpg
     image: /img/portfolio/grid-portfolio-03.jpg
