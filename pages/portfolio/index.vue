@@ -74,6 +74,14 @@ export default {
   mounted() {
     setTimeout(() => {
       window.$gallery = $(".gallery").isotope({})
+      $('.gallery').magnificPopup({
+            delegate: '.popimg',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+
     }, 100)
 
     // filter items on button click
