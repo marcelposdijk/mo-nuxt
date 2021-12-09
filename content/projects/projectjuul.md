@@ -4,6 +4,8 @@ description: Behangen, lampen ophangen, kasten in elkaar zetten
 image: "/portfolio/projectjuul/main.jpg"
 backgroundImage: /img/bg/bg-08.jpg 
 location: Tussenwoning Aalsmeer
+sequenceNumber: 2
+showInMenu: true
 year: 2021
 relatedProjects:
   - projectmars

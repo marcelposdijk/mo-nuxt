@@ -49,23 +49,8 @@
                           <li>
                             <a href="/portfolio">Overzicht</a>
                           </li>
-
-                          <li>
-                            <NuxtLink to="/portfolio/projectmars">Project Mars</NuxtLink>
-                          </li>
-                          <li>
-                            <NuxtLink to="/portfolio/projectsieb">Project Sieb</NuxtLink>
-                          </li>
-
-                          <li>
-                            <NuxtLink to="/portfolio/projectmo">Project Mo</NuxtLink>
-                          </li>
-
-                          <li>
-                            <NuxtLink to="/portfolio/projectjen">Project Jen</NuxtLink>
-                          </li>
-                          <li>
-                            <NuxtLink to="/portfolio/projectjuul">Project Juul</NuxtLink>
+                          <li v-for="project in projects" :key="project.slug">
+                            <nuxt-link :to="project.slug">{{ project.title }}</nuxt-link>
                           </li>
                         </ul>
                       </li>
@@ -101,7 +86,7 @@
                   <h6>Telefoon</h6>
                   <p>
                     06-14968712<br />
-                    <span>Maandag t/m vrijdag: </span><br/>8:00 tot 16:00 uur
+                    <span>Maandag t/m vrijdag: </span><br />8:00 tot 16:00 uur
                   </p>
                 </li>
                 <li>
@@ -115,12 +100,12 @@
             <div class="pl-lg-3">
               <h3 class="footer-title h5">Laatste projecten</h3>
 
-              <div class="media mb-1-6" v-for="project in projects" :key="project.slug">
+              <div class="media mb-1-6" v-for="project in latestProjects" :key="project.slug">
                 <div class="media-body align-self-center">
                   <h4 class="h6">
                     <nuxt-link :to="project.slug" class="text-white">{{ project.title }}</nuxt-link>
                   </h4>
-                  <span class="display-30 text-white">{{ project.createdAt }}</span>
+                  <span class="display-30 text-white">{{ formatDate(project.createdAt) }}</span>
                 </div>
               </div>
             </div>
@@ -158,24 +143,27 @@ import Loading from "../components/Loading"
 export default {
   data() {
     return {
-      projects: [
+      latestProjects: [
         { title: "Project Mo", createdAt: "Juli 2021", slug: "/portfolio/projectmo" },
         { title: "Project Jen", createdAt: "Mei 2021", slug: "/portfolio/projectjen" },
         { title: "Project Mars", createdAt: "Maart 2021", slug: "/portfolio/projectmars" },
       ],
+      projects: [],
     }
   },
-  // async asyncData({ $content, params }) {
-  //   const projects = await $content("projects")
-  //   .only(["slug", "title", "createdAt"])
-  //   .sortBy("createdAt")
-  //   .limit(3)
-  //   .fetch()
-
-  //   return { projects }
-  // },
   components: {
     Loading,
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" }
+      return new Date(date).toLocaleDateString("nl", options)
+    },
+  },
+  async created() {
+    this.latestProjects = await this.$content("projects").only(["slug", "title", "createdAt"]).sortBy("createdAt", "desc").limit(3).fetch()
+
+    this.projects = await this.$content("projects").only(["slug", "title"]).where({ showInMenu: true }).sortBy("sequenceNumber", "desc").limit(10).fetch()
   },
 }
 </script>

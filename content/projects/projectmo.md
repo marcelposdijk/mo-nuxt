@@ -4,6 +4,8 @@ description: Opknappen hal
 backgroundImage: /img/bg/bg-15.jpg
 image: /portfolio/projectmo/main.jpg
 location: Tussenwoning Aalsmeer
+sequenceNumber: 5
+showInMenu: true
 year: 2021
 releatedProjects:
   - projectmars

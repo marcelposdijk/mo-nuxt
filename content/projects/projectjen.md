@@ -4,6 +4,8 @@ description: Plafond in hal na lekkage verwijderd en opnieuw geplaatst, muren be
 image: "/portfolio/projectjen/main.jpg"
 backgroundImage: /img/bg/bg-11.jpg
 location: Tussenwoning Amstelveen
+sequenceNumber: 1
+showInMenu: true
 services:
   - timmerwerk-en-montage en montage
   - schilderwerk
