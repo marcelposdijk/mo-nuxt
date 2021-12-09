@@ -111,8 +111,8 @@ images:
     services:
       - timmerwerk-en-montage
   -
-    thumbnail: /img/portfolio/grid-portfolio-16-autox400px.jpg
-    image: /img/portfolio/grid-portfolio-16.jpg
+    thumbnail: /img/portfolio/grid-portfolio-15-autox400px.jpg
+    image: /img/portfolio/grid-portfolio-15.jpg
     title: kapstok
     project: projectmo
     services:
