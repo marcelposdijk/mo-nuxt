@@ -1,5 +1,7 @@
 <template>
-  <div :style="sectionStyle" class="bg-img" :data-overlay-dark="overlayDark"></div>
+  <div :style="sectionStyle" class="bg-img" :data-overlay-dark="overlayDark">
+    <slot />
+  </div>
 </template>
 
 <script>

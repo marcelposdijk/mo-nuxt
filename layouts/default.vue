@@ -50,7 +50,7 @@
                             <a href="/portfolio">Overzicht</a>
                           </li>
                           <li v-for="project in projects" :key="project.slug">
-                            <nuxt-link :to="project.slug">{{ project.title }}</nuxt-link>
+                            <nuxt-link :to="`/portfolio/${project.slug}`">{{ project.title }}</nuxt-link>
                           </li>
                         </ul>
                       </li>
@@ -103,7 +103,7 @@
               <div class="media mb-1-6" v-for="project in latestProjects" :key="project.slug">
                 <div class="media-body align-self-center">
                   <h4 class="h6">
-                    <nuxt-link :to="project.slug" class="text-white">{{ project.title }}</nuxt-link>
+                    <nuxt-link :to="`/portfolio/${project.slug}`" class="text-white">{{ project.title }}</nuxt-link>
                   </h4>
                   <span class="display-30 text-white">{{ formatDate(project.createdAt) }}</span>
                 </div>
