@@ -1,6 +1,6 @@
 ---
 title: Project Jen
-description: Plafond in hal na lekkage verwijderd en opnieuw geplaatst, muren behangen, muren keuken gesaust en schrootjes geschilderd
+description: Hal en keuken opgeknapt
 image: "/portfolio/projectjen/main.jpg"
 backgroundImage: /img/bg/bg-11.jpg
 location: Tussenwoning Amstelveen
