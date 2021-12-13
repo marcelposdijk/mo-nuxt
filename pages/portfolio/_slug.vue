@@ -13,7 +13,7 @@
             </article>
           </div>
           <div class="col-lg-4 offset-lg-1">
-            <h3 class="mb-1-6">Project Informatie</h3>
+            <h3 class="mb-1-6">Projectinformatie</h3>
             <div class="project-info-content">
               <ul>
                 <li v-if="project.location">
@@ -99,7 +99,7 @@
         <div class="row" v-if="relatedProjects.length > 0">
           <div class="col-lg-12">
             <div class="project-gallery w-100">
-              <h3 class="mb-1-6">Related Projects</h3>
+              <h3 class="mb-1-6">Soortgelijke projecten</h3>
               <related-projects ref="relatedCarousel" :projects="relatedProjects" />
             </div>
           </div>
@@ -115,7 +115,7 @@ import RelatedProjects from "@/components/RelatedProjects"
 export default {
   async asyncData({ $content, params }) {
     const project = await $content("projects", params.slug).fetch()
-    const [prev, next] = await $content("projects").only(["title", "slug"]).sortBy("createdAt", "asc").surround(params.slug).fetch()
+    const [prev, next] = await $content("projects").only(["title", "slug"]).sortBy("sequenceNumber", "asc").surround(params.slug).fetch()
     let relatedProjects = []
     if (project.relatedProjects) {
       relatedProjects = await $content("projects")
