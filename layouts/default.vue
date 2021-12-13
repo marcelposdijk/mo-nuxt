@@ -144,9 +144,6 @@ export default {
   data() {
     return {
       latestProjects: [
-        { title: "Project Mo", createdAt: "Juli 2021", slug: "/portfolio/projectmo" },
-        { title: "Project Jen", createdAt: "Mei 2021", slug: "/portfolio/projectjen" },
-        { title: "Project Mars", createdAt: "Maart 2021", slug: "/portfolio/projectmars" },
       ],
       projects: [],
     }
