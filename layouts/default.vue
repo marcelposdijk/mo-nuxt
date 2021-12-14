@@ -40,7 +40,7 @@
                         <a href="#!">Over ons</a>
                         <ul>
                           <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
-                          <li><NuxtLink to="/team">Ons team</NuxtLink></li>
+                          <li><NuxtLink to="/team">Mijn team</NuxtLink></li>
                         </ul>
                       </li>
                       <li>
