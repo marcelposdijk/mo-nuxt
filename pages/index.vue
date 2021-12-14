@@ -4,11 +4,11 @@
     <div class="container-fluid full-screen top-position">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
-          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!!" />
-          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="Voor al uw klussen in en om het huis!!" />
-          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="Voor al uw klussen in en om het huis!!" />
-          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="Voor al uw klussen in en om het huis!!" />
-          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!!" />
+          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!" />
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@
                 <i class="ti-shine display-14 text-primary"></i>
               </div>
               <h3 class="h5 mb-3">
-                <a href="#!">Timmerklussen</a>
+                <a href="#!">Timmerwerk en montage</a>
               </h3>
               <p>Alles begint met het inventariseren van uw wensen</p>
               <a href="#!" class="read-more">lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
