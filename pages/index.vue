@@ -4,11 +4,11 @@
     <div class="container-fluid full-screen top-position">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
-          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="De beste klusvrouw ooit!" />
+          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!!" />
+          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="Voor al uw klussen in en om het huis!!" />
+          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="Voor al uw klussen in en om het huis!!" />
+          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="Voor al uw klussen in en om het huis!!" />
+          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!!" />
         </div>
       </div>
     </div>
@@ -20,10 +20,9 @@
         <div class="row">
           <div class="col-lg-6 mb-6 mb-lg-0">
             <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
-            <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Schilder/klusvrouw</h2>
+            <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
             <p class="display-29 display-md-28 mb-6">
-              In overleg met de klant wordt er gekeken wat de wensen zijn. Van interieuradvies tot uitvoering wordt besproken en in overleg uitgevoerd. Schilderen, behangen, klussen in de tuin, timmerwerk, ophangen en bevestigen, repareren en
-              buitenschilderen.
+              In overleg met de klant wordt er gekeken wat de wensen zijn. Van interieuradvies tot uitvoering wordt besproken en in overleg uitgevoerd. Schilderen, behangen, klussen in de tuin, timmerwerk, ophangen, bevestigen en
             </p>
           </div>
           <div class="col-lg-6">
@@ -50,7 +49,7 @@
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">Diensten die wij leveren</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis</p>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <div class="row number-ordered">
           <div class="col-xl-3 col-md-6 mb-1-6 mb-xl-0">
@@ -128,7 +127,7 @@
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">De laatste projecten</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis</p>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <div class="project-carousel owl-carousel owl-theme">
           <div class="project-item item-shadow">
@@ -181,7 +180,7 @@
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">Mijn werk proces</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis</p>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <div class="row process-order">
           <div class="col-lg-4 mb-1-9 mb-md-2-5 mb-lg-0">
@@ -227,7 +226,7 @@
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">Ons team</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis</p>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <div class="row justify-content-center justify-content-sm-start">
           <div class="col-11 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
@@ -315,7 +314,7 @@
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">Reviews</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis</p>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <div class="testimonial-carousel owl-carousel owl-theme">
           <div class="testimonial-wrapper">
