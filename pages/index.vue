@@ -4,11 +4,11 @@
     <div class="container-fluid full-screen top-position">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
-          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Voor al uw schilderwerk binnen" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="01" title="Voor al uw behangklussen" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="01" title="Voor al uw klussen buiten" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="01" title="Voor al uw timmerklussen" subTitle="De beste klusvrouw ooit!" />
-          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="01" title="oor al uw schilderwerk buiten" subTitle="De beste klusvrouw ooit!" />
+          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="De beste klusvrouw ooit!" />
+          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="De beste klusvrouw ooit!" />
+          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="De beste klusvrouw ooit!" />
+          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="De beste klusvrouw ooit!" />
+          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="De beste klusvrouw ooit!" />
         </div>
       </div>
     </div>
