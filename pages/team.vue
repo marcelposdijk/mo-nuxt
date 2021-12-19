@@ -21,9 +21,6 @@
                     <a href="#!"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
                     <a href="#!"><i class="fab fa-linkedin-in"></i></a>
                   </li>
                 </ul>
@@ -43,9 +40,6 @@
                     <a href="#!"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
                     <a href="#!"><i class="fab fa-linkedin-in"></i></a>
                   </li>
                 </ul>
@@ -63,9 +57,6 @@
                 <ul class="social-icon">
                   <li>
                     <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
                   </li>
                   <li>
                     <a href="#!"><i class="fab fa-linkedin-in"></i></a>
