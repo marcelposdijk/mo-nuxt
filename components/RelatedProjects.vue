@@ -9,7 +9,7 @@
           <h4>
             <a href="#!">{{ project.description }}</a>
           </h4>
-          <NuxtLink :to="`/portfolio/${project.slug}`" class="read-more">Lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
+          <NuxtLink :to="`/projecten/${project.slug}`" class="read-more">Lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
         </div>
       </div>
     </vue-slick-carousel>

@@ -24,7 +24,7 @@
                       </a>
                       <h4 v-if="!item.project">{{ item.title }}</h4>
                       <h4 v-if="item.project">
-                        <nuxt-link :to="`/portfolio/${item.project}`">{{ item.title }}</nuxt-link>
+                        <nuxt-link :to="`/projecten/${item.project}`">{{ item.title }}</nuxt-link>
                       </h4>
                       <p>[{{ getImageServiceTitles(item) }}]</p>
                     </div>
@@ -67,7 +67,7 @@ export default {
         return ""
       }
       const titles = image.services.map((a) => this.getServiceTitle(a))
-      return titles.join(",")
+      return titles.join(", ")
     },
   },
   computed: {},

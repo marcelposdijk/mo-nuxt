@@ -1,0 +1,69 @@
+
+.navbar-nav li {
+  &.current > a, &.active > a {
+    color: $PrimaryColor;
+  }
+  a:hover {
+    color: $HoverColor;
+  }
+}
+
+.navbar > ul > li.current > a:after {
+  border-color: transparent $PrimaryColor $PrimaryColor transparent;
+} 
+
+.menu_area-light {
+  .navbar-nav li {
+    &.current > a, > a.nuxt-link-exact-active {
+      color: $PrimaryColor;
+    }
+  }
+
+  .navbar ul ul li.active > a, .navbar-nav li.has-sub a:hover {
+    color: $HoverColor;
+  }
+
+  .navbar > ul > li {
+    &.has-sub > a:hover:after, &.current > a:after {
+      border-color: transparent $PrimaryColor $PrimaryColor transparent;
+    }
+  }
+
+  &.scrollHeader {
+    .navbar-nav li {
+      &.current > a {
+        color: $PrimaryColor;
+
+        &:hover {
+          color: $PrimaryColor;
+        }
+      }
+
+      &.active > a {
+        color: $PrimaryColor;
+      }
+    }
+
+    .navbar > ul > li.current > a:after {
+      border-color: transparent $PrimaryColor $PrimaryColor transparent;
+    }
+  }
+}
+
+@media screen and (min-width: $desk-sm-screen) {
+  .header-style1 .navbar-nav li.current > a, .menu_area-light .navbar-nav li.current > a {
+    color: $PrimaryColor;
+  }
+
+  .header-style1 .navbar > ul > li.current > a:after, .menu_area-light .navbar > ul > li.current > a:after {
+    border-color: transparent $PrimaryColor $PrimaryColor transparent;
+  }
+
+  .header-style1.scrollHeader .navbar-nav li.current > a, .menu_area-light.scrollHeader .navbar-nav li.current > a, .header-style1.scrollHeader .navbar-nav li.current > a:hover, .menu_area-light.scrollHeader .navbar-nav li.current > a:hover {
+    color: $PrimaryColor;
+  }
+
+  .header-style1.scrollHeader .navbar > ul > li.current > a:after, .menu_area-light.scrollHeader .navbar > ul > li.current > a:after {
+    border-color: transparent $PrimaryColor $PrimaryColor transparent;
+  }
+}

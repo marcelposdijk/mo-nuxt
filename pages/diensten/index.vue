@@ -39,10 +39,5 @@ export default {
       return `${icon} display-14 text-primary`
     },
   },
-  mounted() {
-    setTimeout(() => {
-      $(".gallery").isotope({})
-    }, 100)
-  },
 }
 </script>

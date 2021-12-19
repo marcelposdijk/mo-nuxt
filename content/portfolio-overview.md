@@ -4,7 +4,7 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-01-autox400px.jpg
     image: /img/portfolio/grid-portfolio-01.jpg
-    title: woonkamer gesaust
+    title: Woonkamer gesaust
     project: projectmars
     services:
       - timmerwerk-en-montage
@@ -111,8 +111,8 @@ images:
     services:
       - timmerwerk-en-montage
   -
-    thumbnail: /img/portfolio/grid-portfolio-15-autox400px.jpg
-    image: /img/portfolio/grid-portfolio-15.jpg
+    thumbnail: /img/portfolio/grid-portfolio-16-autox400px.jpg
+    image: /img/portfolio/grid-portfolio-16.jpg
     title: kapstok
     project: projectmo
     services:

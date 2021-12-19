@@ -36,21 +36,15 @@
                     <!-- menu area -->
                     <ul class="navbar-nav ml-auto" id="nav">
                       <li><NuxtLink to="/">Home</NuxtLink></li>
-                      <li>
-                        <a href="#!">Over ons</a>
-                        <ul>
-                          <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
-                          <li><NuxtLink to="/team">Mijn team</NuxtLink></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#!">Portfolio</a>
-                        <ul>
-                          <li>
-                            <a href="/portfolio">Overzicht</a>
-                          </li>
+                      <li><NuxtLink to="/overons">Over ons</NuxtLink></li>
+                      <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
+                      <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
+                      <li class="has-sub">
+                        <span class="submenu-button"></span>
+                        <a href="#!">Projecten</a>
+                        <ul class="sub-menu">
                           <li v-for="project in projects" :key="project.slug">
-                            <nuxt-link :to="`/portfolio/${project.slug}`">{{ project.title }}</nuxt-link>
+                            <nuxt-link :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
                           </li>
                         </ul>
                       </li>
@@ -103,7 +97,7 @@
               <div class="media mb-1-6" v-for="project in latestProjects" :key="project.slug">
                 <div class="media-body align-self-center">
                   <h4 class="h6">
-                    <nuxt-link :to="`/portfolio/${project.slug}`" class="text-white">{{ project.title }}</nuxt-link>
+                    <nuxt-link :to="`/projecten/${project.slug}`" class="text-white">{{ project.title }}</nuxt-link>
                   </h4>
                   <span class="display-30 text-white">{{ formatDate(project.createdAt) }}</span>
                 </div>
@@ -143,8 +137,7 @@ import Loading from "../components/Loading"
 export default {
   data() {
     return {
-      latestProjects: [
-      ],
+      latestProjects: [],
       projects: [],
     }
   },
