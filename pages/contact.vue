@@ -42,11 +42,12 @@
 
         <div class="contact-wrapper-box">
           <div class="row no-gutters">
-            <div class="col-lg-6 d-none d-lg-block" style="height: 555px;">
+            <div class="col-lg-6 d-none d-lg-block" style="height: 555px">
               <background-image class="cover-background h-100" :overlay-dark="0" background-image="img/team/contact-autox555.jpg"></background-image>
             </div>
             <div class="col-lg-6">
               <b-alert class="m-5" variant="success" show v-show="formSubmitted">Dankjewel voor je bericht. Ik neem zo snel mogelijk contact met je op</b-alert>
+              <b-alert class="ml-2 mr-2" variant="danger" show v-show="errorMessage">{{ errorMessage }}</b-alert>
               <div class="contact-form-area" v-show="!formSubmitted">
                 <h3 class="mb-1-6">Ik hoor graag van je.</h3>
                 <form class="quform" v-on:submit.prevent="submitForm">
@@ -77,7 +78,7 @@
                       <!-- Begin Text input element -->
                       <div class="col-md-6">
                         <div class="quform-element form-group">
-                          <label for="subject">Onderwerp <span class="quform-required">*</span></label>
+                          <label for="subject">Onderwerp</label>
                           <div class="quform-input">
                             <input class="form-control" type="text" v-model="form.subject" placeholder="Jouw onderwerp hier" />
                           </div>
@@ -109,7 +110,7 @@
 
                       <div class="col-md-12">
                         <div class="quform-submit-inner">
-                          <button class="butn theme butn-md" type="submit"><span>Bericht verzenden</span></button>
+                          <button class="butn theme butn-md" type="submit" :disabled="isBusy"><i class="fa fa-spinner fa-spin mr-2" v-show="isBusy"></i><span>Bericht verzenden</span></button>
                         </div>
                         <div class="quform-loading-wrap text-left"><span class="quform-loading"></span></div>
                       </div>
@@ -129,6 +130,8 @@
 export default {
   data() {
     return {
+      errorMessage: "",
+      isBusy: false,
       formSubmitted: false,
       form: {
         name: "",
@@ -141,6 +144,24 @@ export default {
   },
   methods: {
     async submitForm() {
+      this.isBusy = true
+      this.errorMessage = ""
+      if (!this.form.name) {
+        this.isBusy = false
+        this.errorMessage = "Naam is verplicht"
+        return
+      }
+      if (!this.form.email) {
+        this.isBusy = false
+        this.errorMessage = "E-mailadres is verplicht"
+        return
+      }
+      if (!this.form.message) {
+        this.isBusy = false
+        this.errorMessage = "Bericht is verplicht"
+        return
+      }
+
       const result = await this.$axios.$post("/contactform", this.form)
       this.formSubmitted = true
     },
