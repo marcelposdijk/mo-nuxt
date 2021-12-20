@@ -132,7 +132,7 @@ export default {
       projects: [],
       scTimer: 0,
       scY: 0,
-      menuOpened: false,
+      menuOpened: true,
       submenuOpened: false,
     }
   },

@@ -46,6 +46,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
+    '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
     '@nuxt/content'
   ],
@@ -54,6 +55,7 @@ export default {
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extractCSS: true,
     extend(config, ctx) {
       if (ctx.isDev) {
         config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map'
@@ -62,5 +64,8 @@ export default {
     babel: {
       compact: true,
     },
-  }
+  },
+  axios: {
+    baseURL: 'https://www.marpos.nl'
+  },
 }
