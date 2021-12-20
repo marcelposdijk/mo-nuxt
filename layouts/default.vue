@@ -16,18 +16,18 @@
                         <!-- end logo -->
                       </div>
 
-                      <div class="navbar-toggler"></div>
+                      <div class="navbar-toggler" @click="toggleMenu" v-bind:class="{ 'menu-opened': menuOpened }"></div>
 
                       <!-- menu area -->
-                      <ul class="navbar-nav ml-auto" id="nav">
+                      <ul class="navbar-nav ml-auto" id="nav" v-bind:style="{ display: menuOpened ? 'block' : 'none' }" v-bind:class="{ open: menuOpened }">
                         <li><NuxtLink to="/">Home</NuxtLink></li>
                         <li><NuxtLink to="/overons">Over ons</NuxtLink></li>
                         <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
                         <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
-                        <li class="has-sub">
-                          <span class="submenu-button"></span>
-                          <a href="#!">Projecten</a>
-                          <ul class="sub-menu">
+                        <li class="has-sub" v-bind:class="{ active: submenuOpened }">
+                          <span class="submenu-button"  @click="toggleSubMenu"></span>
+                          <a href="#">Projecten</a>
+                          <ul class="sub-menu animated" v-bind:style="{ display: submenuOpened ? 'block' : 'none' }">
                             <li v-for="project in projects" :key="project.slug">
                               <nuxt-link :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
                             </li>
@@ -132,11 +132,13 @@ export default {
       projects: [],
       scTimer: 0,
       scY: 0,
+      menuOpened: false,
+      submenuOpened: false,
     }
   },
   components: {
     Loading,
-    FixedHeader
+    FixedHeader,
   },
   async created() {
     this.latestProjects = await this.$content("projects").only(["slug", "title", "createdAt"]).sortBy("createdAt", "desc").limit(3).fetch()
@@ -147,7 +149,7 @@ export default {
     window.addEventListener("scroll", this.handleScroll)
   },
   methods: {
-    handleScroll: function () {
+    handleScroll() {
       if (this.scTimer) return
       this.scTimer = setTimeout(() => {
         this.scY = window.scrollY
@@ -155,11 +157,21 @@ export default {
         this.scTimer = 0
       }, 100)
     },
-    toTop: function () {
+    toTop() {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
       })
+    },
+    toggleMenu() {
+      this.menuOpened = !this.menuOpened
+      if (!this.menuOpened) {
+        this.submenuOpened = false
+      }
+    },
+    toggleSubMenu() {
+      // TODO werkend maken indien meer dan 1 submenu
+      this.submenuOpened = !this.submenuOpened
     },
   },
 }
