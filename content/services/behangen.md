@@ -4,6 +4,7 @@ title: Behangen
 shortTitle: Behangen
 description: Muren behangen, fotobehang plaatsen
 backgroundImage: /img/banner/slide2.jpg
+icon: ti-wand
 images:
   - /services/behangen/behang01.jpg
   - /services/behangen/behang02.jpg
