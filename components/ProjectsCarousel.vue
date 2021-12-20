@@ -1,15 +1,16 @@
 <template>
   <div>
-    <vue-slick-carousel class="projects-carousel footer-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slidesPerRow="3" :infinite="true">
-      <div class="single-item" v-for="project in projects" :key="project.slug">
+    <vue-slick-carousel class="project-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slides-to-show="3" :slides-to-scroll="1" :infinite="true">
+      <div class="project-item" v-for="project in projects" :key="project.slug">
         <div>
-          <img :src="project.image" />
+          <img :src="project.image" class="rounded"/>
         </div>
-        <div class="title-holder">
-          <h4>
-            <a href="#!">{{ project.description }}</a>
-          </h4>
-          <NuxtLink :to="`/projecten/${project.slug}`" class="read-more">Lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
+        <div class="project-hover">
+          <div class="project-hover-content">
+            <h3 class="project-title">{{ project.title }}</h3>
+            <p class="project-description">{{ project.description }}</p>
+          </div>
+          <NuxtLink :to="`/projecten/${project.slug}`" class="link-arrow">Zie project<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
         </div>
       </div>
     </vue-slick-carousel>
@@ -25,7 +26,7 @@ export default {
     VueSlickCarousel,
   },
   props: {
-     projects: Array
+    projects: Array,
   },
 }
 </script>

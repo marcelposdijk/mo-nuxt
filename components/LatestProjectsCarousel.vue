@@ -16,7 +16,7 @@ export default {
     }
   },
   async created() {
-    const projects = await this.$content("projects").only(["slug", "title", "image", "description", "createdAt"]).sortBy("createdAt", "desc").limit(9).fetch()
+    const projects = await this.$content("projects").only(["slug", "title", "image", "description", "createdAt"]).sortBy("createdAt", "desc").limit(3).fetch()
     this.latestProjects = projects
   },
 }
