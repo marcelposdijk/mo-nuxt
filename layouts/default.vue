@@ -2,62 +2,48 @@
   <div>
     <loading />
     <div class="main-wrapper">
-      <!-- start header section -->
-      <header class="header-style1 menu_area-light">
-        <div class="navbar-default">
-          <!-- start top search -->
-          <div class="top-search bg-primary">
+      <fixed-header :threshold="50">
+        <header class="header-style1 menu_area-light">
+          <div class="navbar-default">
             <div class="container">
-              <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
-                <div class="input-group">
-                  <span class="input-group-addon cursor-pointer">
-                    <button class="search-form_submit fas fa-search text-white" type="submit"></button>
-                  </span>
-                  <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter..." />
-                  <span class="input-group-addon close-search mt-1"><i class="fas fa-times"></i></span>
-                </div>
-              </form>
-            </div>
-          </div>
-          <!-- end top search -->
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-12 col-lg-12">
-                <div class="menu_area alt-font">
-                  <nav class="navbar navbar-expand-lg navbar-light p-0">
-                    <div class="navbar-header navbar-header-custom">
-                      <!-- start logo -->
-                      <a href="/" class="navbar-brand"><img id="logo" src="/img/logos/logo-inner.png" alt="logo" /></a>
-                      <!-- end logo -->
-                    </div>
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-12">
+                  <div class="menu_area alt-font">
+                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                      <div class="navbar-header navbar-header-custom">
+                        <!-- start logo -->
+                        <a href="/" class="navbar-brand"><img id="logo" src="/img/logos/logo-inner.png" alt="logo" /></a>
+                        <!-- end logo -->
+                      </div>
 
-                    <div class="navbar-toggler"></div>
+                      <div class="navbar-toggler"></div>
 
-                    <!-- menu area -->
-                    <ul class="navbar-nav ml-auto" id="nav">
-                      <li><NuxtLink to="/">Home</NuxtLink></li>
-                      <li><NuxtLink to="/overons">Over ons</NuxtLink></li>
-                      <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
-                      <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
-                      <li class="has-sub">
-                        <span class="submenu-button"></span>
-                        <a href="#!">Projecten</a>
-                        <ul class="sub-menu">
-                          <li v-for="project in projects" :key="project.slug">
-                            <nuxt-link :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-                    </ul>
-                    <!-- end menu area -->
-                  </nav>
+                      <!-- menu area -->
+                      <ul class="navbar-nav ml-auto" id="nav">
+                        <li><NuxtLink to="/">Home</NuxtLink></li>
+                        <li><NuxtLink to="/overons">Over ons</NuxtLink></li>
+                        <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
+                        <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
+                        <li class="has-sub">
+                          <span class="submenu-button"></span>
+                          <a href="#!">Projecten</a>
+                          <ul class="sub-menu">
+                            <li v-for="project in projects" :key="project.slug">
+                              <nuxt-link :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+                      </ul>
+                      <!-- end menu area -->
+                    </nav>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </header>
+        </header>
+      </fixed-header>
     </div>
     <Nuxt />
     <footer class="pt-6 pt-md-8 pt-lg-9">
@@ -134,6 +120,7 @@
 </template>
 <script>
 import Loading from "../components/Loading"
+import FixedHeader from "vue-fixed-header"
 export default {
   data() {
     return {
@@ -143,6 +130,7 @@ export default {
   },
   components: {
     Loading,
+    FixedHeader,
   },
   methods: {
     formatDate(date) {

@@ -1,20 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Interior - Architecture and Interior Design Template
-    Description: Architecture and Interior Design Template
-    Author: Chitrakoot Web
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-/* ----------------------------------------------------------------
-			[ All CSS Plugins & Default Classes File ]
------------------------------------------------------------------*/
-
-/* == bootstrap == */
-/* @import url("plugins/bootstrap.min.css");*/
-
-/* == animate == */
 @import url("./plugins/animate.css");
 
 /* == fontawesome icon font == */
@@ -38,5 +21,3 @@
 /* == default classes == */
 @import url("./plugins/default.css");
 
-/* == navigation == */
-@import url("./plugins/nav-menu.css");
