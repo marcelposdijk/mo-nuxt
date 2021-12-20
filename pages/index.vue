@@ -51,73 +51,7 @@
           <h2 class="display-20 display-md-18 display-lg-16">Diensten die wij leveren</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
-        <div class="row number-ordered">
-          <div class="col-xl-3 col-md-6 mb-1-6 mb-xl-0">
-            <div class="service-wrapper">
-              <div class="mb-1-6">
-                <i class="ti-paint-roller display-14 text-primary"></i>
-              </div>
-              <h3 class="h5 mb-3">
-                <a href="#!">Schilderwerk binnen en buiten</a>
-              </h3>
-              <p>Alles begint met het inventariseren van uw wensen</p>
-              <a href="#!" class="read-more">lees meer<i class="fas fa-long-arrow-alt-right align-middle ml-2"></i></a>
-              <div class="service-counter number-ordered-item"></div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-6 mb-1-6 mb-xl-0">
-            <div class="service-wrapper">
-              <div class="mb-1-6">
-                <i class="ti-check-box display-14 text-primary"></i>
-              </div>
-              <h3 class="h5 mb-3">
-                <a href="#!">Behangen</a>
-              </h3>
-              <p>Alles begint met het inventariseren van uw wensen</p>
-              <a href="#!" class="read-more">lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-              <div class="service-counter number-ordered-item"></div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-6 mb-1-6 mb-md-0">
-            <div class="service-wrapper">
-              <div class="mb-1-6">
-                <i class="ti-layers display-14 text-primary"></i>
-              </div>
-              <h3 class="h5 mb-3">
-                <a href="#!">Klussen in de tuin</a>
-              </h3>
-              <p>Alles begint met het inventariseren van uw wensen</p>
-              <a href="#!" class="read-more">lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-              <div class="service-counter number-ordered-item"></div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-6">
-            <div class="service-wrapper">
-              <div class="mb-1-6">
-                <i class="ti-shine display-14 text-primary"></i>
-              </div>
-              <h3 class="h5 mb-3">
-                <a href="#!">Timmerwerk en montage</a>
-              </h3>
-              <p>Alles begint met het inventariseren van uw wensen</p>
-              <a href="#!" class="read-more">lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-              <div class="service-counter number-ordered-item"></div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-md-6">
-            <div class="service-wrapper">
-              <div class="mb-1-6">
-                <i class="ti-shine display-14 text-primary"></i>
-              </div>
-              <h3 class="h5 mb-3">
-                <a href="#!">Interieuradvies</a>
-              </h3>
-              <p>Alles begint met het inventariseren van uw wensen</p>
-              <a href="#!" class="read-more">lees meer<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-              <div class="service-counter number-ordered-item"></div>
-            </div>
-          </div>
-        </div>
+        <services />
       </div>
     </section>
     <!-- end service section -->
@@ -242,12 +176,6 @@
                     <a href="#!"><i class="fab fa-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li>
                     <a href="#!"><i class="fab fa-linkedin-in"></i></a>
                   </li>
                 </ul>
@@ -265,12 +193,6 @@
                 <ul class="social-icon">
                   <li>
                     <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-youtube"></i></a>
                   </li>
                   <li>
                     <a href="#!"><i class="fab fa-linkedin-in"></i></a>
@@ -406,9 +328,11 @@
 
 <script>
 import HomePageSlide from "@/components/HomePageSlide"
+import Services from '../components/Services.vue';
 export default {
   components: {
-    HomePageSlide
+    HomePageSlide,
+    Services
   },
   mounted() {
     setTimeout(() => {
