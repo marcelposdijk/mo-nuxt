@@ -116,32 +116,51 @@
         </div>
       </div>
     </footer>
+    <transition name="fade">
+      <a class="scroll-to-top" v-show="scY > 300" @click="toTop"><i class="fas fa-angle-up"></i></a>
+    </transition>
   </div>
 </template>
 <script>
 import Loading from "../components/Loading"
 import FixedHeader from "vue-fixed-header"
+
 export default {
   data() {
     return {
       latestProjects: [],
       projects: [],
+      scTimer: 0,
+      scY: 0,
     }
   },
   components: {
     Loading,
-    FixedHeader,
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" }
-      return new Date(date).toLocaleDateString("nl", options)
-    },
+    FixedHeader
   },
   async created() {
     this.latestProjects = await this.$content("projects").only(["slug", "title", "createdAt"]).sortBy("createdAt", "desc").limit(3).fetch()
 
     this.projects = await this.$content("projects").only(["slug", "title"]).where({ showInMenu: true }).sortBy("sequenceNumber", "desc").limit(10).fetch()
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll)
+  },
+  methods: {
+    handleScroll: function () {
+      if (this.scTimer) return
+      this.scTimer = setTimeout(() => {
+        this.scY = window.scrollY
+        clearTimeout(this.scTimer)
+        this.scTimer = 0
+      }, 100)
+    },
+    toTop: function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+    },
   },
 }
 </script>

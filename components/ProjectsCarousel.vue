@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vue-slick-carousel class="related-projects footer-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slidesPerRow="3" :infinite="true">
+    <vue-slick-carousel class="projects-carousel footer-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slidesPerRow="3" :infinite="true">
       <div class="single-item" v-for="project in projects" :key="project.slug">
         <div>
           <img :src="project.image" />
@@ -19,13 +19,14 @@
 <script>
 import VueSlickCarousel from "vue-slick-carousel"
 import "vue-slick-carousel/dist/vue-slick-carousel.css"
-// optional style for arrows & dots
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
 export default {
   components: {
     VueSlickCarousel,
   },
-  props: ["projects"],
+  props: {
+     projects: Array
+  },
 }
 </script>
 
@@ -35,7 +36,7 @@ export default {
   width: 357px;
   height: 446px;
 }
-.related-projects {
+.projects-carousel {
   width: 1200px;
 }
 </style>

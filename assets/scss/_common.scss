@@ -108,7 +108,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display: none;
   border-radius: 50%;
   background: $PrimaryColor;
   border: 1px solid $PrimaryColor;
@@ -121,6 +120,11 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   -moz-transition: all .3s ease;
   -o-transition: all 0.3s ease;
 
+  &.vue-fixed-header--isFixed
+  {
+    display: block;
+  }
+  
   i {
     color: #fff;
   }

@@ -67,7 +67,7 @@
                   <NuxtLink
                     v-if="prev"
                     :to="{
-                      name: 'portfolio-slug',
+                      name: 'projecten-slug',
                       params: { slug: prev.slug },
                     }"
                     rel="prev">
@@ -84,7 +84,7 @@
                   <NuxtLink
                     v-if="next"
                     :to="{
-                      name: 'portfolio-slug',
+                      name: 'projecten-slug',
                       params: { slug: next.slug },
                     }"
                     rel="next">
@@ -100,7 +100,7 @@
           <div class="col-lg-12">
             <div class="project-gallery w-100">
               <h3 class="mb-1-6">Soortgelijke projecten</h3>
-              <related-projects ref="relatedCarousel" :projects="relatedProjects" />
+              <projects-carousel ref="relatedCarousel" :projects="relatedProjects" />
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@
 
 <script>
 import SlickSlideshow from "@/components/SlickSlideshow"
-import RelatedProjects from "@/components/RelatedProjects"
+import ProjectsCarousel from "@/components/ProjectsCarousel"
 export default {
   async asyncData({ $content, params }) {
     const project = await $content("projects", params.slug).fetch()
@@ -127,7 +127,7 @@ export default {
   },
   components: {
     SlickSlideshow,
-    RelatedProjects,
+    ProjectsCarousel,
   },
   methods: {
     formatDate(date) {

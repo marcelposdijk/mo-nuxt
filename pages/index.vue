@@ -63,48 +63,7 @@
           <h2 class="display-20 display-md-18 display-lg-16">De laatste projecten</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
-        <div class="project-carousel owl-carousel owl-theme">
-          <div class="project-item item-shadow">
-            <img src="/img/content/project-01.jpg" alt="..." class="rounded" />
-            <div class="project-hover">
-              <div class="project-hover-content">
-                <h3 class="project-title">Schilderwerk appartement</h3>
-                <p class="project-description">Alle wanden van dit appartement voorzien van kleur 9010...</p>
-              </div>
-            </div>
-            <a href="#!" class="link-arrow">zie project<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-          </div>
-          <div class="project-item item-shadow">
-            <img src="/img/content/project-02.jpg" alt="..." class="rounded" />
-            <div class="project-hover">
-              <div class="project-hover-content">
-                <h3 class="project-title">Plafond vervangen</h3>
-                <p class="project-description">Na lekkage van pijp in het dak, plafond vervangen en gestuct en geschilderd. Tevens wanden behangen...</p>
-              </div>
-            </div>
-            <a href="#!" class="link-arrow">zie project<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-          </div>
-          <div class="project-item item-shadow">
-            <img src="/img/content/project-03.jpg" alt="..." class="rounded" />
-            <div class="project-hover">
-              <div class="project-hover-content">
-                <h3 class="project-title">Buitenschilderwerk</h3>
-                <p class="project-description">Alle kozijnen en rabatdelen aan de achtergevel geschilderd...</p>
-              </div>
-            </div>
-            <a href="#!" class="link-arrow">zie project<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-          </div>
-          <div class="project-item item-shadow">
-            <img src="/img/content/project-04.jpg" alt="..." class="rounded" />
-            <div class="project-hover">
-              <div class="project-hover-content">
-                <h3 class="project-title">Binnenschilderwerk en klussen Woonhuis</h3>
-                <p class="project-description">Na een interieur advies alle wanden van de woning geschilderd of behangen...</p>
-              </div>
-            </div>
-            <a href="#!" class="link-arrow">zie project<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></a>
-          </div>
-        </div>
+        <latest-projects-carousel />
       </div>
     </section>
     <!-- end latest project section -->
@@ -155,84 +114,18 @@
     </section>
     <!-- end process section -->
 
-    <!-- start our team section -->
     <section class="pb-0">
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">Mijn team</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
-        <div class="row justify-content-center justify-content-sm-start">
-          <div class="col-11 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
-            <div class="team-wrapper">
-              <div>
-                <img src="/img/team/team-01.jpg" alt="..." class="rounded" />
-              </div>
-              <div class="team-info team-overlay">
-                <h3 class="team-title">Monique van den Nouweland</h3>
-                <h6 class="team-position">Schilder/klusvrouw</h6>
-                <ul class="social-icon">
-                  <li>
-                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-11 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
-            <div class="team-wrapper">
-              <div>
-                <img src="/img/team/team-02.jpg" alt="..." class="rounded" />
-              </div>
-              <div class="team-info team-overlay">
-                <h3 class="team-title">Eline van Lenthe</h3>
-                <h6 class="team-position">Interieur adviseur</h6>
-                <ul class="social-icon">
-                  <li>
-                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-11 col-sm-6 col-lg-4">
-            <div class="team-wrapper">
-              <div>
-                <img src="/img/team/team-03.jpg" alt="..." class="rounded" />
-              </div>
-              <div class="team-info team-overlay">
-                <h3 class="team-title">Monique van den Nouweland</h3>
-                <h6 class="team-position">Schilder/Klusvrouw</h6>
-                <ul class="social-icon">
-                  <li>
-                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        <team />
       </div>
     </section>
-    <!-- end our team section -->
 
     <!-- start testimonial section -->
-    <section style="display: none;" class="pb-0">
+    <section style="display: none" class="pb-0">
       <div class="container">
         <div class="section-heading">
           <h2 class="display-20 display-md-18 display-lg-16">Reviews</h2>
@@ -328,57 +221,59 @@
 
 <script>
 import HomePageSlide from "@/components/HomePageSlide"
-import Services from '../components/Services.vue';
+import Services from "@/components/Services.vue"
+import Team from "@/components/Team"
+import LatestProjectsCarousel from "@/components/LatestProjectsCarousel"
 export default {
   components: {
     HomePageSlide,
-    Services
+    Services,
+    Team,
+    LatestProjectsCarousel
   },
   mounted() {
     setTimeout(() => {
       // Sliderfade
-        $('.slider-fade1 .owl-carousel').owlCarousel({
-            items: 1,
-            loop:true,
-            dots: true,
+      $(".slider-fade1 .owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        dots: true,
+        nav: false,
+        navText: ["<i class='ti-arrow-left'></i>", "<i class='ti-arrow-right'></i>"],
+        margin: 0,
+        autoplay: true,
+        smartSpeed: 900,
+        mouseDrag: false,
+        animateIn: "fadeIn",
+        animateOut: "fadeOut",
+        responsive: {
+          768: {
             nav: false,
-            navText: ["<i class='ti-arrow-left'></i>", "<i class='ti-arrow-right'></i>"],
-            margin: 0,
-            autoplay:true,
-            smartSpeed:900,
-            mouseDrag:false,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut',
-            responsive: {
-                768: {
-                    nav: false
-                },
-                992: {
-                    nav: true
-                }
-            }
+          },
+          992: {
+            nav: true,
+          },
+        },
+      })
 
-        }); 
-        
-        // Slider text animation
-        const owl = $('.slider-fade1');
-        owl.on('changed.owl.carousel', function(event) {
-            var item = event.item.index - 2;     // Position of the current item
-            $('.number').removeClass('animated fadeInUp');
-            $('h3').removeClass('animated fadeInUp');
-            $('h1').removeClass('animated fadeInUp');
-            $('p').removeClass('animated fadeInUp');
-            $('.butn').removeClass('animated fadeInUp');
-            $('.slider-pic').removeClass('animated fadeInRight');
-            $('.owl-item').not('.cloned').eq(item).find('.number').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('h3').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('h1').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('p').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('.butn').addClass('animated fadeInUp');
-            $('.owl-item').not('.cloned').eq(item).find('.slider-pic').addClass('animated fadeInRight');
-        });
-
+      // Slider text animation
+      const owl = $(".slider-fade1")
+      owl.on("changed.owl.carousel", function (event) {
+        var item = event.item.index - 2 // Position of the current item
+        $(".number").removeClass("animated fadeInUp")
+        $("h3").removeClass("animated fadeInUp")
+        $("h1").removeClass("animated fadeInUp")
+        $("p").removeClass("animated fadeInUp")
+        $(".butn").removeClass("animated fadeInUp")
+        $(".slider-pic").removeClass("animated fadeInRight")
+        $(".owl-item").not(".cloned").eq(item).find(".number").addClass("animated fadeInUp")
+        $(".owl-item").not(".cloned").eq(item).find("h3").addClass("animated fadeInUp")
+        $(".owl-item").not(".cloned").eq(item).find("h1").addClass("animated fadeInUp")
+        $(".owl-item").not(".cloned").eq(item).find("p").addClass("animated fadeInUp")
+        $(".owl-item").not(".cloned").eq(item).find(".butn").addClass("animated fadeInUp")
+        $(".owl-item").not(".cloned").eq(item).find(".slider-pic").addClass("animated fadeInRight")
+      })
     }, 100)
-  }
+  },
 }
 </script>
