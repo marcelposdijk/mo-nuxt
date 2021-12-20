@@ -7,37 +7,17 @@
           <h2 class="display-20 display-md-18 display-lg-16">Diensten die we leveren</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
-        <div class="row number-ordered gallery">
-          <div class="col-xl-3 col-md-6 mb-1-6" v-for="service in services" :key="service.slug">
-            <div class="service-wrapper">
-              <div class="mb-1-6">
-                <i :class="getIconClass(service)"></i>
-              </div>
-              <h3 class="h5 mb-3">
-                <a href="#!">{{ service.title }}</a>
-              </h3>
-              <p>{{ service.description }}</p>
-               <div class="service-counter number-ordered-item"></div>
-            </div>
-          </div>
-        </div>
+        <services />
       </div>
     </section>
   </div>
 </template>
 
 <script>
+import Services from "@/components/Services"
 export default {
-  async asyncData({ $content, params }) {
-    const services = await $content("services").only(["slug", "title", "description", "icon"]).sortBy("sequenceNumber").fetch()
-
-    return { services }
-  },
-  methods: {
-    getIconClass(service) {
-      const icon = service.icon ? service.icon : "ti-check-box"
-      return `${icon} display-14 text-primary`
-    },
+  components: {
+    Services,
   },
 }
 </script>
