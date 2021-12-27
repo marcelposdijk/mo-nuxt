@@ -1,47 +1,47 @@
 ---
-title: Project Mo
+title: Project Petrol
 description: Hal, trap en woonkamer opgeknapt
 backgroundImage: /img/bg/bg-15.jpg
-image: /portfolio/projectmo/main.jpg
+image: /portfolio/projectpetrol/main.jpg
 location: Tussenwoning Aalsmeer
 sequenceNumber: 5
 showInMenu: true
 year: 2021
 releatedProjects:
-  - projectmars
-  - projectjuul
-  - projectmarg
-  - projectjen
+  - projectoceanblue
+  - projecttaupe
+  - projectwhite
+  - projectred
 images:
   -
-    url: /portfolio/projectmo/carousel01.jpg
+    url: /portfolio/projectpetrol/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel02.jpg
+    url: /portfolio/projectpetrol/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel03.jpg
+    url: /portfolio/projectpetrol/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel04.jpg
+    url: /portfolio/projectpetrol/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel05.jpg
+    url: /portfolio/projectpetrol/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel06.jpg
+    url: /portfolio/projectpetrol/carousel06.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel07.jpg
+    url: /portfolio/projectpetrol/carousel07.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel08.jpg
+    url: /portfolio/projectpetrol/carousel08.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmo/carousel09.jpg
+    url: /portfolio/projectpetrol/carousel09.jpg
     showInCarousel: true  
   -
-    url: /portfolio/projectmo/carousel10.jpg
+    url: /portfolio/projectpetrol/carousel10.jpg
     showInCarousel: true
 ---
 

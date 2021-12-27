@@ -1,33 +1,33 @@
 ---
-title: Project Mars
+title: Project Ocean Blue
 description: Ontwerp, uitvoering en inrichting
 location: Tussenwoning Kudelstaart
 sequenceNumber: 4
 showInMenu: true
 backgroundImage: /img/bg/bg-10.jpg
-image: /portfolio/projectmars/main.jpg
+image: /portfolio/projectoceanblue/main.jpg
 m2: 119
 year: 2021
 relatedProjects:
-  - projectmo
-  - projectjen
-  - projectjuul
-  - projectmarg
+  - projectwhite
+  - projectred
+  - projecttaupe
+  - projectpetrol
 images:
   -
-    url: /portfolio/projectmars/carousel01.jpg
+    url: /portfolio/projectoceanblue/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmars/carousel02.jpg
+    url: /portfolio/projectoceanblue/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmars/carousel03.jpg
+    url: /portfolio/projectoceanblue/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmars/carousel04.jpg
+    url: /portfolio/projectoceanblue/carousel04.jpg
     showInCarousel: true
 ---
-# Over project Mars
+# Over project Ocean Blue
 
 Onze klant heeft een bestaande woning gekocht. Eline van Lenthe, onze interieuradviseur, heeft een interieurontwerp gemaakt. En klusvrouw Monique heeft dit uitgevoerd.
 

@@ -1,7 +1,7 @@
 ---
-title: Project Sieb
+title: Project Pine
 description: Buitenschilderwerk
-image: "/portfolio/projectsieb/main.jpg"
+image: "/portfolio/projectpine/main.jpg"
 backgroundImage: /img/bg/bg-13.jpg
 location: Tussenwoning Aalsmeer
 sequenceNumber: 6
@@ -9,22 +9,22 @@ showInMenu: true
 year: 2021
 images:
   -
-    url: /portfolio/projectsieb/carousel01.jpg
+    url: /portfolio/projectpine/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectsieb/carousel02.jpg
+    url: /portfolio/projectpine/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectsieb/carousel03.jpg
+    url: /portfolio/projectpine/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectsieb/carousel04.jpg
+    url: /portfolio/projectpine/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectsieb/carousel05.jpg
+    url: /portfolio/projectpine/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectsieb/carousel06.jpg
+    url: /portfolio/projectpine/carousel06.jpg
     showInCarousel: true
 ---
 

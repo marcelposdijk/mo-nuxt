@@ -1,34 +1,34 @@
 ---
-title: Project Marg
+title: Project White
 description: Alle wanden in een appartement gesaust
 location: Appartement Delft
 sequenceNumber: 3
 showInMenu: true
 backgroundImage: /img/bg/bg-01.jpg
-image: /portfolio/projectmarg/main.jpg
+image: /portfolio/projectwhite/main.jpg
 m2: 180
 year: 2021
 relatedProjects:
-  - projectmars
-  - projectmo
+  - projectoceanblue
+  - projectpetrol
 images:
   -
-    url: /portfolio/projectmarg/carousel01.jpg
+    url: /portfolio/projectwhite/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmarg/carousel02.jpg
+    url: /portfolio/projectwhite/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmarg/carousel03.jpg
+    url: /portfolio/projectwhite/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmarg/carousel04.jpg
+    url: /portfolio/projectwhite/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectmarg/carousel05.jpg
+    url: /portfolio/projectwhite/carousel05.jpg
     showInCarousel: false
 
 ---
-# Over project Marg
+# Over project White
 
 Alle wanden in een nieuwbouw appartement eerst met primer behandeld daarna met Latex kleur 9010.
