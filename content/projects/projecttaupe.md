@@ -1,7 +1,7 @@
 ---
-title: Project Juul
+title: Project Taupe
 description: Slaapkamers opgeknapt
-image: "/portfolio/projectjuul/main.jpg"
+image: "/portfolio/projecttaupe/main.jpg"
 backgroundImage: /img/bg/bg-08.jpg 
 location: Tussenwoning Aalsmeer
 sequenceNumber: 2
@@ -13,28 +13,28 @@ relatedProjects:
   - projectmo
 images:
   -
-    url: /portfolio/projectjuul/carousel01.jpg
+    url: /portfolio/projecttaupe/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel02.jpg
+    url: /portfolio/projecttaupe/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel03.jpg
+    url: /portfolio/projecttaupe/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel04.jpg
+    url: /portfolio/projecttaupe/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel05.jpg
+    url: /portfolio/projecttaupe/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel06.jpg
+    url: /portfolio/projecttaupe/carousel06.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel07.jpg
+    url: /portfolio/projecttaupe/carousel07.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectjuul/carousel08.jpg
+    url: /portfolio/projecttaupe/carousel08.jpg
     showInCarousel: true
 ---
 
