@@ -8,9 +8,9 @@ sequenceNumber: 2
 showInMenu: true
 year: 2021
 relatedProjects:
-  - projectmars
-  - projectjen
-  - projectmo
+  - projectoceanblue  
+  - projectrd
+  - projectpetrol
 images:
   -
     url: /portfolio/projecttaupe/carousel01.jpg
