@@ -133,7 +133,7 @@ export default {
       scTimer: 0,
       scY: 0,
       menuOpened: true,
-      submenuOpened: false,
+      submenuOpened: true,
     }
   },
   components: {
