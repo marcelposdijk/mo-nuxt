@@ -22,7 +22,7 @@
             <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
             <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
             <p class="display-29 display-md-28 mb-6">
-              In overleg met de klant wordt er gekeken wat de wensen zijn. Van interieuradvies tot uitvoering wordt besproken en in overleg uitgevoerd. Schilderen, behangen, klussen in de tuin, timmerwerk, ophangen, bevestigen en
+              In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gegeven en dit kan uitgevoerd worden. Alles wordt besproken en in overleg uitgevoerd. Schilderen binnen en buiten, behangen, klussen in de tuin, timmerwerk en montage, sanitair en elaktra.  
             </p>
           </div>
           <div class="col-lg-6">
@@ -48,7 +48,7 @@
     <section class="pb-0">
       <div class="container">
         <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Diensten die wij leveren</h2>
+          <h2 class="display-20 display-md-18 display-lg-16">Diensten die ik lever</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <services />
