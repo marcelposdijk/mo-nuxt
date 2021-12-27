@@ -17,12 +17,12 @@ relatedProjects:
   - projectoceanblue
   - projectwhite
   - projecttaupe
-  images:
+ images:
   -
     url: /portfolio/projectred/carousel01.jpg
     showInCarousel: true
-    services:
-  -    
+    services: 
+    - timmerwerk-en-montage    
     url: /portfolio/projectred/carousel02.jpg
     showInCarousel: true
     services: 
@@ -30,7 +30,7 @@ relatedProjects:
     url: /portfolio/projectred/carousel03.jpg
     showInCarousel: true
     services: 
-      - timmerwerk-en-montage
+    - timmerwerk-en-montage
   -
     url: /portfolio/projectred/carousel04.jpg
     showInCarousel: true
@@ -38,16 +38,7 @@ relatedProjects:
       - timmerwerk-en-montage
   -
     url: /portfolio/projectred/carousel05.jpg
-    showInCarousel: false
-    services: 
-  -
-    url: /img/portfolio/grid-portfolio-07.jpg
-    showInCarousel: false
-    services: 
-      - timmererwerk en montage
-  -
-    url: /img/portfolio/grid-portfolio-09.jpg
-    showInCarousel: false
+    showInCarousel: true
     services: 
       - behangen
 ---
