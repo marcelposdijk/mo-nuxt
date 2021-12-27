@@ -43,7 +43,7 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-05-autox400px.jpg
     image: /img/portfolio/grid-portfolio-05.jpg
-    title: Wanden gesaust
+    title: Muren gesaust
     project: projectmo
     services:
       - schilderwerk
