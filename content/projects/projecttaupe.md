@@ -9,7 +9,7 @@ showInMenu: true
 year: 2021
 relatedProjects:
   - projectoceanblue  
-  - projectrd
+  - projectred
   - projectpetrol
 images:
   -
