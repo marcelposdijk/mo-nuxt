@@ -21,7 +21,7 @@
                       <!-- menu area -->
                       <ul class="navbar-nav ml-auto" id="nav" v-bind:style="{ display: menuOpened ? 'block' : 'none' }" v-bind:class="{ open: menuOpened }">
                         <li><NuxtLink to="/">Home</NuxtLink></li>
-                        <li><NuxtLink to="/overons">Over ons</NuxtLink></li>
+                        <li><NuxtLink to="/mijnteam">Mijn team</NuxtLink></li>
                         <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
                         <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
                         <li class="has-sub" v-bind:class="{ active: submenuOpened }">

@@ -18,26 +18,12 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mb-6 mb-lg-0">
+          <div class="col-lg-12">
             <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
             <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
             <p class="display-29 display-md-28 mb-6">
                Hallo ik ben Klusvrouw Monique. Wat leuk dat je mijn website bezoekt. Na 26,5 jaar werkzaam te zijn geweest in de financiële wereld, heb ik mij om laten scholen tot klusvrouw. Mijn passie is werken met mijn handen. Iets moois maken. Ik heb mijn hele leven al geklust thuis, bij vrienden en familie. In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gedaan en dit kan uitgevoerd worden. Alles wordt besproken en gaat in overleg. Hieronder treft je de diensten aan die ik lever.  
             </p>
-          </div>
-          <div class="col-lg-6">
-            <div class="pl-lg-6 pl-xl-12 dots-image">
-              <div class="position-relative bg-img text-center py-10 py-sm-14 py-md-16 py-lg-20 rounded theme-overlay-dark z-index-9" data-overlay-dark="2" data-background="/img/content/about-01.jpg">
-                <div class="position-relative z-index-1 py-6">
-                  <a class="popup-social-video video_btn" href="https://www.youtube.com/watch?v=x7gqoHNgO-g">
-                    <span>
-                      <i class="fas fa-play"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="dots"></div>
-            </div>
           </div>
         </div>
       </div>

@@ -17,30 +17,22 @@ relatedProjects:
   - projectoceanblue
   - projectwhite
   - projecttaupe
- images:
+images:
   -
     url: /portfolio/projectred/carousel01.jpg
     showInCarousel: true
-    services: 
-    - timmerwerk-en-montage    
+  -  
     url: /portfolio/projectred/carousel02.jpg
     showInCarousel: true
-    services: 
   -
     url: /portfolio/projectred/carousel03.jpg
     showInCarousel: true
-    services: 
-    - timmerwerk-en-montage
   -
     url: /portfolio/projectred/carousel04.jpg
     showInCarousel: true
-    services: 
-      - timmerwerk-en-montage
   -
     url: /portfolio/projectred/carousel05.jpg
     showInCarousel: true
-    services: 
-      - behangen
 ---
 
 # Over het project Red
