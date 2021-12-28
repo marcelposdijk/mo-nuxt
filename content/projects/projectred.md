@@ -7,7 +7,7 @@ location: Tussenwoning Amstelveen
 sequenceNumber: 1
 showInMenu: true
 services:
-  - timmerwerk-en-montage en montage
+  - timmerwerk-en-montage
   - schilderwerk
   - behangen
   - elektra
