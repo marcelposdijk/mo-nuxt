@@ -28,8 +28,8 @@ images:
     url: /portfolio/projectred/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectred/carousel04.jpg
-    showInCarousel: true
+    url: /portfolio/projectred/carousel06.jpg
+    showInCarousel: false
   -
     url: /portfolio/projectred/carousel05.jpg
     showInCarousel: true
