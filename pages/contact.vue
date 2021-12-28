@@ -166,5 +166,17 @@ export default {
       this.formSubmitted = true
     },
   },
+  head() {
+    return {
+      title: `${this.$t('contact.title')}${this.$t('titleExtension')}`,
+      meta: [
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: this.$t('contact.title') },
+        { property: "og:image", content: '/img/team/contact-autox555.jpg' },
+        { property: "og:description", content: this.$t('contact.description') },
+        { hid: 'description', name: 'description', content: this.$t('contact.description') },
+      ],
+    }
+  },
 }
 </script>

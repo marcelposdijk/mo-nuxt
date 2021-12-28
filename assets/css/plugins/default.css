@@ -166,8 +166,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {  font-weight: 600; font-f
     Custom
 ====================================== */
 
-section { padding: 120px 0; overflow: hidden; background: #fff;}
-section.md { padding: 90px 0; }
+section { padding: 60px 0; overflow: hidden; background: #fff;}
+section.md { padding: 45px 0; }
 
 .big-input, .big-textarea, .big-select select { padding: 18px 25px; font-size: 14px; border-radius: 0;}
 .medium-input, .medium-textarea, .medium-select select { padding: 12px 20px; font-size: 14px; line-height: normal; border-radius: 0;}

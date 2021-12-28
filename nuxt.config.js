@@ -11,7 +11,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -48,7 +47,8 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/i18n'
   ],
   content: {
     //Options
@@ -67,5 +67,24 @@ export default {
   },
   axios: {
     baseURL: 'https://www.marpos.nl'
+  },
+  i18n: {
+    langDir: '~/assets/locales',
+    locales: [{
+      code: 'en',
+      name: 'English',
+      file: 'en.js'
+    },
+    {
+      code: 'nl',
+      name: 'Nederlands',
+      file: 'nl.js'
+    }],
+    defaultLocale: 'nl',
+    strategy: 'prefix_except_default',
+    vueI18n: {
+      fallbackLocale: 'nl',
+      silentTranslationWarn: true
+    }
   },
 }

@@ -96,6 +96,18 @@ export default {
       $(this).addClass("active").siblings().removeClass("active")
     })
   },
+  head() {
+    return {
+      title: `${this.$t('portfolio.title')}${this.$t('titleExtension')}`,
+      meta: [
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: this.$t('portfolio.title') },
+        { property: "og:image", content: '/img/portfolio/grid-portfolio-03-autox400px.jpg' },
+        { property: "og:description", content: this.$t('portfolio.description') },
+        { hid: 'description', name: 'description', content: this.$t('portfolio.description') },
+      ],
+    }
+  },
 }
 </script>
 
