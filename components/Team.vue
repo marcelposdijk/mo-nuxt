@@ -10,10 +10,13 @@
           <h6 class="team-position">Eigenaar, klusvrouw</h6>
           <ul class="social-icon">
             <li>
-              <a href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="new"><i class="fab fa-linkedin-in"></i></a>
             </li>
           </ul>
         </div>
@@ -27,7 +30,7 @@
         <div class="team-info team-overlay">
           <h3 class="team-title">Eline van Lenthe</h3>
           <h6 class="team-position">Interieur advies- en ontwerp</h6>
-          <ul class="social-icon">
+          <ul v-show="false" class="social-icon">
             <li>
               <a href="#!"><i class="fab fa-facebook-f"></i></a>
             </li>
@@ -48,10 +51,13 @@
           <h6 class="team-position">Eigenaar, klusvrouw</h6>
           <ul class="social-icon">
             <li>
-              <a href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/"><i class="fab fa-linkedin-in"></i></a>
             </li>
           </ul>
         </div>

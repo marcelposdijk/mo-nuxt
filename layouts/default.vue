@@ -62,7 +62,7 @@
                   <h6>Adres</h6>
                   <p>Christinastraat 17, 1432 HN AALSMEER</p>
                 </li>
-                <li>
+                <li v-if="false">
                   <h6>Telefoon</h6>
                   <p>
                     06-14968712<br />
@@ -102,13 +102,13 @@
               <p class="text-black d-inline-block font-weight-600 mr-2 mb-0">Bezoek ons op:</p>
               <ul class="share-post">
                 <li>
-                  <a href="#!" class="white-hover"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new" class="white-hover"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#!" class="white-hover"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#!" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="new" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
                 </li>
               </ul>
             </div>
