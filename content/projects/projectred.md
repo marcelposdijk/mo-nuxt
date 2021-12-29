@@ -11,7 +11,7 @@ services:
   - schilderwerk
   - behangen
   - elektra
-year: 2021
+year:
 relatedProjects:
   - projectpetrol
   - projectoceanblue
