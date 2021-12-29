@@ -26,7 +26,7 @@
                         <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
                         <li class="has-sub" v-bind:class="{ active: submenuOpened }">
                           <span class="submenu-button"  @click="toggleSubMenu"></span>
-                          <a href="#">Projecten</a>
+                          <a href="#" @click="toggleSubMenu">Projecten</a>
                           <ul class="sub-menu animated" v-bind:style="{ display: submenuOpened ? 'block' : 'none' }">
                             <li v-for="project in projects" :key="project.slug">
                               <nuxt-link :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
@@ -132,8 +132,8 @@ export default {
       projects: [],
       scTimer: 0,
       scY: 0,
-      menuOpened: true,
-      submenuOpened: true,
+      menuOpened: false,
+      submenuOpened: false,
     }
   },
   components: {
@@ -147,6 +147,7 @@ export default {
   },
   mounted() {
     window.addEventListener("scroll", this.handleScroll)
+    this.menuOpened = window.innerWidth > 991
   },
   methods: {
     handleScroll() {

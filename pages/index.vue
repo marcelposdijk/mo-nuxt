@@ -168,5 +168,17 @@ export default {
       })
     }, 100)
   },
+  head() {
+    return {
+      title: `${this.$t('title')}`,
+      meta: [
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: this.$t('title') },
+        { property: "og:image", content: '/img/logos/logo-footer.png' },
+        { property: "og:description", content: this.$t('description') },
+        { hid: 'description', name: 'description', content: this.$t('description') },
+      ],
+    }
+  },
 }
 </script>

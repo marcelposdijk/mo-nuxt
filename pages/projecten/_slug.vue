@@ -66,10 +66,7 @@
                 <li>
                   <NuxtLink
                     v-if="prev"
-                    :to="{
-                      name: 'projecten-slug',
-                      params: { slug: prev.slug },
-                    }"
+                    :to="`/projecten/${prev.slug}`"
                     rel="prev">
                     <i class="fas fa-angle-left display-30 display-md-29"></i>
                     <span class="ml-3 display-30 display-md-29 font-weight-600">Vorige</span>
@@ -83,10 +80,7 @@
                 <li>
                   <NuxtLink
                     v-if="next"
-                    :to="{
-                      name: 'projecten-slug',
-                      params: { slug: next.slug },
-                    }"
+                    :to="`/projecten/${next.slug}`"
                     rel="next">
                     <span class="mr-3 display-30 display-md-29 font-weight-600">Volgende</span>
                     <i class="fas fa-angle-right display-30 display-md-29"></i>
@@ -148,6 +142,18 @@ export default {
           return { ...img, id: index }
         })
     },
+  },
+  head() {
+    return {
+      title: `${this.project.title}${this.$t("titleExtension")}`,
+      meta: [
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: this.project.title },
+        { property: "og:image", content: this.project.image },
+        { property: "og:description", content: this.project.description },
+        { hid: 'description', name: 'description', content: this.project.description },
+      ],
+    }
   },
 }
 </script>

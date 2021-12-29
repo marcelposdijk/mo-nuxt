@@ -20,5 +20,17 @@ export default {
   components: {
     Team,
   },
+  head() {
+    return {
+      title: `${this.$t('team.title')}${this.$t('titleExtension')}`,
+      meta: [
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: this.$t('team.title') },
+        { property: "og:image", content: '/img/team/contact-autox555.jpg' },
+        { property: "og:description", content: this.$t('team.description') },
+        { hid: 'description', name: 'description', content: this.$t('team.description') },
+      ],
+    }
+  },
 }
 </script>
