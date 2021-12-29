@@ -7,7 +7,7 @@ showInMenu: true
 backgroundImage: /img/bg/bg-10.jpg
 image: /portfolio/projectoceanblue/main.jpg
 m2: 119
-year: 2021
+year: 
 relatedProjects:
   - projectwhite
   - projectred

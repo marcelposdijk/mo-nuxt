@@ -6,7 +6,7 @@ backgroundImage: /img/bg/bg-13.jpg
 location: Tussenwoning Aalsmeer
 sequenceNumber: 6
 showInMenu: true
-year: 2021
+year: 
 images:
   -
     url: /portfolio/projectpine/carousel01.jpg

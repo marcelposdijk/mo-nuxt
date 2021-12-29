@@ -6,7 +6,7 @@ image: /portfolio/projectpetrol/main.jpg
 location: Tussenwoning Aalsmeer
 sequenceNumber: 5
 showInMenu: true
-year: 2021
+year: 
 releatedProjects:
   - projectoceanblue
   - projecttaupe
