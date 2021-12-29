@@ -20,20 +20,20 @@
 
                       <!-- menu area -->
                       <ul class="navbar-nav ml-auto" id="nav" v-bind:style="{ display: menuOpened ? 'block' : 'none' }" v-bind:class="{ open: menuOpened }">
-                        <li><NuxtLink to="/">Home</NuxtLink></li>
-                        <li><NuxtLink to="/mijnteam">Mijn team</NuxtLink></li>
-                        <li><NuxtLink to="/diensten">Diensten</NuxtLink></li>
-                        <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
+                        <li><NuxtLink @click.native="menuClick" to="/">Home</NuxtLink></li>
+                        <li><NuxtLink @click.native="menuClick" to="/mijnteam">Mijn team</NuxtLink></li>
+                        <li><NuxtLink @click.native="menuClick" to="/diensten">Diensten</NuxtLink></li>
+                        <li><NuxtLink @click.native="menuClick" to="/portfolio">Portfolio</NuxtLink></li>
                         <li class="has-sub" v-bind:class="{ active: submenuOpened }">
                           <span class="submenu-button"  @click="toggleSubMenu"></span>
                           <a href="#" @click="toggleSubMenu">Projecten</a>
                           <ul class="sub-menu animated" v-bind:style="{ display: submenuOpened ? 'block' : 'none' }">
                             <li v-for="project in projects" :key="project.slug">
-                              <nuxt-link :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
+                              <nuxt-link @click.native="menuClick" :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
                             </li>
                           </ul>
                         </li>
-                        <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+                        <li><NuxtLink @click.native="menuClick" to="/contact">Contact</NuxtLink></li>
                       </ul>
                       <!-- end menu area -->
                     </nav>
@@ -134,6 +134,7 @@ export default {
       scY: 0,
       menuOpened: false,
       submenuOpened: false,
+      isMobile: false
     }
   },
   components: {
@@ -145,11 +146,20 @@ export default {
 
     this.projects = await this.$content("projects").only(["slug", "title"]).where({ showInMenu: true }).sortBy("sequenceNumber", "desc").limit(10).fetch()
   },
+
   mounted() {
     window.addEventListener("scroll", this.handleScroll)
-    this.menuOpened = window.innerWidth > 991
+
+    this.isMobile = window.innerWidth <= 991
+    this.menuOpened = !this.isMobile
   },
   methods: {
+    menuClick() {
+      if (this.isMobile) {
+        this.menuOpened = false
+        console.log("Close menu for mobile")
+      }
+    },
     handleScroll() {
       if (this.scTimer) return
       this.scTimer = setTimeout(() => {
