@@ -16,5 +16,9 @@ export default {
   portfolio: {
     title: "Portfolio",
     description: "Een impressie van de door onse uitgevoerde projecten op het gebied van timmerwerk, schilderwerk en behangen"
+  },
+  notfound: {
+    title: "Oops! page not found",
+    description : "The page you were looking for was not found"
   }
 }
