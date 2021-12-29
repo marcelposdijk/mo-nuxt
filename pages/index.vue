@@ -22,7 +22,7 @@
             <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
             <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
             <p class="display-29 display-md-28 mb-6">
-               Hallo ik ben Klusvrouw Monique. Wat leuk dat je mijn website bezoekt. Na 26,5 jaar werkzaam te zijn geweest in de financiële wereld, heb ik mij om laten scholen tot klusvrouw. Mijn passie is werken met mijn handen. Iets moois maken. Ik heb mijn hele leven al geklust thuis, bij vrienden en familie. In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gedaan en dit kan uitgevoerd worden. Alles wordt besproken en gaat in overleg. Hieronder treft je de diensten aan die ik lever.  
+               Hallo, ik ben Klusvrouw Monique. Wat leuk dat je mijn website bezoekt. Na 26,5 jaar werkzaam te zijn geweest in de financiële wereld, heb ik mij om laten scholen tot klusvrouw. Mijn passie is creatief bezig zijn, iets moois maken. Ik heb mijn hele leven al thuis geklust, bij familie en vrienden. In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gedaan en dit kan uitgevoerd worden. Alles wordt besproken en gaat in overleg. Hieronder tref je de diensten aan die ik lever.  
             </p>
           </div>
         </div>
@@ -34,7 +34,7 @@
     <section class="pb-0">
       <div class="container">
         <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Diensten die ik lever</h2>
+          <h2 class="display-20 display-md-18 display-lg-16">Diensten die ik aanbied</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <services />

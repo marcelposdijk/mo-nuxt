@@ -2,7 +2,7 @@
 sequenceNumber: 5
 title: Interieuradvies
 shortTitle: Interieuradvies
-description: Interieuradvies, moodboard, kleurvoorstel, ontwerp, bank opstelling, vloeren voorstel, behang voorstel, muurkleur voorstel, materialen voorstel, meubel voorstel, licht plan
+description: Interieuradvies, moodboard, voorstellen in kleurontwerp, bankopstelling, vloeren, behang, muurkleur, materialen, meubel en een lichtplan.
 backgroundImage: /img/banner/slide2.jpg
 icon: ti-pencil-alt
 ---
@@ -12,9 +12,9 @@ Moodboard
 Kleurvoorstel v.o.
 Voorlopig ontwerp 
 Bank opstelling
-Vloeren voorstel
-Behang voorstel
-Muurkleur voorstel
-Materialen voorstel
-Meubel voorstel
-Licht plan
+Vloerenvoorstel
+Behangvoorstel
+Muurkleurvoorstel
+Materialenvoorstel
+Meubelvoorstel
+Lichtplan
