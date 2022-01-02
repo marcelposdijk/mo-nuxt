@@ -2,7 +2,7 @@
 sequenceNumber: 2
 title: Behangen
 shortTitle: Behangen
-description: Muren behangen, fotobehang plaatsen
+description: Muren behangen.
 backgroundImage: /img/banner/slide2.jpg
 icon: ti-wand
 images:
@@ -14,4 +14,4 @@ images:
 ---
 # Behangen
 
-Muren behangen, fotobehang plaatsen
+Muren behangen.
