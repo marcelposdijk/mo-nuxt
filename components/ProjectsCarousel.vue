@@ -1,9 +1,9 @@
 <template>
   <div>
-    <vue-slick-carousel class="project-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slides-to-show="3" :slides-to-scroll="1" :infinite="true">
+    <vue-slick-carousel class="project-carousel owl-carousel owl-theme" :arrows="true" :dots="true" :autoplay="true" :slides-to-show="isMobile ? 1 : 3" :slides-to-scroll="1" :infinite="true">
       <div class="project-item" v-for="project in projects" :key="project.slug">
         <div>
-          <img :src="project.image" class="rounded"/>
+          <img :src="project.image" class="rounded" />
         </div>
         <div class="project-hover">
           <div class="project-hover-content">
@@ -22,11 +22,19 @@ import VueSlickCarousel from "vue-slick-carousel"
 import "vue-slick-carousel/dist/vue-slick-carousel.css"
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
 export default {
+  data() {
+    return {
+      isMobile: false,
+    }
+  },
   components: {
     VueSlickCarousel,
   },
   props: {
     projects: Array,
+  },
+  mounted() {
+    this.isMobile = window.innerWidth <= 991
   },
 }
 </script>
