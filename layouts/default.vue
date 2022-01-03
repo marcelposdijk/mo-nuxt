@@ -85,7 +85,6 @@
                   <h4 class="h6">
                     <nuxt-link :to="`/projecten/${project.slug}`" class="text-white">{{ project.title }}</nuxt-link>
                   </h4>
-                  <span class="display-30 text-white">{{ formatDate(project.createdAt) }}</span>
                 </div>
               </div>
             </div>
