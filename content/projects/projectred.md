@@ -35,6 +35,6 @@ images:
     showInCarousel: true
 ---
 
-# Over het project Red
+# Over het project
 
-Plafond in hal na lekkage verwijderd en opnieuw geplaatst, muren behangen, muren keuken gesaust en schrootjes geschilderd.
+Plafond in hal na lekkage verwijderd en opnieuw geplaatst, muren behangen, schootjes geschilderd en muren in de keuken gesausd.

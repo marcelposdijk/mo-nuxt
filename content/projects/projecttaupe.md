@@ -41,6 +41,6 @@ images:
 
 # Over het project
 
-Bij een klant heb ik in vier slaapkamers een enkele muur behangen. Ikeakasten in elkaar gezet. Lampen opgehangen. Accessoires aan de muur gemaakt. Magneetsticker op de muur bevestigd.
+In vier slaapkamers een enkele muur behangen. Ikeakasten in elkaar gezet. Lampen opgehangen. Accessoires aan de muur gemaakt. Magneetsticker op de muur bevestigd.
 
 

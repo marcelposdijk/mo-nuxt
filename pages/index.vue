@@ -58,7 +58,7 @@
     <section class="pb-0">
       <div class="container">
         <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Mijn werk proces</h2>
+          <h2 class="display-20 display-md-18 display-lg-16">Mijn werkproces</h2>
           <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
         </div>
         <div class="row process-order">

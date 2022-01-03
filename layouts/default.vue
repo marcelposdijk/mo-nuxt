@@ -60,8 +60,7 @@
               <ul class="contact-list">
                 <li>
                   <h6>Adres</h6>
-                  <p>Christinastraat 17, 
-                     1432 HN AALSMEER</p>
+                  <p>Christinastraat 17, 1432 HN AALSMEER</p>
                 </li>
                 <li v-if="false">
                   <h6>Telefoon</h6>

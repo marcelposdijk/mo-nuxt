@@ -4,13 +4,10 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-01-autox400px.jpg
     image: /img/portfolio/grid-portfolio-01.jpg
-    title: Woonkamer gesaust
+    title: Woonkamer gesausd
     project: projectoceanblue
     services:
-      - timmerwerk-en-montage
-      - behangen
       - schilderwerk
-      - interieuradvies
   -
     thumbnail: /img/portfolio/grid-portfolio-02-autox400px.jpg
     image: /img/portfolio/grid-portfolio-02.jpg
@@ -43,7 +40,7 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-05-autox400px.jpg
     image: /img/portfolio/grid-portfolio-05.jpg
-    title: Muren gesaust
+    title: Muren gesausd
     project: projectpetrol
     services:
       - schilderwerk
@@ -92,7 +89,7 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-13-autox400px.jpg
     image: /img/portfolio/grid-portfolio-13.jpg
-    title: Muren gesaust
+    title: Muren gesausd
     project: projectpetrol
     services:
       - schilderwerk

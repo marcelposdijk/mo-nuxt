@@ -29,6 +29,6 @@ images:
     showInCarousel: false
 
 ---
-# Over project White
+# Over project
 
-Alle wanden in een nieuwbouw appartement eerst met primer behandeld daarna met Latex kleur 9010.
+Alle wanden in een nieuwbouw appartement eerst met primer behandeld, daarna gesausd met Latex kleur 9010.

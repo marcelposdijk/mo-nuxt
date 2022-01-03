@@ -47,7 +47,7 @@ images:
 
 # Over het project
 
-Kapstok in de hal verwijderd. Hal behangen. Meterkast zijwand vervangen. Meterkast en voorraadkast geschilderd. Bankje gemaakt. Verwarmingsombouw gemaakt. Trap geschilderd.
+Kapstok in de hal verwijderd. Hal behangen. Zijwand meterkast vervangen. Meterkast en voorraadkast geschilderd. Bankje gemaakt. Verwarmingsombouw gemaakt. Trap geschilderd.
 
-Woonkamer alle wanden geschilderd. Openhaard wand geisoleerd en geschilderd.
+Alle wanden woonkamer gesausd. Wand openhaard geïsoleerd en geschilderd.
 

@@ -27,16 +27,14 @@ images:
     url: /portfolio/projectoceanblue/carousel04.jpg
     showInCarousel: true
 ---
-# Over project Ocean Blue
+# Over project
 
-Onze klant heeft een bestaande woning gekocht. Eline van Lenthe, onze interieuradviseur, heeft een interieurontwerp gemaakt. En klusvrouw Monique heeft dit uitgevoerd.
+Onze klant heeft een bestaande woning gekocht. Eline van Lenthe, mijn interieuradviseur, heeft een interieurontwerp gemaakt. En ik heb dit uitgevoerd.
 
-In het interieuradvies is een moodboard gemaakt, kleurvoorstel, voorlopig ontwerp, bank opstelling, vloeren voorstel, muurkleur voorstel, materiaal voorstel en meubel voorstel gemaakt. Een stucadoor heeft de muren in de woonkamer, hal gestuct en het plafond in de master bedroom. 
+In het interieuradvies is een moodboard gemaakt en voorstellen voor: kleuren, bankopstelling, vloeren, muurkleur, materiaal en meubelopstelling. Een stucadoor heeft de muren gestuct in de woonkamer, hal en plafond in de master bedroom. 
 
-Klusvrouw Monique heeft alle muren in het trapgat, hal, woonkamer en 2 slaapkamers geschilderd. 
+Het plafond in het dakkapel van de masterbedroom van gipsplaten voorzien, zodat het plafond glad gestuct kon worden. Daarna de muren geschilderd en een muur behangen.
 
-Het plafond in het dakkapel van de masterbedroom van gipsplaten voorzien zodat het plafond glad gestuct kon worden.
+Alle muren gesausd in de hal, trapgat, woonkamer en 2 slaapkamers. 
 
-Daarna de muren geschilderd en een muur behangen.
-
-Zij heeft een verwarmingsombouw gemaakt, lampen opgehangen en stopcontacten vervangen.
+Tevens een verwarmingsombouw gemaakt, lampen opgehangen en stopcontacten vervangen.
