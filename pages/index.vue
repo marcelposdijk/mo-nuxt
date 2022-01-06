@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- start slideshow section -->
-    <div class="container-fluid full-screen top-position">
+    <div class="container-fluid full-screen top-position" style="width:100%;height:100vh;">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
           <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!" />
@@ -126,6 +126,7 @@ export default {
         loop: true,
         dots: true,
         nav: false,
+        lazyLoad: true,
         navText: ["<i class='ti-arrow-left'></i>", "<i class='ti-arrow-right'></i>"],
         margin: 0,
         autoplay: true,
