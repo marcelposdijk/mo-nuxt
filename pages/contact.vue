@@ -43,7 +43,7 @@
         <div class="contact-wrapper-box">
           <div class="row no-gutters">
             <div class="col-lg-6 d-none d-lg-block" style="height: 555px">
-              <background-image class="cover-background h-100" :overlay-dark="0" background-image="img/team/contact-autox555.jpg"></background-image>
+              <background-image class="cover-background h-100" :overlay-dark="0" background-image="img/team/contact-monique.jpg"></background-image>
             </div>
             <div class="col-lg-6">
               <b-alert class="m-5" variant="success" show v-show="formSubmitted">Dank je wel voor je bericht. Ik neem zo snel mogelijk contact met je op</b-alert>
