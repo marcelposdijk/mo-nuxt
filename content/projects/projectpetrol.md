@@ -2,7 +2,7 @@
 title: Project Petrol
 description: Hal, trap en woonkamer opgeknapt
 backgroundImage: /img/bg/bg-15.jpg
-image: /portfolio/projectpetrol/main.jpg
+image: /portfolio/projectpetrol/main-357xauto.jpg
 location: Tussenwoning Aalsmeer
 sequenceNumber: 5
 showInMenu: true

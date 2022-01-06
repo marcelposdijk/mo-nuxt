@@ -12,11 +12,11 @@
                 <span>Lees meer</span>
               </a> -->
             </div>
-            <div v-if="insetImage" class="col-md-4 d-none d-md-block">
+            <!-- <div v-if="insetImage" class="col-md-4 d-none d-md-block">
               <div class="slider-pic text-right">
                 <img :src="insetImage" loading="lazy" />
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
