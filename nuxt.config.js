@@ -50,7 +50,8 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxt/content',
     '@nuxtjs/i18n',
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    '@nuxtjs/google-gtag'
   ],
   content: {
     //Options
@@ -85,4 +86,14 @@ export default {
       silentTranslationWarn: true
     }
   },
+  'google-gtag':{
+    id: 'G-CNEZ54JWC4', // required
+    config:{
+      // this are the config options for `gtag
+      // check out official docs: https://developers.google.com/analytics/devguides/collection/gtagjs/
+      anonymize_ip: true, // anonymize IP 
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...)
+   }
 }
