@@ -7,7 +7,7 @@
             <div class="col-md-8 overflow-hidden">
               <span class="number d-block">{{ slideNumber }}</span>
               <h3 class="mb-3 h5">{{ subTitle }}</h3>
-              <h1 class="text-white mb-4 w-100 w-sm-85">{{ title }}</h1>
+              <h1 class="text-white mb-4">{{ title }}</h1>
               <!-- <a href="#!" class="butn">
                 <span>Lees meer</span>
               </a> -->
@@ -52,7 +52,7 @@ export default {
 }
 .item {
   position: relative;
-  background-repeat: no- repeat;
+  background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
 }

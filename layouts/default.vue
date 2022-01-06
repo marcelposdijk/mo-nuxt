@@ -11,9 +11,7 @@
                   <div class="menu_area alt-font">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                       <div class="navbar-header navbar-header-custom">
-                        <!-- start logo -->
-                        <a href="/" class="navbar-brand"><img id="logo" src="/img/logos/logo-inner.png" alt="logo" /></a>
-                        <!-- end logo -->
+                        <a href="/" class="navbar-brand"><img id="logo" width="41" height="43" src="/img/logos/logo-inner.png" alt="Logo Klusvrouw Monique" /></a>
                       </div>
 
                       <div class="navbar-toggler" @click="toggleMenu" v-bind:class="{ 'menu-opened': menuOpened }"></div>
@@ -51,7 +49,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-2-5 mb-lg-0">
             <div class="mb-1-6">
-              <img src="/img/logos/logo-footer.png" alt="..." />
+              <img src="/img/logos/logo-footer.png" width="255" height="267" alt="Logo Klusvrouw Monique" />
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-2-5 mb-lg-0">
@@ -147,7 +145,7 @@ export default {
   },
 
   mounted() {
-    window.addEventListener("scroll", this.handleScroll)
+    window.addEventListener("scroll", this.handleScroll, {passive: true})
 
     this.isMobile = window.innerWidth <= 991
     this.menuOpened = !this.isMobile
