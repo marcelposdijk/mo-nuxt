@@ -2,7 +2,7 @@
   <div>
     <vue-slick-carousel :arrows="true" :dots="true" :autoplay="true">
       <div v-for="image in images" :key="image.id">
-        <img :src="image.url" style="height:550px;width:1140px;" />
+        <img :src="image.url"  loading="lazy" style="height:550px;width:1140px;" />
       </div>
     </vue-slick-carousel>
   </div>

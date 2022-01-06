@@ -6,7 +6,7 @@
           <i :class="getIconClass(service)"></i>
         </div>
         <h3 class="h5 mb-3">
-          <a href="#!">{{ service.title }}</a>
+          {{ service.title }}
         </h3>
         <p>{{ service.description }}</p>
         <div class="service-counter number-ordered-item"></div>

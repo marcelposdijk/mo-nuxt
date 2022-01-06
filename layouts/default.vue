@@ -20,20 +20,20 @@
 
                       <!-- menu area -->
                       <ul class="navbar-nav ml-auto" id="nav" v-bind:style="{ display: menuOpened ? 'block' : 'none' }" v-bind:class="{ open: menuOpened }">
-                        <li><NuxtLink @click.native="menuClick" to="/">Home</NuxtLink></li>
-                        <li><NuxtLink @click.native="menuClick" to="/mijnteam">Mijn team</NuxtLink></li>
-                        <li><NuxtLink @click.native="menuClick" to="/diensten">Diensten</NuxtLink></li>
-                        <li><NuxtLink @click.native="menuClick" to="/portfolio">Portfolio</NuxtLink></li>
+                        <li><nuxt-link @click.native="menuClick" title="Home" to="/">Home</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Mijn team" to="/mijnteam">Mijn team</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Diensten" to="/diensten">Diensten</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Portfolio" to="/portfolio">Portfolio</nuxt-link></li>
                         <li class="has-sub" v-bind:class="{ active: submenuOpened }">
                           <span class="submenu-button"  @click="toggleSubMenu"></span>
                           <a href="#" @click="toggleSubMenu">Projecten</a>
                           <ul class="sub-menu animated" v-bind:style="{ display: submenuOpened ? 'block' : 'none' }">
                             <li v-for="project in projects" :key="project.slug">
-                              <nuxt-link @click.native="menuClick" :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
+                              <nuxt-link @click.native="menuClick" :title="project.title" :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
                             </li>
                           </ul>
                         </li>
-                        <li><NuxtLink @click.native="menuClick" to="/contact">Contact</NuxtLink></li>
+                        <li><nuxt-link @click.native="menuClick" to="/contact" title="Contact">Contact</nuxt-link></li>
                       </ul>
                       <!-- end menu area -->
                     </nav>
@@ -83,7 +83,7 @@
               <div class="media mb-1-6" v-for="project in latestProjects" :key="project.slug">
                 <div class="media-body align-self-center">
                   <h4 class="h6">
-                    <nuxt-link :to="`/projecten/${project.slug}`" class="text-white">{{ project.title }}</nuxt-link>
+                    <nuxt-link :to="`/projecten/${project.slug}`" :title="project.title" class="text-white">{{ project.title }}</nuxt-link>
                   </h4>
                 </div>
               </div>
@@ -101,13 +101,13 @@
               <p class="text-black d-inline-block font-weight-600 mr-2 mb-0">Bezoek ons op:</p>
               <ul class="share-post">
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new" class="white-hover"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank" class="white-hover"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/klusvrouwmonique/" target="_blank" class="white-hover"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="new" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="_blank" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
                 </li>
               </ul>
             </div>

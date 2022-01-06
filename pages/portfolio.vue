@@ -15,7 +15,7 @@
               <div v-for="item in portfolio.images" :key="item.image" :class="`col-sm-6 col-lg-4 mb-2 ${getImageServiceSlugs(item)}`">
                 <div class="portfolio-wrapper">
                   <div class="portfolio-image">
-                    <img :src="item.thumbnail" :alt="item.title" />
+                    <img :src="item.thumbnail"  loading="lazy" :alt="item.title" />
                   </div>
                   <div class="portfolio-overlay">
                     <div class="portfolio-content">
