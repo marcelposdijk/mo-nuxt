@@ -4,7 +4,7 @@
       <div :style="{ width: progressBar + '%' }"></div>
     </div>
     <div class="card-img">
-      <img :src="currentImage" loading="lazy"/>
+      <img :src="currentImage" />
       <div class="actions">
         <span @click="prevImage" class="prev"> &#8249; </span>
         <span @click="nextImage" class="next"> &#8250; </span>

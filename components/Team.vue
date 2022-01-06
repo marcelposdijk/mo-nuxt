@@ -44,7 +44,7 @@
     <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
       <div class="team-wrapper">
         <div>
-          <img src="/img/team/team-monique-schilder.jpg" width="350" height="444" alt="Klusvrouw Monique als schilder" loading="lazy" class="rounded" />
+          <img src="/img/team/team-monique-schilder.jpg" width="350" height="444" alt="Klusvrouw Monique als schilder" class="rounded" />
         </div>
         <div class="team-info team-overlay">
           <h3 style="font-size: 16px" class="team-title">Monique van den Nouweland</h3>

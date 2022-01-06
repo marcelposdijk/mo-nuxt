@@ -48,7 +48,8 @@ export default {
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
     '@nuxt/content',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    'nuxt-lazy-load'
   ],
   content: {
     //Options
@@ -70,11 +71,7 @@ export default {
   },
   i18n: {
     langDir: '~/assets/locales',
-    locales: [{
-      code: 'en',
-      name: 'English',
-      file: 'en.js'
-    },
+    locales: [
     {
       code: 'nl',
       name: 'Nederlands',
