@@ -5,7 +5,7 @@ location: Tussenwoning Kudelstaart
 sequenceNumber: 4
 showInMenu: true
 backgroundImage: /img/bg/bg-10.jpg
-image: /portfolio/projectoceanblue/main.jpg
+image: /portfolio/projectoceanblue/main-357xauto.jpg
 m2: 119
 year: 
 relatedProjects:

@@ -3,20 +3,20 @@
     <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
       <div class="team-wrapper">
         <div>
-          <img src="/img/team/team-01.jpg" alt="..." class="rounded" />
+          <img src="/img/team/team-monique-makita.jpg" width="350" height="444" alt="Klusvrouw Monique met Makita boormachine" class="rounded" />
         </div>
         <div class="team-info team-overlay">
           <h3 style="font-size: 16px" class="team-title">Monique van den Nouweland</h3>
           <h6 class="team-position">Eigenaar, klusvrouw</h6>
           <ul class="social-icon">
             <li>
-              <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/klusvrouwmonique/" target="_blank" class="white-hover"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="new"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </li>
           </ul>
         </div>
@@ -25,36 +25,36 @@
     <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
       <div class="team-wrapper">
         <div>
-          <img src="/img/team/team-02.jpg" alt="..." class="rounded" />
+          <img src="/img/team/team-eline.jpg"  width="350" height="444" alt="Interieur advies Eline van Lenthe" loading="lazy" class="rounded" />
         </div>
         <div class="team-info team-overlay">
           <h3 class="team-title">Eline van Lenthe</h3>
           <h6 class="team-position">Interieur advies- en ontwerp</h6>
-          <ul v-show="false" class="social-icon">
+          <!-- <ul v-show="false" class="social-icon">
             <li>
               <a href="#!"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
               <a href="#!"><i class="fab fa-linkedin-in"></i></a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-sm-6 col-lg-4 mb-1-6 mb-md-1-9">
       <div class="team-wrapper">
         <div>
-          <img src="/img/team/team-03.jpg" alt="..." class="rounded" />
+          <img src="/img/team/team-monique-schilder.jpg" width="350" height="444" alt="Klusvrouw Monique als schilder" class="rounded" />
         </div>
         <div class="team-info team-overlay">
           <h3 style="font-size: 16px" class="team-title">Monique van den Nouweland</h3>
           <h6 class="team-position">Eigenaar, klusvrouw</h6>
           <ul class="social-icon">
             <li>
-              <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/klusvrouwmonique/" target="_blank" class="white-hover"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/"><i class="fab fa-linkedin-in"></i></a>

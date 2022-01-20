@@ -3,7 +3,7 @@
     <div class="slideshow-container">
       <div v-for="(image, index) in images" :key="image.id">
         <div :style="imageStyle(index)" class="slide fade">
-          <img :src="image.url" style="width: 100%" />
+          <img :src="image.url"  style="width: 100%" />
           <div class="text" v-if="image.description">
             {{ image.description }}
           </div>

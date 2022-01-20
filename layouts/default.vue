@@ -11,29 +11,27 @@
                   <div class="menu_area alt-font">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                       <div class="navbar-header navbar-header-custom">
-                        <!-- start logo -->
-                        <a href="/" class="navbar-brand"><img id="logo" src="/img/logos/logo-inner.png" alt="logo" /></a>
-                        <!-- end logo -->
+                        <a href="/" class="navbar-brand"><img id="logo" width="41" height="43" src="/img/logos/logo-inner.png" alt="Logo Klusvrouw Monique" /></a>
                       </div>
 
                       <div class="navbar-toggler" @click="toggleMenu" v-bind:class="{ 'menu-opened': menuOpened }"></div>
 
                       <!-- menu area -->
                       <ul class="navbar-nav ml-auto" id="nav" v-bind:style="{ display: menuOpened ? 'block' : 'none' }" v-bind:class="{ open: menuOpened }">
-                        <li><NuxtLink @click.native="menuClick" to="/">Home</NuxtLink></li>
-                        <li><NuxtLink @click.native="menuClick" to="/mijnteam">Mijn team</NuxtLink></li>
-                        <li><NuxtLink @click.native="menuClick" to="/diensten">Diensten</NuxtLink></li>
-                        <li><NuxtLink @click.native="menuClick" to="/portfolio">Portfolio</NuxtLink></li>
+                        <li><nuxt-link @click.native="menuClick" title="Home" to="/">Home</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Mijn team" to="/mijnteam">Mijn team</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Diensten" to="/diensten">Diensten</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Portfolio" to="/portfolio">Portfolio</nuxt-link></li>
                         <li class="has-sub" v-bind:class="{ active: submenuOpened }">
                           <span class="submenu-button"  @click="toggleSubMenu"></span>
                           <a href="#" @click="toggleSubMenu">Projecten</a>
                           <ul class="sub-menu animated" v-bind:style="{ display: submenuOpened ? 'block' : 'none' }">
                             <li v-for="project in projects" :key="project.slug">
-                              <nuxt-link @click.native="menuClick" :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
+                              <nuxt-link @click.native="menuClick" :title="project.title" :to="`/projecten/${project.slug}`">{{ project.title }}</nuxt-link>
                             </li>
                           </ul>
                         </li>
-                        <li><NuxtLink @click.native="menuClick" to="/contact">Contact</NuxtLink></li>
+                        <li><nuxt-link @click.native="menuClick" to="/contact" title="Contact">Contact</nuxt-link></li>
                       </ul>
                       <!-- end menu area -->
                     </nav>
@@ -51,7 +49,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-2-5 mb-lg-0">
             <div class="mb-1-6">
-              <img src="/img/logos/logo-footer.png" alt="..." />
+              <img src="/img/logos/logo-footer.png" width="255" height="267" alt="Logo Klusvrouw Monique" />
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-2-5 mb-lg-0">
@@ -83,9 +81,8 @@
               <div class="media mb-1-6" v-for="project in latestProjects" :key="project.slug">
                 <div class="media-body align-self-center">
                   <h4 class="h6">
-                    <nuxt-link :to="`/projecten/${project.slug}`" class="text-white">{{ project.title }}</nuxt-link>
+                    <nuxt-link :to="`/projecten/${project.slug}`" :title="project.title" class="text-white">{{ project.title }}</nuxt-link>
                   </h4>
-                  <span class="display-30 text-white">{{ formatDate(project.createdAt) }}</span>
                 </div>
               </div>
             </div>
@@ -102,13 +99,13 @@
               <p class="text-black d-inline-block font-weight-600 mr-2 mb-0">Bezoek ons op:</p>
               <ul class="share-post">
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=100076447965172" target="new" class="white-hover"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank" class="white-hover"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/klusvrouwmonique/" target="new" class="white-hover"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/klusvrouwmonique/" target="_blank" class="white-hover"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="new" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/monique-van-den-nouweland-19b27734/" target="_blank" class="white-hover"><i class="fab fa-linkedin-in"></i></a>
                 </li>
               </ul>
             </div>
@@ -148,7 +145,7 @@ export default {
   },
 
   mounted() {
-    window.addEventListener("scroll", this.handleScroll)
+    window.addEventListener("scroll", this.handleScroll, {passive: true})
 
     this.isMobile = window.innerWidth <= 991
     this.menuOpened = !this.isMobile

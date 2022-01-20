@@ -1,5 +1,5 @@
 <template>
-  <div :style="sectionStyle" class="bg-img" :data-overlay-dark="overlayDark">
+  <div :lazy-background="backgroundImage" class="bg-img" :data-overlay-dark="overlayDark">
     <slot />
   </div>
 </template>
@@ -12,12 +12,7 @@ export default {
       default: 0
     },
     backgroundImage: String,
-  },
-  computed: {
-    sectionStyle () {
-      return `background-image: url('${this.backgroundImage}')`;
-    },
-  },
+  }
 };
 </script>
 

@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  ssr: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Klusvrouw Monique',
@@ -14,13 +14,14 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "preload", href: "/fonts/themify.woff", as: "font"}
     ],
     script: [
-      { src: "https://code.jquery.com/jquery-3.6.0.min.js", integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=", crossorigin:"anonymous" },
-      { src: '/js/isotope.pkgd.min.js' },
-      { src: '/js/jquery.magnific-popup.min.js'},
-      { src: "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js", integrity: "sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==", crossorigin: "anonymous", referrerpolicy: "no-referrer" }
+      { src: "/js/jquery-3.6.0.min.js", body: true  },
+      { src: '/js/isotope.pkgd.min.js', body: true, defer: '' },
+      { src: '/js/jquery.magnific-popup.min.js', body: true, defer: '' },
+      { src: "/js/owl.carousel.min.js", body: true, defer: '' }
     ]
   },
 
@@ -48,8 +49,14 @@ export default {
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
     '@nuxt/content',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    'nuxt-lazy-load',
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'G-CNEZ54JWC4',
+    enabled: true
+  },
   content: {
     //Options
   },
@@ -70,11 +77,7 @@ export default {
   },
   i18n: {
     langDir: '~/assets/locales',
-    locales: [{
-      code: 'en',
-      name: 'English',
-      file: 'en.js'
-    },
+    locales: [
     {
       code: 'nl',
       name: 'Nederlands',
@@ -86,5 +89,5 @@ export default {
       fallbackLocale: 'nl',
       silentTranslationWarn: true
     }
-  },
+  }
 }

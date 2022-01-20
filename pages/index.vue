@@ -1,56 +1,52 @@
 <template>
   <div>
     <!-- start slideshow section -->
-    <div class="container-fluid full-screen top-position">
+    <div class="container-fluid full-screen top-position" style="width:100%;height:100vh;">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
           <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!" />
           <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="Voor al uw klussen in en om het huis!" />
           <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="Voor al uw klussen in en om het huis!" />
           <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="Voor al uw klussen in en om het huis!" />
-          <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!" />
+          <!-- <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!" /> -->
         </div>
       </div>
     </div>
     <!-- end slideshow section -->
 
     <!-- start about us section -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
-            <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
-            <p class="display-29 display-md-28 mb-6">
-               Hallo, ik ben Klusvrouw Monique. Wat leuk dat je mijn website bezoekt. Na 26,5 jaar werkzaam te zijn geweest in de financiële wereld, heb ik mij om laten scholen tot klusvrouw. Mijn passie is creatief bezig zijn, iets moois maken. Ik heb mijn hele leven al thuis geklust, bij familie en vrienden. In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gedaan en dit kan uitgevoerd worden. Alles wordt besproken en gaat in overleg. Hieronder tref je de diensten aan die ik aanbied.  
-            </p>
-          </div>
+    <section class="container pb-0">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
+          <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
+          <p class="display-29 display-md-28 mb-6">
+            Hallo, ik ben Klusvrouw Monique. Wat leuk dat je mijn website bezoekt. Na 26,5 jaar werkzaam te zijn geweest in de financiële wereld, heb ik mij om laten scholen tot klusvrouw. Mijn passie is creatief bezig zijn, iets moois maken. Ik heb
+            mijn hele leven al thuis geklust, bij familie en vrienden. In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gedaan en dit kan uitgevoerd worden. Alles wordt besproken en gaat in overleg.
+            Hieronder tref je de diensten aan die ik aanbied.
+          </p>
         </div>
       </div>
     </section>
     <!-- end about us section -->
 
     <!-- start service section -->
-    <section class="pb-0">
-      <div class="container">
-        <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Diensten die ik aanbied</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
-        </div>
-        <services />
+    <section class="container pb-0">
+      <div class="section-heading">
+        <h2 class="display-20 display-md-18 display-lg-16">Diensten die ik aanbied</h2>
+        <p>Voor al uw klussen in en om het huis!</p>
       </div>
+      <services />
     </section>
     <!-- end service section -->
 
     <!-- start latest project section -->
-    <section class="pb-0">
-      <div class="container">
-        <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">De laatste projecten</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
-        </div>
-        <latest-projects-carousel />
+    <section class="container pb-0">
+      <div class="section-heading">
+        <h2 class="display-20 display-md-18 display-lg-16">De laatste projecten</h2>
+        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
       </div>
+      <latest-projects-carousel />
     </section>
     <!-- end latest project section -->
 
@@ -80,7 +76,7 @@
               </div>
               <div class="process-content">
                 <h4 class="h5 mb-3">Wensen en planning</h4>
-                <p class="mb-0 w-95 mx-auto">Netjes, kundig en betrouwbaar</p>
+                <p>Netjes, kundig en betrouwbaar</p>
               </div>
             </div>
           </div>
@@ -91,7 +87,7 @@
               </div>
               <div class="process-content">
                 <h4 class="h5 mb-3">Uitvoering</h4>
-                <p class="mb-0 w-95 mx-auto">Netjes, kundig en betrouwbaar</p>
+                <p>Netjes, kundig en betrouwbaar</p>
               </div>
             </div>
           </div>
@@ -100,14 +96,12 @@
     </section>
     <!-- end process section -->
 
-    <section class="pb-0">
-      <div class="container">
-        <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Mijn team</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
-        </div>
-        <team />
+    <section class="container pb-0">
+      <div class="section-heading">
+        <h2 class="display-20 display-md-18 display-lg-16">Mijn team</h2>
+        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
       </div>
+      <team />
     </section>
   </div>
 </template>
@@ -122,7 +116,7 @@ export default {
     HomePageSlide,
     Services,
     Team,
-    LatestProjectsCarousel
+    LatestProjectsCarousel,
   },
   mounted() {
     setTimeout(() => {
@@ -132,6 +126,7 @@ export default {
         loop: true,
         dots: true,
         nav: false,
+        lazyLoad: true,
         navText: ["<i class='ti-arrow-left'></i>", "<i class='ti-arrow-right'></i>"],
         margin: 0,
         autoplay: true,
@@ -170,13 +165,13 @@ export default {
   },
   head() {
     return {
-      title: `${this.$t('title')}`,
+      title: `${this.$t("title")}`,
       meta: [
         { property: "og:type", content: "website" },
-        { property: "og:title", content: this.$t('title') },
-        { property: "og:image", content: '/img/logos/logo-footer.png' },
-        { property: "og:description", content: this.$t('description') },
-        { hid: 'description', name: 'description', content: this.$t('description') },
+        { property: "og:title", content: this.$t("title") },
+        { property: "og:image", content: "/img/logos/logo-footer.png" },
+        { property: "og:description", content: this.$t("description") },
+        { hid: "description", name: "description", content: this.$t("description") },
       ],
     }
   },
