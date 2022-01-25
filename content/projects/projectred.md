@@ -1,7 +1,7 @@
 ---
 title: Project Red
 description: Hal en keuken opgeknapt
-image: "/portfolio/projectred/main-357xauto.jpg"
+image: /img/projecten/projectred/main-357xauto.jpg
 backgroundImage: /img/bg/bg-11.jpg
 location: Tussenwoning Amstelveen
 sequenceNumber: 1

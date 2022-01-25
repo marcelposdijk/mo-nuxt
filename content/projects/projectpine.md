@@ -1,7 +1,7 @@
 ---
 title: Project Pine
 description: Buitenschilderwerk
-image: "/portfolio/projectpine/main-357xauto.jpg"
+image: /img/projecten/projectpine/main-357xauto.jpg
 backgroundImage: /img/bg/bg-13.jpg
 location: Tussenwoning Aalsmeer
 sequenceNumber: 6

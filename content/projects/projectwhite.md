@@ -5,7 +5,7 @@ location: Appartement Delft
 sequenceNumber: 3
 showInMenu: true
 backgroundImage: /img/bg/bg-01.jpg
-image: /portfolio/projectwhite/main-357xauto.jpg
+image: /img/projecten/projectwhite/main-357xauto.jpg
 m2: 180
 year: 
 relatedProjects:

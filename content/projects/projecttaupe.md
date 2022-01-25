@@ -1,7 +1,7 @@
 ---
 title: Project Taupe
 description: Slaapkamers opgeknapt
-image: "/portfolio/projecttaupe/main-357xauto.jpg"
+image: /img/projecten/projecttaupe/main-357xauto.jpg
 backgroundImage: /img/bg/bg-08.jpg 
 location: Tussenwoning Aalsmeer
 sequenceNumber: 2
