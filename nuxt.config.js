@@ -30,7 +30,9 @@ export default {
     '~/assets/css/plugins.css',
     '~/assets/scss/styles.scss',
   ],
-
+  router: {
+    trailingSlash: false
+  },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/dateFormatting.js' }
