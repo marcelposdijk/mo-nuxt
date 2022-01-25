@@ -9,22 +9,22 @@ showInMenu: true
 year: 
 images:
   -
-    url: /portfolio/projectpine/carousel01.jpg
+    url: /img/projecten/projectpine/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpine/carousel02.jpg
+    url: /img/projecten/projectpine/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpine/carousel03.jpg
+    url: /img/projecten/projectpine/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpine/carousel04.jpg
+    url: /img/projecten/projectpine/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpine/carousel05.jpg
+    url: /img/projecten/projectpine/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpine/carousel06.jpg
+    url: /img/projecten/projectpine/carousel06.jpg
     showInCarousel: true
 ---
 

@@ -15,16 +15,16 @@ relatedProjects:
   - projectpetrol
 images:
   -
-    url: /portfolio/projectoceanblue/carousel01.jpg
+    url: /img/projecten/projectoceanblue/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectoceanblue/carousel02.jpg
+    url: /img/projecten/projectoceanblue/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectoceanblue/carousel03.jpg
+    url: /img/projecten/projectoceanblue/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectoceanblue/carousel04.jpg
+    url: /img/projecten/projectoceanblue/carousel04.jpg
     showInCarousel: true
 ---
 # Over project

@@ -13,19 +13,19 @@ relatedProjects:
   - projectpetrol
 images:
   -
-    url: /portfolio/projectwhite/carousel01.jpg
+    url: /img/projecten/projectwhite/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectwhite/carousel02.jpg
+    url: /img/projecten/projectwhite/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectwhite/carousel03.jpg
+    url: /img/projecten/projectwhite/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectwhite/carousel04.jpg
+    url: /img/projecten/projectwhite/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectwhite/carousel05.jpg
+    url: /img/projecten/projectwhite/carousel05.jpg
     showInCarousel: false
 
 ---

@@ -15,10 +15,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: "preload", href: "/fonts/themify.woff", as: "font"}
+      { rel: "preload", href: "/fonts/themify.woff", as: "font" }
     ],
     script: [
-      { src: "/js/jquery-3.6.0.min.js", body: true  },
+      { src: "/js/jquery-3.6.0.min.js", body: true },
       { src: '/js/isotope.pkgd.min.js', body: true, defer: '' },
       { src: '/js/jquery.magnific-popup.min.js', body: true, defer: '' },
       { src: "/js/owl.carousel.min.js", body: true, defer: '' }
@@ -30,9 +30,6 @@ export default {
     '~/assets/css/plugins.css',
     '~/assets/scss/styles.scss',
   ],
-  router: {
-    trailingSlash: false
-  },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/dateFormatting.js' }
@@ -74,17 +71,23 @@ export default {
       compact: true,
     },
   },
+  router: {
+    trailingSlash: false
+  },
+  generate: {
+    subFolders: false
+  },
   axios: {
     baseURL: 'https://www.marpos.nl'
   },
   i18n: {
     langDir: '~/assets/locales',
     locales: [
-    {
-      code: 'nl',
-      name: 'Nederlands',
-      file: 'nl.js'
-    }],
+      {
+        code: 'nl',
+        name: 'Nederlands',
+        file: 'nl.js'
+      }],
     defaultLocale: 'nl',
     strategy: 'prefix_except_default',
     vueI18n: {

@@ -19,19 +19,19 @@ relatedProjects:
   - projecttaupe
 images:
   -
-    url: /portfolio/projectred/carousel01.jpg
+    url: /img/projecten/projectred/carousel01.jpg
     showInCarousel: true
   -  
-    url: /portfolio/projectred/carousel02.jpg
+    url: /img/projecten/projectred/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectred/carousel03.jpg
+    url: /img/projecten/projectred/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectred/carousel06.jpg
+    url: /img/projecten/projectred/carousel06.jpg
     showInCarousel: false
   -
-    url: /portfolio/projectred/carousel05.jpg
+    url: /img/projecten/projectred/carousel05.jpg
     showInCarousel: true
 ---
 

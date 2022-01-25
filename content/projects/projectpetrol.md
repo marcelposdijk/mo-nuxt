@@ -14,34 +14,34 @@ releatedProjects:
   - projectred
 images:
   -
-    url: /portfolio/projectpetrol/carousel01.jpg
+    url: /img/projecten/projectpetrol/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel02.jpg
+    url: /img/projecten/projectpetrol/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel03.jpg
+    url: /img/projecten/projectpetrol/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel04.jpg
+    url: /img/projecten/projectpetrol/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel05.jpg
+    url: /img/projecten/projectpetrol/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel06.jpg
+    url: /img/projecten/projectpetrol/carousel06.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel07.jpg
+    url: /img/projecten/projectpetrol/carousel07.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel08.jpg
+    url: /img/projecten/projectpetrol/carousel08.jpg
     showInCarousel: true
   -
-    url: /portfolio/projectpetrol/carousel09.jpg
+    url: /img/projecten/projectpetrol/carousel09.jpg
     showInCarousel: true  
   -
-    url: /portfolio/projectpetrol/carousel10.jpg
+    url: /img/projecten/projectpetrol/carousel10.jpg
     showInCarousel: true
 ---
 

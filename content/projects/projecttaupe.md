@@ -13,28 +13,28 @@ relatedProjects:
   - projectpetrol
 images:
   -
-    url: /portfolio/projecttaupe/carousel01.jpg
+    url: /img/projecten/projecttaupe/carousel01.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel02.jpg
+    url: /img/projecten/projecttaupe/carousel02.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel03.jpg
+    url: /img/projecten/projecttaupe/carousel03.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel04.jpg
+    url: /img/projecten/projecttaupe/carousel04.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel05.jpg
+    url: /img/projecten/projecttaupe/carousel05.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel06.jpg
+    url: /img/projecten/projecttaupe/carousel06.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel07.jpg
+    url: /img/projecten/projecttaupe/carousel07.jpg
     showInCarousel: true
   -
-    url: /portfolio/projecttaupe/carousel08.jpg
+    url: /img/projecten/projecttaupe/carousel08.jpg
     showInCarousel: true
 ---
 
