@@ -24,7 +24,7 @@
                       </a>
                       <h4 v-if="!item.project">{{ item.title }}</h4>
                       <h4 v-if="item.project">
-                        <nuxt-link :to="`/projecten/${item.project}`">{{ item.title }}</nuxt-link>
+                        <nuxt-link :to="`/projecten/${item.project}/`">{{ item.title }}</nuxt-link>
                       </h4>
                       <p>[{{ getImageServiceTitles(item) }}]</p>
                     </div>

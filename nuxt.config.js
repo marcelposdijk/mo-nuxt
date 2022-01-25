@@ -71,11 +71,8 @@ export default {
       compact: true,
     },
   },
-  router: {
-    trailingSlash: false
-  },
   generate: {
-    subFolders: false
+    subFolders: true
   },
   axios: {
     baseURL: 'https://www.marpos.nl'

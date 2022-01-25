@@ -93,7 +93,7 @@
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/services">
+                  <NuxtLink to="/services/">
                     <i
                       class="
                         fas

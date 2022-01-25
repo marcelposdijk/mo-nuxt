@@ -73,14 +73,14 @@
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/portfolio">
+                  <NuxtLink to="/portfolio/">
                     <i class="fas fa-th display-29 display-md-28 display-xl-27 vertical-align-middle"></i>
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink
                     v-if="next"
-                    :to="`/projecten/${next.slug}`"
+                    :to="`/projecten/${next.slug}/`"
                     rel="next">
                     <span class="mr-3 display-30 display-md-29 font-weight-600">Volgende</span>
                     <i class="fas fa-angle-right display-30 display-md-29"></i>
