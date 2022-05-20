@@ -8,7 +8,7 @@
         <h3 class="h5 mb-3" v-if="!service.details">         
           {{ service.title }}
         </h3>
-        <nuxt-link v-if="service.details" :to="`/diensten/${service.slug}`"><h3>{{ service.title }}</h3></nuxt-link>
+        <nuxt-link v-if="service.details" :to="`/diensten/${service.slug}`">{{ service.title }}</nuxt-link>
         <p>{{ service.description }}</p>
         <div class="service-counter number-ordered-item"></div>
       </div>
@@ -33,5 +33,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+a {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(40, 43, 45);
+
+  
+  &:hover {
+    color: #ccde02;
+  }
+}
 </style>
