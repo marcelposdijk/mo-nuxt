@@ -1,6 +1,7 @@
 ---
 sequenceNumber: 6
 quote: A big bonus that she speaks English
+name: JI
 # image formaat: 545 x 745
 image: /img/reviews/review6.jpg 
 ---
