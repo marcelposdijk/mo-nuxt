@@ -7,11 +7,11 @@
       </div>
       <div class="testimonial-carousel owl-carousel owl-theme">
         <div class="testimonial-wrapper" v-for="review in reviews" :key="review.slug">
-          <div class="testimonial-content">
+          <div class="testimonial-content" style="height:500px;">
             <div class="testimonial-image">
-              <img :src="review.image" alt="..." class="rounded" />
+              <img width="545" height="745" :src="review.image" alt="..." class="rounded" />
             </div>
-            <div class="testimonial-body">
+            <div class="testimonial-body" style="height: 500px;">
               <div class="quote-text">
                 <h4 class="mb-1-9">{{ review.quote }}</h4>
               </div>
@@ -42,7 +42,7 @@ export default {
   mounted() {
     setTimeout(() => {
       $(".testimonial-carousel").owlCarousel({
-        loop: true,
+        loop: false,
         responsiveClass: true,
         autoplay: true,
         smartSpeed: 900,
@@ -63,7 +63,7 @@ export default {
           },
         },
       })
-    }, 100)
+    }, 500)
   },
 }
 </script>
