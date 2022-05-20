@@ -4,7 +4,7 @@ title: Schilderwerk binnen en buiten
 shortTitle: Schilderwerk
 description: Muren sauzen, schilderen van deurkozijnen en deuren, schilderen van raamkozijnen, houtrot verwijderen en behandelen.
 icon: ti-paint-roller
-backgroundImage: /img/banner/slide2.jpg
+backgroundImage: /img/banner/slide5.jpg
 details: true
 ---
 
