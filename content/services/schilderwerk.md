@@ -7,77 +7,22 @@ icon: ti-paint-roller
 backgroundImage: /img/banner/slide2.jpg
 details: true
 ---
-# Wat kost een huis schilderen?
 
-Wat kost een huis schilderen?
-Het regelmatig opnieuw schilderen van je klushuis of nieuwbouw huis is een belangrijke investering van het onderhoud.
+Graag adviseer ik je over de beste verftechnieken voor verschillende diensten. Ik werk voor zowel particulieren als voor bedrijven en VVE-verenigingen in de regio Aalsmeer, Amstelveen, Uithoorn en omstreken. Hieronder bespreek ik kort mijn aanbod. Uiteraard zal ik je ook uitgebreid adviseren tijdens mijn bezoek. Zo weet je zeker dat je de juiste keuze maakt met het gewenste resultaat. Ik werk met de professionele verf van het merk Sikkens.
 
-Maar wat zijn gemiddeld de kosten van een huis schilderen aan de binnen of buitenkant?
+Binnenschilderwerk
+Een trap, de muren, een raampartij, plinten of een plafond, Ik lever alle diensten voor binnenshuis. Het schilderen van de binnenkant van je pand biedt niet alleen bescherming, maar geeft je ook de kans om jouw eigen stijl weer te geven. Ik geef je daarin graag advies over bijvoorbeeld kleurgebruik in een ruimte, lichtinval, trends en verschillende afwerkingen. Wist je bijvoorbeeld dat je met bepaalde lichte kleuren de ruimte groter kan laten lijken door de weerkaatsing van het licht? 
 
-Omdat ons schildersbedrijf regelmatig complete woningen schildert zoals een rijtjeshuis of vrijstaand huis krijgen wij vele vragen over de prijs.
+Bent je benieuwd naar mijn eerdere werk binnenshuis? Neemt u dan een kijkje bij mijn portfolio
 
-Denkt u hierbij aan vragen zoals:
+Buitenschilderwerk
+Ook voor schilderwerk aan de buitenkant van jouw pand ben je bij mij aan het juiste adres. Gevels krijgen het in Nederland zwaar te verduren met het eeuwig wisselende weer. Hierdoor wordt vooral het houtwerk snel aangetast. Dit is niet alleen slecht voor uw woning, maar het komt ook het uiterlijk van uw woning niet ten goede. 
 
-Hoeveel kost een huis laten schilderen aan de buitenkant?
-Hoeveel kost een woonhuis laten verven aan de binnenkant?
-Is een huis schilderen door een schildersbedrijf duur?
-Wat zijn normale prijzen voor het schilderen van mijn woning?
-Het opnieuw aanbrengen van schilderwerk voor een bestaande of nieuwbouwwoning hoeft in onze ogen niet duur te kosten.
+Ik inspecteer altijd eerst of er geen houtrot aanwezig is. Direct schilderen over houtrot is zeer onverstandig en zeker niet duurzaam. Nadat eventuele houtrot is gerepareerd kan het buitenschilderwerk beginnen. Ik werk uitsluitend met hoogwaardig producten en technieken waardoor je verzekerd bent van langdurige kwaliteit. Na afronding is jouw woning weer beschermd tegen allerlei weeromstandigheden en kan je elke dag genieten van het resultaat.
 
-Echter is het uiteraard niet zo goedkoop als u uw woning zelf wilt gaan schilderen.
+Houtrot reparatie
+Een veel voorkomend probleem in het onderhoud van jouw woning is de aanwezigheid van houtrot. Vocht in het hout van bijvoorbeeld uw deuren, kozijnen of dorpel veroorzaakt een hardnekkige schimmel welke op den duur kan leiden tot houtrot. Het hout is donkerder van kleur, de hardheid van het hout vermindert en toont uiteindelijk zelfs scheuren. Een vervelend probleem, maar zeker niet onoverkoombaar en (indien op tijd ontdekt) goed te behandelen.
 
-We zullen u op deze pagina alle informatie verstrekken over een huis verven en wat het kost als u uw gehele huis opnieuw wilt laten schilderen door een schilder.
+Ik verwijder de houtrot grondig, impregneer het overgebleven hout, vult aan en bewerkt de oppervlakte. In sommige gevallen zullen delen van het hout vervangen moeten worden. Dit alles doe ik met grote zorgvuldigheid, want een restje achtergebleven schimmel of houtrot zal zich opnieuw gaan verspreiden. Uiteraard werk ik het geheel tot in detail af. Zo wordt houtrot verleden tijd.
 
-Leest u hieronder een gemiddeld prijzenoverzicht voor het laten schilderen van de buitenzijde van uw bestaande of nieuwbouwwoning:
 
-<table>
-  <thead>
-    <tr>
-      <th>Soort woonhuis</th>
-      <th>Gemiddelde prijzen</th>
-      <th>Met of zonder..</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="50%">Buitenkant woonhuis schilderen (tussenwoning)</td>
-      <td width="20%">€ 1.100 – € 2.2500</td>
-      <td>Geen dakkapel</td>
-    </tr>
-    <tr>
-      <td>Buitenkant woonhuis schilderen (tussenwoning)</td>
-      <td>€ 1.500 – € 3.400</td>
-      <td>Met een dakkapel</td>
-    </tr>
-    <tr>
-      <td>Buitenkant huis schilderen (hoekwoning)</td>
-      <td>€ 1.400 – € 3.000</td>
-      <td>Geen dakkapel</td>
-    </tr>
-    <tr>
-      <td>Buitenkant huis schilderen (hoekwoning)</td>
-      <td>€ 1.700 – € 4.000</td>
-      <td>Met een dakkapel</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.schilder-gigant.nl/schilderen/gevel-schilderen/">Gevel schilderen:</a> +/- 50 m2</td>
-      <td>€ 2.000 – € 2.300</td>
-      <td>N.V.T</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.schilder-gigant.nl/kozijnen-verven/">Kozijnen huis schilderen prijs</a></td>
-      <td>€ 440 – € 1.500</td>
-      <td>Van 7 m2 tot aan alle buiten kozijnen 1 woning</td>
-    </tr>
-    <tr>
-      <td>Deuren woonhuis schilderen prijs</td>
-      <td>€ 240 – € 1.000</td>
-      <td>Van 2 tot aan 20 deuren</td>
-    </tr>
-    <tr>
-      <td>Raamkozijnen schilderen</td>
-      <td>€ 25 – € 260</td>
-      <td>Van 3 meter tot 35 meter</td>
-    </tr>
-  </tbody>
-</table>
