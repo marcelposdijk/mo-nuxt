@@ -7,11 +7,11 @@
       </div>
       <div class="testimonial-carousel owl-carousel owl-theme">
         <div class="testimonial-wrapper" v-for="review in reviews" :key="review.slug">
-          <div class="testimonial-content" style="height:500px;">
+          <div class="testimonial-content" style="height:600px;">
             <div class="testimonial-image">
               <img width="545" height="745" :src="review.image" alt="..." class="rounded" />
             </div>
-            <div class="testimonial-body" style="height: 500px;">
+            <div class="testimonial-body" style="height: 600px;">
               <div class="quote-text">
                 <h4 class="mb-1-9">{{ review.quote }}</h4>
               </div>
