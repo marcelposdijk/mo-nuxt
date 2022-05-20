@@ -4,10 +4,10 @@
     <div class="container-fluid full-screen top-position" style="width:100%;height:100vh;">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
-          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="01" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!" />
-          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="02" title="Behangklussen" subTitle="Voor al uw klussen in en om het huis!" />
-          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="03" title="Klussen in de tuin" subTitle="Voor al uw klussen in en om het huis!" />
-          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="04" title="Timmerwerk" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="" title="Behangklussen" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="" title="Klussen in de tuin" subTitle="Voor al uw klussen in en om het huis!" />
+          <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="" title="Timmerwerk" subTitle="Voor al uw klussen in en om het huis!" />
           <!-- <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!" /> -->
         </div>
       </div>
@@ -103,6 +103,8 @@
       </div>
       <team />
     </section>
+
+    <reviews />
   </div>
 </template>
 
@@ -111,12 +113,14 @@ import HomePageSlide from "@/components/HomePageSlide"
 import Services from "@/components/Services.vue"
 import Team from "@/components/Team"
 import LatestProjectsCarousel from "@/components/LatestProjectsCarousel"
+import Reviews from '../components/Reviews.vue'
 export default {
   components: {
     HomePageSlide,
     Services,
     Team,
     LatestProjectsCarousel,
+    Reviews
   },
   mounted() {
     setTimeout(() => {
