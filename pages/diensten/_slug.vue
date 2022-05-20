@@ -59,10 +59,12 @@ export default {
 <style>
 img[alt$=">"] {
   float: right;
+  margin-left: 50px;
 }
 
 img[alt$="<"] {
   float: left;
+  margin-right: 30px;
 }
 
 img[alt$="><"] {
