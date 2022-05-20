@@ -1,6 +1,6 @@
 ---
 sequenceNumber: 8
-quote: Haar werk is uitstekend
+quote: Nog in te vullen Jolanda
 name: JH
 # image formaat: 545 x 745
 image: /img/reviews/review8.jpg 

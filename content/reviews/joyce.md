@@ -1,7 +1,8 @@
 ---
 sequenceNumber: 7
-quote: Haar werk is uitstekend
-name: JH
+quote: Nog in te vullen Joyce
+name: JdH
+
 # image formaat: 545 x 745
 image: /img/reviews/review7.jpg 
 ---
