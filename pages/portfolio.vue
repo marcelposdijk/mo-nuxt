@@ -82,7 +82,7 @@ export default {
             }
         });
 
-    }, 100)
+    }, 500)
 
     // filter items on button click
     $(".filtering").on("click", "span", function () {

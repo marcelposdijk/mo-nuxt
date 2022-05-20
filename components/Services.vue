@@ -5,9 +5,10 @@
         <div class="mb-1-6">
           <i :class="getIconClass(service)"></i>
         </div>
-        <h3 class="h5 mb-3">
+        <h3 class="h5 mb-3" v-if="!service.details">         
           {{ service.title }}
         </h3>
+        <nuxt-link v-if="service.details" :to="`/diensten/${service.slug}`"><h3>{{ service.title }}</h3></nuxt-link>
         <p>{{ service.description }}</p>
         <div class="service-counter number-ordered-item"></div>
       </div>
@@ -21,7 +22,7 @@ export default {
     return { services: [] }
   },
   async created() {
-    this.services = await this.$content("services").only(["slug", "title", "description", "icon"]).sortBy("sequenceNumber").fetch()
+    this.services = await this.$content("services").only(["slug", "title", "description", "icon", "details"]).sortBy("sequenceNumber").fetch()
   },
   methods: {
     getIconClass(service) {
