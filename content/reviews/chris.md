@@ -1,5 +1,5 @@
 ---
-sequenceNumber: 1
+sequenceNumber: 2
 quote: Haar werk is uitstekend
 name: CM
 # image formaat: 545 x 745
