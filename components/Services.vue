@@ -5,12 +5,12 @@
         <div class="mb-1-6">
           <i :class="getIconClass(service)"></i>
         </div>
-        <h3 class="h5 mb-3" v-if="!service.details">         
+        <h3 class="h5 mb-3" v-if="!service.details">
           {{ service.title }}
         </h3>
         <nuxt-link v-if="service.details" :to="`/diensten/${service.slug}`">{{ service.title }}</nuxt-link>
         <p>{{ service.description }}</p>
-        <div class="service-counter number-ordered-item"></div>
+        <!-- <div class="service-counter number-ordered-item"></div> -->
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@ a {
   font-size: 20px;
   color: rgb(40, 43, 45);
 
-  
+
   &:hover {
     color: #ccde02;
   }
