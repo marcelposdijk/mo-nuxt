@@ -8,7 +8,7 @@ backgroundImage: /img/banner/slide52.jpg
 details: true
 ---
 ![Plaatje van Mo>](/img/team/team-monique-schilder.jpg)
-Graag adviseer ik je over de beste verftechnieken voor verschillende diensten. Ik werk voor zowel particulieren als voor bedrijven en VVE-verenigingen in de regio Aalsmeer, Amstelveen, Uithoorn en omstreken. Hieronder bespreek ik kort mijn aanbod. Uiteraard zal ik je ook uitgebreid adviseren tijdens mijn bezoek. Zo weet je zeker dat je de juiste keuze maakt met het gewenste resultaat. Ik werk met de professionele verf van het merk Sikkens.
+Graag adviseer ik je over de beste verftechnieken voor verschillende diensten. Ik werk voor zowel particulieren als voor bedrijven in de regio Aalsmeer, Amstelveen, Uithoorn en omstreken. Hieronder bespreek ik kort mijn aanbod. Uiteraard zal ik je ook uitgebreid adviseren tijdens mijn bezoek. Zo weet je zeker dat je de juiste keuze maakt met het gewenste resultaat. Ik werk met de professionele verf van het merk Sikkens.
 
 ### Binnenschilderwerk
 

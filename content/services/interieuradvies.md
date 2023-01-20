@@ -8,7 +8,8 @@ icon: ti-pencil-alt
 ---
 # Interieuradvies
 
-Moodboard
+Als u gaat verhuizen of u bent van plan uw huis of kantoor her in te richten, dan help ik u graag met een interieuradvies.
+De volgende werkzaamheden worden dan gemaakt.
 Kleurvoorstel v.o.
 Voorlopig ontwerp 
 Bank opstelling

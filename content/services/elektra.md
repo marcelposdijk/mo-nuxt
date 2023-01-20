@@ -8,4 +8,4 @@ icon: ti-plug
 ---
 # Elektra
 
-Vervangen van stopcontacten. Plaatsen van lichtknoppen. Ophangen van lampen, Leidingwerk aanleggen.
+Graag help ik u bij het vervangen van stopcontacten. Plaatsen schakelaars. Ophangen van binnenlampen of buitenlampen, leidingwerk aanleggen. 
