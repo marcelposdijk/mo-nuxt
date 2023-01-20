@@ -79,12 +79,22 @@ export default {
   },
   i18n: {
     langDir: '~/assets/locales',
+    detectBrowserLanguage: {
+      useCookie: false,
+      redirectOn: 'root',  // recommended
+    },
     locales: [
       {
         code: 'nl',
         name: 'Nederlands',
         file: 'nl.js'
-      }],
+      },
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en.js'
+      }
+    ],
     defaultLocale: 'nl',
     strategy: 'prefix_except_default',
     vueI18n: {

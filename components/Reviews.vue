@@ -3,7 +3,7 @@
     <div class="container">
       <div class="section-heading">
         <h2 class="display-20 display-md-18 display-lg-16">Reviews</h2>
-        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
+        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">{{$t('slogan')}}</p>
       </div>
       <div class="testimonial-carousel owl-carousel owl-theme">
         <div class="testimonial-wrapper" v-for="review in reviews" :key="review.slug">

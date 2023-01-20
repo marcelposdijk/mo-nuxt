@@ -18,20 +18,29 @@
 
                       <!-- menu area -->
                       <ul class="navbar-nav ml-auto" id="nav" v-bind:style="{ display: menuOpened ? 'block' : 'none' }" v-bind:class="{ open: menuOpened }">
-                        <li><nuxt-link @click.native="menuClick" title="Home" to="/">Home</nuxt-link></li>
-                        <li><nuxt-link @click.native="menuClick" title="Mijn team" to="/mijnteam/">Mijn team</nuxt-link></li>
-                        <li><nuxt-link @click.native="menuClick" title="Diensten" to="/diensten/">Diensten</nuxt-link></li>
-                        <li><nuxt-link @click.native="menuClick" title="Portfolio" to="/portfolio/">Portfolio</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Home" :to="localePath('/')">{{$t('main.Home')}}</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Mijn team" :to="localePath('/mijnteam/')">{{$t('main.MijnTeam')}}</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Diensten" :to="localePath('/diensten/')">{{$t('main.Diensten')}}</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" title="Portfolio" :to="localePath('/portfolio/')">{{$t('main.Portfolio')}}</nuxt-link></li>
                         <li class="has-sub" v-bind:class="{ active: submenuOpened }">
-                          <span class="submenu-button"  @click="toggleSubMenu"></span>
-                          <a href="#" @click="toggleSubMenu">Projecten</a>
+                          <span class="submenu-button" @click="toggleSubMenu"></span>
+                          <a href="#" @click="toggleSubMenu">{{$t('main.Projecten')}}</a>
                           <ul class="sub-menu animated" v-bind:style="{ display: submenuOpened ? 'block' : 'none' }">
                             <li v-for="project in projects" :key="project.slug">
-                              <nuxt-link @click.native="menuClick" :title="project.title" :to="`/projecten/${project.slug}/`">{{ project.title }}</nuxt-link>
+                              <nuxt-link @click.native="menuClick" :title="project.title" :to="localePath(`/projecten/${project.slug}/`)">{{ project.title }}</nuxt-link>
                             </li>
                           </ul>
                         </li>
-                        <li><nuxt-link @click.native="menuClick" to="/contact/" title="Contact">Contact</nuxt-link></li>
+                        <li><nuxt-link @click.native="menuClick" :to="localePath('/contact/')" title="Contact">{{$t('main.Contact')}}</nuxt-link></li>
+                        <li class="has-sub">
+                          <span class="submenu-button" @click="toggleLanguageMenu"></span>
+                          <a href="#" @click="toggleLanguageMenu">{{localeName}}</a>
+                          <ul class="sub-menu animated" v-bind:style="{ display: languageMenuOpened ? 'block' : 'none' }">
+                            <li v-for="locale in availableLocales" :key="locale.code">
+                              <nuxt-link class="dropdown-item" :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
+                            </li>
+                          </ul>
+                        </li>
                       </ul>
                       <!-- end menu area -->
                     </nav>
@@ -131,7 +140,8 @@ export default {
       scY: 0,
       menuOpened: false,
       submenuOpened: false,
-      isMobile: false
+      languageMenuOpened: false,
+      isMobile: false,
     }
   },
   components: {
@@ -143,9 +153,16 @@ export default {
 
     this.projects = await this.$content("projects").only(["slug", "title"]).where({ showInMenu: true }).sortBy("sequenceNumber", "desc").limit(10).fetch()
   },
-
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    },
+    localeName() {
+      return this.$i18n.locales.find((i) => i.code == this.$i18n.locale).name
+    },
+  },
   mounted() {
-    window.addEventListener("scroll", this.handleScroll, {passive: true})
+    window.addEventListener("scroll", this.handleScroll, { passive: true })
 
     this.isMobile = window.innerWidth <= 991
     this.menuOpened = !this.isMobile
@@ -178,8 +195,10 @@ export default {
       }
     },
     toggleSubMenu() {
-      // TODO werkend maken indien meer dan 1 submenu
       this.submenuOpened = !this.submenuOpened
+    },
+    toggleLanguageMenu() {
+      this.languageMenuOpened = !this.languageMenuOpened
     },
   },
 }

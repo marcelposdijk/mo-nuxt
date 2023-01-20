@@ -5,6 +5,8 @@ shortTitle: Schilderwerk
 description: Muren sauzen, schilderen van deurkozijnen en deuren, schilderen van raamkozijnen, houtrot verwijderen en behandelen.
 icon: ti-paint-roller
 backgroundImage: /img/banner/slide52.jpg
+image: /img/team/team-monique-schilder.jpg
+summary: Monique schildert lekker door!
 details: true
 ---
 ![Plaatje van Mo>](/img/team/team-monique-schilder.jpg)
@@ -14,7 +16,7 @@ Graag adviseer ik je over de beste verftechnieken voor verschillende diensten. I
 
 Een trap, de muren, een raampartij, plinten of een plafond, Ik lever alle diensten voor binnenshuis. Het schilderen van de binnenkant van je pand biedt niet alleen bescherming, maar geeft je ook de kans om jouw eigen stijl weer te geven. Ik geef je daarin graag advies over bijvoorbeeld kleurgebruik in een ruimte, lichtinval, trends en verschillende afwerkingen. Wist je bijvoorbeeld dat je met bepaalde lichte kleuren de ruimte groter kan laten lijken door de weerkaatsing van het licht? 
 
-Ben je benieuwd naar mijn eerdere werk binnenshuis? Neemt u dan een kijkje bij mijn portfolio
+Ben je benieuwd naar mijn eerdere werk binnenshuis? Neemt u dan een kijkje bij mijn [portfolio](/portfolio)
 
 ### Buitenschilderwerk
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- start slideshow section -->
-    <div class="container-fluid full-screen top-position" style="width:100%;height:100vh;">
+    <div class="container-fluid full-screen top-position" style="width: 100%; height: 100vh">
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
           <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="" title="Schilderwerk binnen" subTitle="Voor al uw klussen in en om het huis!" />
@@ -13,18 +13,13 @@
       </div>
     </div>
     <!-- end slideshow section -->
-
     <!-- start about us section -->
     <section class="container pb-0">
       <div class="row">
         <div class="col-lg-12">
-          <h3 class="text-primary text-uppercase h6 mb-2">Al jaren kluservaring</h3>
-          <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">Betrouwbare Klusvrouw/Schilder</h2>
-          <p class="display-29 display-md-28 mb-6">
-            Hallo, ik ben Klusvrouw Monique. Wat leuk dat je mijn website bezoekt. Na 26,5 jaar werkzaam te zijn geweest in de financiële wereld, heb ik mij om laten scholen tot klusvrouw. Mijn passie is creatief bezig zijn, iets moois maken. Ik heb
-            mijn hele leven al thuis geklust, bij familie en vrienden. In overleg met de klant wordt er gekeken wat de wensen zijn. Er kan een interieuradvies worden gedaan en dit kan uitgevoerd worden. Alles wordt besproken en gaat in overleg.
-            Hieronder tref je de diensten aan die ik aanbied.
-          </p>
+          <h3 class="text-primary text-uppercase h6 mb-2">{{ $t("home.JarenKlusErvaring") }}</h3>
+          <h2 class="display-18 display-md-16 display-lg-14 mb-1-6">{{ $t("home.BetrouwbareKlusvrouw") }}</h2>
+          <p class="display-29 display-md-28 mb-6">{{ $t("home.Text") }}</p>
         </div>
       </div>
     </section>
@@ -33,8 +28,8 @@
     <!-- start service section -->
     <section class="container pb-0">
       <div class="section-heading">
-        <h2 class="display-20 display-md-18 display-lg-16">Diensten die ik aanbied</h2>
-        <p>Voor al uw klussen in en om het huis!</p>
+        <h2 class="display-20 display-md-18 display-lg-16">{{$t('home.DienstenDieIkAanbied')}}</h2>
+        <p>{{ $t("slogan") }}</p>
       </div>
       <services />
     </section>
@@ -43,19 +38,18 @@
     <!-- start latest project section -->
     <section class="container pb-0">
       <div class="section-heading">
-        <h2 class="display-20 display-md-18 display-lg-16">De laatste projecten</h2>
-        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
+        <h2 class="display-20 display-md-18 display-lg-16">{{$t('home.DeLaatsteProjecten')}}</h2>
+        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">{{$t('slogan')}}</p>
       </div>
       <latest-projects-carousel />
     </section>
     <!-- end latest project section -->
-
     <!-- start process section -->
     <section class="pb-0">
       <div class="container">
         <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Mijn werkproces</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
+          <h2 class="display-20 display-md-18 display-lg-16">{{$t('home.MijnWerkProces')}}</h2>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">{{$t('slogan')}}</p>
         </div>
         <div class="row process-order">
           <div class="col-lg-4 mb-1-9 mb-md-2-5 mb-lg-0">
@@ -64,8 +58,8 @@
                 <i class="ti-blackboard"></i>
               </div>
               <div class="process-content">
-                <h4 class="h5 mb-3">Eerste contact via mobiel, mail of whatsapp</h4>
-                <p class="mb-0 w-95 mx-auto">Netjes, kundig en betrouwbaar</p>
+                <h4 class="h5 mb-3">{{$t('home.EersteContactVia')}}</h4>
+                <p class="mb-0 w-95 mx-auto">{{$t('home.NetjesKundig')}}</p>
               </div>
             </div>
           </div>
@@ -75,8 +69,8 @@
                 <i class="ti-write"></i>
               </div>
               <div class="process-content">
-                <h4 class="h5 mb-3">Wensen en planning</h4>
-                <p>Netjes, kundig en betrouwbaar</p>
+                <h4 class="h5 mb-3">{{$t('home.WensenEnPlanning')}}</h4>
+                <p>{{$t('home.NetjesKundig')}}</p>
               </div>
             </div>
           </div>
@@ -86,8 +80,8 @@
                 <i class="ti-home"></i>
               </div>
               <div class="process-content">
-                <h4 class="h5 mb-3">Uitvoering</h4>
-                <p>Netjes, kundig en betrouwbaar</p>
+                <h4 class="h5 mb-3">{{$t('home.Uitvoering')}}</h4>
+                <p>{{$t('home.NetjesKundig')}}</p>
               </div>
             </div>
           </div>
@@ -98,8 +92,8 @@
 
     <section class="container pb-0">
       <div class="section-heading">
-        <h2 class="display-20 display-md-18 display-lg-16">Mijn team</h2>
-        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
+        <h2 class="display-20 display-md-18 display-lg-16">{{$t('home.MijnTeam')}}</h2>
+        <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">{{$t('slogan')}}</p>
       </div>
       <team />
     </section>
@@ -113,14 +107,14 @@ import HomePageSlide from "@/components/HomePageSlide"
 import Services from "@/components/Services.vue"
 import Team from "@/components/Team"
 import LatestProjectsCarousel from "@/components/LatestProjectsCarousel"
-import Reviews from '../components/Reviews.vue'
+import Reviews from "../components/Reviews.vue"
 export default {
   components: {
     HomePageSlide,
     Services,
     Team,
     LatestProjectsCarousel,
-    Reviews
+    Reviews,
   },
   mounted() {
     setTimeout(() => {

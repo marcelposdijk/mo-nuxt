@@ -21,6 +21,17 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: `${this.service.title} - Klusvrouw Monique`,
+      meta: [
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: this.service.title },
+        { property: "og:image", content: this.service.image },
+        { property: "og:description", content: this.service.summary },
+      ],
+    }
+  },
   async asyncData({ $content, params }) {
     const service = await $content("services", params.slug).fetch()
     const [prev, next] = await $content("services").only(["title", "slug"]).sortBy("createdAt", "asc").surround(params.slug).fetch()
