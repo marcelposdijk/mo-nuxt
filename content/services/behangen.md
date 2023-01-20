@@ -5,8 +5,6 @@ shortTitle: Behangen
 description: Muren behangen.
 backgroundImage: /img/banner/slide2.jpg
 icon: ti-wand
-summary: Wij behangen alles wat los en vast zit
-image: /services/behangen/behang01.jpg
 images:
   - /services/behangen/behang01.jpg
   - /services/behangen/behang02.jpg
@@ -16,4 +14,6 @@ details: true
 ---
 # Behangen
 
-Muren behangen.
+De afwerking van uw wand kan een belangrijke rol spelen voor de de sfeer in uw huis of kantoor. U kunt uit verschillende soorten behang kiezen. Glad, met een structuur, patroon of een fotobehang.
+
+U kunt kiezen uit "gewoon” behang of glasvezelbehang, hier zijn veel verschillende mogelijkheden.
