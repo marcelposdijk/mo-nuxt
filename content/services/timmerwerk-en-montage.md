@@ -7,6 +7,6 @@ backgroundImage: /img/banner/slide2.jpg
 icon: ti-hummer
 details: true
 ---
-# timmerwerk-en-montage
+# Timmerwerk-en-montage
 
 Timmerklussen, verwarmingsombouw, kast op maat, ombouw vloerverwarmingverdeler, monteren van meubelpakketten, plafond maken, ophangen van verschillende dingen aan de muur, vervangen van sloten, plaatsen van deurbeslag.

@@ -16,4 +16,4 @@ details: true
 
 De afwerking van uw wand kan een belangrijke rol spelen voor de de sfeer in uw huis of kantoor. U kunt uit verschillende soorten behang kiezen. Glad, met een structuur, patroon of een fotobehang.
 
-U kunt kiezen uit "gewoon” behang of om glasvezelbehang, hier zijn veel verschillende mogelijkheden.
+U kunt kiezen uit "gewoon” behang of glasvezelbehang, hier zijn veel verschillende mogelijkheden.

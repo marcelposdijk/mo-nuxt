@@ -10,13 +10,6 @@ details: true
 # Interieuradvies
 
 Als u gaat verhuizen of u bent van plan uw huis of kantoor her in te richten, dan help ik u graag met een interieuradvies.
-De volgende werkzaamheden worden dan gemaakt.
-Kleurvoorstel v.o.
-Voorlopig ontwerp 
-Bank opstelling
-Vloerenvoorstel
-Behangvoorstel
-Muurkleurvoorstel
-Materialenvoorstel
-Meubelvoorstel
-Lichtplan
+De volgende werkzaamheden worden dan gedaan.
+Kleurvoorstel voorlopig ontwerp,
+bank opstelling, vloerenvoorstel, behangvoorstel, muurkleurvoorstel, materialenvoorstel, meubelvoorstel en een lichtplan.
