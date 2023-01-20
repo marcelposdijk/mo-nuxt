@@ -5,6 +5,7 @@ shortTitle: Tuin
 description: Onkruid verwijderen, snoeiwerkzaamheden, schoffelen, plaatsen van een windvanger, schutting beitsen of oliën.
 backgroundImage: /img/banner/slide2.jpg
 icon: ti-cut
+details: true
 ---
 # Klussen in de tuin
 

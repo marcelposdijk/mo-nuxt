@@ -10,7 +10,7 @@ images:
   - /services/behangen/behang02.jpg
   - /services/behangen/behang03.jpg
   - /services/behangen/behang04.jpg
-
+details: true
 ---
 # Behangen
 

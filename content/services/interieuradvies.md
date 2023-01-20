@@ -5,6 +5,7 @@ shortTitle: Interieuradvies
 description: Interieuradvies, moodboard, voorstellen in kleurontwerp, bankopstelling, vloeren, behang, muurkleur, materialen, meubel en een lichtplan.
 backgroundImage: /img/banner/slide2.jpg
 icon: ti-pencil-alt
+details: true
 ---
 # Interieuradvies
 
