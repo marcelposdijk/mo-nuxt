@@ -18,7 +18,8 @@ export default {
     Telefoon: "Telefoon",
     OpeningsDagen: "Maandag t/m vrijdag",
     OpeningsTijden: "8:00 tot 16:00 uur",
-    Email: "E-mail"
+    Email: "E-mail",
+    BezoekOnsOp: "Bezoek ons op:"
   },
   home: {
     JarenKlusErvaring: "Al jaren kluservaring",
@@ -68,7 +69,11 @@ export default {
   },
   portfolio: {
     title: "Portfolio",
-    description: "Een impressie van de door onse uitgevoerde projecten op het gebied van timmerwerk, schilderwerk en behangen"
+    description: "Een impressie van de door onse uitgevoerde projecten op het gebied van timmerwerk, schilderwerk en behangen",
+    Alle: "Alle",
+    Behangen: "Behangen",
+    Timmerwerk: "Timmerwerk",
+    Schilderwerk: "Schilderwerk"
   },
   notfound: {
     title: "Oops! page not found",

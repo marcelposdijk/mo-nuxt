@@ -105,7 +105,7 @@
               <p class="display-31 display-lg-30 mb-0 text-black">&copy; 2021-2023 Mo & Mars</p>
             </div>
             <div class="col-md-6 text-md-right">
-              <p class="text-black d-inline-block font-weight-600 mr-2 mb-0">Bezoek ons op:</p>
+              <p class="text-black d-inline-block font-weight-600 mr-2 mb-0">{{ $t('main.BezoekOnsOp') }}</p>
               <ul class="share-post">
                 <li>
                   <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank" class="white-hover"><i class="fab fa-facebook-f"></i></a>

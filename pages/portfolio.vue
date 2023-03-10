@@ -5,10 +5,10 @@
       <div class="container">
         <div class="row no-gutters">
           <div class="filtering col-sm-12 text-center">
-            <span data-filter="*" class="active">Alle</span>
-            <span data-filter=".timmerwerk-en-montage">Timmerwerk</span>
-            <span data-filter=".behangen">Behangen</span>
-            <span data-filter=".schilderwerk">Schilderwerk</span>
+            <span data-filter="*" class="active">{{$t('portfolio.Alle')}}</span>
+            <span data-filter=".timmerwerk-en-montage">{{$t('portfolio.Timmerwerk')}}</span>
+            <span data-filter=".behangen">{{$t('portfolio.Behangen')}}</span>
+            <span data-filter=".schilderwerk">{{$t('portfolio.Schilderwerk')}}</span>
           </div>
           <div class="col-12 text-center w-100">
             <div class="form-row gallery">
