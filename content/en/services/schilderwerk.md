@@ -14,7 +14,7 @@ I am happy to advise you on the best painting techniques for various services. I
 
 ### Interior painting
 
-A staircase, the walls, a window section, skirting boards or a ceiling, I provide all indoor painting services. Painting the inside of your property not only offers protection, but also gives you the chance to reflect your own style. I am happy to give you advice on, for example, the use of colour in a room, light, trends and different finishes. Did you know, for instance, that certain light colours can make a room look bigger by reflecting light? 
+A staircase, the walls, a window section, skirting boards or a ceiling. I provide all indoor painting services. Painting the inside of your property not only offers protection, but also gives you the chance to reflect your own style. I am happy to give you advice on, for example, the use of colour in a room, light, trends and different finishes. Did you know, for instance, that certain light colours can make a room look bigger by reflecting light? 
 
 Are you curious about my previous work indoors? Then take a look at my [portfolio](/portfolio)
 
