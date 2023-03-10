@@ -1,12 +1,12 @@
 ---
 sequenceNumber: 6
-title: Sanitair
-shortTitle: Sanitair
-description: Vervangen van een kraan, plaatsen van een meubel, spiegel, accessoires plaatsen, plaatsen van wandbeugels.
+title: Sanitary
+shortTitle: Sanitary
+description: Replacing a tap, installing furniture, mirror, installing accessories, installing wall brackets.
 backgroundImage: /img/banner/slide8.jpg
 icon: ti-filter
 details: true
 ---
-# Sanitair
+# Sanitary
 
-Sanitair klussen. Vervangen van kraan. Plaatsen van een meubel, spiegel, accessoires plaatsen, plaatsen van wandbeugels. 
+Plumbing jobs. Replacing tap. Installing furniture, mirror, installing accessories, installing wall brackets.

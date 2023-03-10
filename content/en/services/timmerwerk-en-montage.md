@@ -1,12 +1,12 @@
 ---
 sequenceNumber: 4
-title: Timmerwerk en montage
-shortTitle: Timmerwerk
-description: Timmerklussen, verwarmingsombouw, kast op maat, ombouw vloerverwarmingverdeler, monteren van meubelpakketten, plafond maken, ophangen van verschillende dingen aan de muur, vervangen van sloten, plaatsen van deurbeslag.
+title: Carpentry and assembly
+shortTitle: Carpentry
+description: Carpentry jobs, heating conversion, made-to-measure cupboard, floor heating distributor conversion, assembling furniture packages, making ceiling, hanging various things on the wall, replacing locks, installing door hardware.
 backgroundImage: /img/banner/slide4.jpg
 icon: ti-hummer
 details: true
 ---
-# Timmerwerk-en-montage
+# Carpentry and assembly
 
-Timmerklussen, verwarmingsombouw, kast op maat, ombouw vloerverwarmingverdeler, monteren van meubelpakketten, plafond maken, ophangen van verschillende dingen aan de muur, vervangen van sloten, plaatsen van deurbeslag.
+Carpentry jobs, heating conversion, made-to-measure cupboard, floor heating distributor conversion, assembling furniture packages, making ceiling, hanging various things on the wall, replacing locks, installing door hardware.

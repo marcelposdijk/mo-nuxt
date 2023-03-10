@@ -1,12 +1,12 @@
 ---
 sequenceNumber: 7
-title: Elektra  
-shortTitle: Elektra
-description: Vervangen van stopcontacten, plaatsen van lichtknoppen, ophangen van lampen, leidingwerk aanleggen.
+title: Electrical  
+shortTitle: Electrical
+description: Replacing sockets, installing light switches, hanging lamps, laying pipework.
 backgroundImage: /img/banner/slide7.jpg
 icon: ti-plug
 details: true
 ---
-# Elektra
+# Electrical
 
-Graag help ik u bij het vervangen van stopcontacten. Plaatsen schakelaars. Ophangen van binnenlampen of buitenlampen, leidingwerk aanleggen. 
+Happy to help replace sockets. Placing switches. Hanging indoor or outdoor lights, laying pipework.
