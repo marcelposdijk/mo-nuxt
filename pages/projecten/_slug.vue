@@ -69,7 +69,7 @@
                     :to="localePath(`/projecten/${prev.slug}`)"
                     rel="prev">
                     <i class="fas fa-angle-left display-30 display-md-29"></i>
-                    <span class="ml-3 display-30 display-md-29 font-weight-600">Vorige</span>
+                    <span class="ml-3 display-30 display-md-29 font-weight-600">{{ $t('vorige') }}</span>
                   </NuxtLink>
                 </li>
                 <li>
@@ -82,7 +82,7 @@
                     v-if="next"
                     :to="localePath(`/projecten/${next.slug}/`)"
                     rel="next">
-                    <span class="mr-3 display-30 display-md-29 font-weight-600">Volgende</span>
+                    <span class="mr-3 display-30 display-md-29 font-weight-600">{{ $t('volgende') }}</span>
                     <i class="fas fa-angle-right display-30 display-md-29"></i>
                   </NuxtLink>
                 </li>

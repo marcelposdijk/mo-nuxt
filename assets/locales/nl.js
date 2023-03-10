@@ -6,6 +6,8 @@ export default {
   by: "door",
   goBack: "Terug",
   slogan: "Voor al uw klussen in en om het huis!",
+  volgende: "Volgende",
+  vorige: "Vorige",
   main: {
     Home: "Home",
     MijnTeam: "Mijn Team",
@@ -34,7 +36,7 @@ export default {
     Uitvoering: "Uitvoering",
     MijnTeam: "Mijn team",
     SchilderwerkBinnen: "Schilderwerk binnen",
-    Benhangklussen: "Behangklussen",
+    Behangklussen: "Behangklussen",
     KlussenInDeTuin: "Klussen in de tuin",
     Timmerwerk: "Timmerwerk",
     SchilderwerkBuiten: "Schilderwerk buiten"

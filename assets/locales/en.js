@@ -5,6 +5,8 @@ export default {
   by: "by",
   goBack: "Go back",
   slogan: "For all your jobs in and around the house!",
+  volgende: "Next",
+  vorige: "Previous",
   main: {
     Home: "Home",
     MijnTeam: "My Team",
@@ -33,7 +35,7 @@ export default {
     MijnTeam: "My Team",
     Uitvoering: "Execution",
     SchilderwerkBinnen: "Interior painting",
-    Benhangklussen: "Wallpaper jobs",
+    Behangklussen: "Wallpaper jobs",
     KlussenInDeTuin: "Jobs in the garden",
     Timmerwerk: "Carpentry",
     SchilderwerkBuiten: "Exterior painting"
