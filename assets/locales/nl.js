@@ -80,5 +80,8 @@ export default {
   notfound: {
     title: "Oops! page not found",
     description : "The page you were looking for was not found"
+  },
+  projecten: {
+    Projectinformatie: "Projectinformatie",
   }
 }
