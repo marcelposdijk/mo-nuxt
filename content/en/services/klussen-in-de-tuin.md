@@ -1,12 +1,12 @@
 ---
 sequenceNumber: 3
-title: Klussen in de tuin
-shortTitle: Tuin
-description: Onkruid verwijderen, snoeiwerkzaamheden, schoffelen, plaatsen van een windvanger, schutting beitsen of oliën.
+title: Jobs in the garden
+shortTitle: Garden  
+description: Weed removal, pruning, hoeing, installation of a windbreak, fence staining or oiling.
 backgroundImage: /img/banner/slide3.jpg
 icon: ti-cut
 details: true
 ---
-# Klussen in de tuin
+# Jobs in the garden
 
-Onkruid verwijderen, snoeiwerkzaamheden, schoffelen, plaatsen van een windvanger, schutting beitsen of oliën.
+Weed removal, pruning, hoeing, installation of a windbreak, fence staining or oiling.

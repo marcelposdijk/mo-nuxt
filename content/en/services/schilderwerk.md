@@ -1,8 +1,8 @@
 ---
 sequenceNumber: 1
-title: Schilderwerk binnen en buiten
-shortTitle: Schilderwerk
-description: Muren sauzen, schilderen van deurkozijnen en deuren, schilderen van raamkozijnen, houtrot verwijderen en behandelen.
+title: Interior and exterior painting
+shortTitle: Painting
+description: Painting walls, painting door frames and doors, painting window frames, removing and treating wood rot.
 icon: ti-paint-roller
 backgroundImage: /img/banner/slide52.jpg
 image: /img/team/team-monique-schilder.jpg
@@ -10,24 +10,24 @@ summary: Monique schildert lekker door!
 details: true
 ---
 ![Plaatje van Mo>](/img/team/team-monique-schilder.jpg)
-Graag adviseer ik je over de beste verftechnieken voor verschillende diensten. Ik werk voor zowel particulieren als voor bedrijven in de regio Aalsmeer, Amstelveen, Uithoorn en omstreken. Hieronder bespreek ik kort mijn aanbod. Uiteraard zal ik je ook uitgebreid adviseren tijdens mijn bezoek. Zo weet je zeker dat je de juiste keuze maakt met het gewenste resultaat. Ik werk met de professionele verf van het merk Sikkens.
+I am happy to advise you on the best painting techniques for various services. I work for both private individuals and companies in the Aalsmeer, Amstelveen, Uithoorn and surrounding area. Below, I briefly discuss my range of services. Of course, I will also advise you extensively during my visit. That way, you can be sure to make the right choice with the desired result. I work with the professional paint of the Sikkens brand.
 
-### Binnenschilderwerk
+### Interior painting
 
-Een trap, de muren, een raampartij, plinten of een plafond, Ik lever alle diensten voor binnenshuis. Het schilderen van de binnenkant van je pand biedt niet alleen bescherming, maar geeft je ook de kans om jouw eigen stijl weer te geven. Ik geef je daarin graag advies over bijvoorbeeld kleurgebruik in een ruimte, lichtinval, trends en verschillende afwerkingen. Wist je bijvoorbeeld dat je met bepaalde lichte kleuren de ruimte groter kan laten lijken door de weerkaatsing van het licht? 
+A staircase, the walls, a window section, skirting boards or a ceiling, I provide all indoor painting services. Painting the inside of your property not only offers protection, but also gives you the chance to reflect your own style. I am happy to give you advice on, for example, the use of colour in a room, light, trends and different finishes. Did you know, for instance, that certain light colours can make a room look bigger by reflecting light? 
 
-Ben je benieuwd naar mijn eerdere werk binnenshuis? Neemt u dan een kijkje bij mijn [portfolio](/portfolio)
+Are you curious about my previous work indoors? Then take a look at my [portfolio](/portfolio)
 
-### Buitenschilderwerk
+### Exterior painting
 
-Ook voor schilderwerk aan de buitenkant van jouw pand ben je bij mij aan het juiste adres. Gevels krijgen het in Nederland zwaar te verduren met het eeuwig wisselende weer. Hierdoor wordt vooral het houtwerk snel aangetast. Dit is niet alleen slecht voor uw woning, maar het komt ook het uiterlijk van uw woning niet ten goede. 
+You've also come to the right place for painting the outside of your premises. Facades in the Netherlands have a hard time with the ever-changing weather. This causes woodwork in particular to deteriorate quickly. Not only is this bad for your property, but it also doesn't benefit the appearance of your property. 
 
-Ik inspecteer altijd eerst of er geen houtrot aanwezig is. Direct schilderen over houtrot is zeer onverstandig en zeker niet duurzaam. Nadat eventuele houtrot is gerepareerd kan het buitenschilderwerk beginnen. Ik werk uitsluitend met hoogwaardig producten en technieken waardoor je verzekerd bent van langdurige kwaliteit. Na afronding is jouw woning weer beschermd tegen allerlei weeromstandigheden en kan je elke dag genieten van het resultaat.
+I always inspect for wood rot first. Painting directly over wood rot is very unwise and certainly not sustainable. After any wood rot has been repaired, the exterior painting can begin. I only work with high-quality products and techniques, which ensures long-term quality. After completion, your home is protected again against all kinds of weather conditions and you can enjoy the result every day.
 
-### Houtrot reparatie
+### Wood rot repair
 
-Een veel voorkomend probleem in het onderhoud van jouw woning is de aanwezigheid van houtrot. Vocht in het hout van bijvoorbeeld uw deuren, kozijnen of dorpel veroorzaakt een hardnekkige schimmel welke op den duur kan leiden tot houtrot. Het hout is donkerder van kleur, de hardheid van het hout vermindert en toont uiteindelijk zelfs scheuren. Een vervelend probleem, maar zeker niet onoverkoombaar en (indien op tijd ontdekt) goed te behandelen.
+A common problem in maintaining your home is the presence of wood rot. Moisture in the wood of your doors, window frames or sill, for example, causes a stubborn fungus which can eventually lead to wood rot. The wood is darker in colour, the hardness of the wood decreases and eventually it even shows cracks. An annoying problem, but certainly not insurmountable and (if discovered in time) easy to treat.
 
-Ik verwijder de houtrot grondig, impregneer het overgebleven hout, vult aan en bewerkt de oppervlakte. In sommige gevallen zullen delen van het hout vervangen moeten worden. Dit alles doe ik met grote zorgvuldigheid, want een restje achtergebleven schimmel of houtrot zal zich opnieuw gaan verspreiden. Uiteraard werk ik het geheel tot in detail af. Zo wordt houtrot verleden tijd.
+I thoroughly remove the wood rot, impregnate the remaining wood, replenish and rework the surface. In some cases, parts of the wood will have to be replaced. I do all this with great care, because any residual mould or wood rot left behind will spread again. Of course, I finish it all in detail. This way, wood rot becomes a thing of the past.
 
 

@@ -1,15 +1,15 @@
 ---
 sequenceNumber: 5
-title: Interieuradvies
-shortTitle: Interieuradvies
-description: Interieuradvies, moodboard, voorstellen in kleurontwerp, bankopstelling, vloeren, behang, muurkleur, materialen, meubel en een lichtplan.
+title: Interior advice  
+shortTitle: Interior advice
+description: Interior advice, mood board, proposals in colour design, sofa arrangement, flooring, wallpaper, wall colour, materials, furniture and a lighting plan.
 backgroundImage: /img/banner/slide6.jpg
 icon: ti-pencil-alt
 details: true
 ---
-# Interieuradvies
+# Interior advice
 
-Als u gaat verhuizen of u bent van plan uw huis of kantoor her in te richten, dan help ik u graag met een interieuradvies.
-De volgende werkzaamheden worden dan gedaan.
-Kleurvoorstel voorlopig ontwerp,
-bank opstelling, vloerenvoorstel, behangvoorstel, muurkleurvoorstel, materialenvoorstel, meubelvoorstel en een lichtplan.
+If you are moving or planning to redecorate your home or office, I would be happy to help you with an interior design consultation.
+The following work is then carried out.
+colour proposal preliminary design,
+sofa arrangement, flooring proposal, wallpaper proposal, wall colour proposal, material proposal, furniture proposal and a lighting plan.

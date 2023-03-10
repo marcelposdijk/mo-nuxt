@@ -1,8 +1,8 @@
 ---
 sequenceNumber: 2
-title: Behangen
-shortTitle: Behangen
-description: Muren behangen.
+title: Putting on wallpaper
+shortTitle: Putting on wallpaper
+description: Wallpapering the walls.
 backgroundImage: /img/banner/slide2.jpg
 icon: ti-wand
 images:
@@ -12,8 +12,8 @@ images:
   - /services/behangen/behang04.jpg
 details: true
 ---
-# Behangen
+# Putting on wallpaper
 
-De afwerking van uw wand kan een belangrijke rol spelen voor de de sfeer in uw huis of kantoor. U kunt uit verschillende soorten behang kiezen. Glad, met een structuur, patroon of een fotobehang.
+The finish of your wall can play an important role for the atmosphere in your home or office. You can choose from different types of wallpaper. Smooth, textured, patterned or a photo wallpaper.
 
-U kunt kiezen uit "gewoon” behang of glasvezelbehang, hier zijn veel verschillende mogelijkheden.
+You can choose from "plain" wallpaper or fibreglass wallpaper, there are many different options here.
