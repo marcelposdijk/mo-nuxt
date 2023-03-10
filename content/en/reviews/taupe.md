@@ -1,8 +1,8 @@
 ---
 sequenceNumber: 1
-quote: en => Monique is zeer betrouwbaar!
+quote: en => Monique is very reliable!
 name: JS
 # image formaat: 545 x 745
 image: /img/reviews/review1.jpg 
 ---
-en => Monique heeft bij ons de slaapkamers en de werkkamer opgeknapt: behangen, elektra, rolgordijnen, kasten, etc. Monique is zeer betrouwbaar, precies, verantwoordelijk en prettig om mee samen te werken. En daarbij ook flexibel.  Monique is ook communicatief sterk en staat open voor verbeteringen. Ze kan hard werken en gaat net zo lang door totdat we tevreden waren.
+en => Monique refurbished our bedrooms and study: wallpapering, electrics, blinds, wardrobes, etc. Monique is very reliable, precise, responsible and a pleasure to work with. And also flexible.  Monique is also communicatively strong and open to improvements. She can work hard and keeps going until we were satisfied.

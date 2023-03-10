@@ -1,9 +1,9 @@
 ---
 sequenceNumber: 2
-quote: en => Haar werk is uitstekend
+quote: en => Her work is outstanding
 name: CM
 # image formaat: 545 x 745
 image: /img/reviews/review2.jpg 
 ---
-en => Monique heeft bij mij de kozijnen aan de binnenzijde geschilderd. Ik wil dingen graag perfect hebben en doe dit soort dingen normaal altijd zelf, maar ik heb dit toch uit handen gegeven. En gelukkig geen spijt van,  haar werk is uitstekend en ze werkt ook netjes. Als ze klaar is wordt alles netjes opgeruimd alsof er niets gebeurd is behalve dan dat de kozijnen er weer tip top uit zien.
-Monique bedankt en ik hoop dat ik je weer mag inschakelen voor de volgend schilderklus.
+en => Monique painted my window frames on the inside. I like things to be perfect and normally always do these things myself, but I outsourced this anyway. And luckily I don't regret it, her work is excellent and she works neatly. When she has finished, everything is tidied up as if nothing had happened except that the window frames look tip-top again.
+Monique thank you and I hope I can call on you again for the next paint job.

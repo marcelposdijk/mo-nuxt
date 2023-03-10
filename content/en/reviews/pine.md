@@ -1,8 +1,8 @@
 ---
 sequenceNumber: 3
-quote: en => Ze werkt nauwkeurig
+quote: en => She works accurately
 name: SC
 # image formaat: 545 x 745
 image: /img/reviews/review3.jpg 
 ---
-en => Monique heeft bij ons aan de achterkant van de  woning de kozijnen geschilderd, ze werkt nauwkeurig en weet wat ze doet. We zijn erg blij met het eind resultaat, ziet er weer prima uit en kan er weer jaren tegen. Monique dank je wel.
+en => Monique painted the window frames at the back of our house. She works accurately and knows what she is doing. We are very happy with the end result, it looks great again and will last for years. Thank you, Monique.
