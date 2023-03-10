@@ -5,8 +5,8 @@
       <div class="row slider-fade1">
         <div class="owl-carousel owl-theme w-100">
           <home-page-slide background-image="/img/banner/slide1.jpg" inset-image="/img/banner/slide-img-01.jpg" slide-number="" :title="$t('home.SchilderwerkBinnen')" :subTitle="$t('slogan')" />
-          <home-page-slide background-image="/img/banner/slide2.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="" :title="$t('home.Behangklussen')" :subTitle="$t('slogan')" />
-          <home-page-slide background-image="/img/banner/slide3.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="" :title="$t('home.KlussenInDeTuin')" :subTitle="$t('slogan')" />
+          <home-page-slide background-image="/img/banner/slide2a.jpg" inset-image="/img/banner/slide-img-02.jpg" slide-number="" :title="$t('home.Behangklussen')" :subTitle="$t('slogan')" />
+          <home-page-slide background-image="/img/banner/slide3a.jpg" inset-image="/img/banner/slide-img-03.jpg" slide-number="" :title="$t('home.KlussenInDeTuin')" :subTitle="$t('slogan')" />
           <home-page-slide background-image="/img/banner/slide4.jpg" inset-image="/img/banner/slide-img-04.jpg" slide-number="" :title="$t('home.Timmerwerk')" :subTitle="$t('slogan')" />
           <!-- <home-page-slide background-image="/img/banner/slide5.jpg" inset-image="/img/banner/slide-img-05.jpg" slide-number="05" title="Schilderwerk buiten" subTitle="Voor al uw klussen in en om het huis!" /> -->
         </div>
