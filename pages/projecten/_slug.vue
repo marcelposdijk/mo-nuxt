@@ -66,7 +66,7 @@
                 <li>
                   <NuxtLink
                     v-if="prev"
-                    :to="`/projecten/${prev.slug}`"
+                    :to="localePath(`/projecten/${prev.slug}`)"
                     rel="prev">
                     <i class="fas fa-angle-left display-30 display-md-29"></i>
                     <span class="ml-3 display-30 display-md-29 font-weight-600">Vorige</span>
@@ -80,7 +80,7 @@
                 <li>
                   <NuxtLink
                     v-if="next"
-                    :to="`/projecten/${next.slug}/`"
+                    :to="localePath(`/projecten/${next.slug}/`)"
                     rel="next">
                     <span class="mr-3 display-30 display-md-29 font-weight-600">Volgende</span>
                     <i class="fas fa-angle-right display-30 display-md-29"></i>

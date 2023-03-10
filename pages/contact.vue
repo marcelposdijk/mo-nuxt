@@ -5,15 +5,15 @@
     <section>
       <div class="container">
         <div class="section-heading">
-          <h2 class="display-20 display-md-18 display-lg-16">Zo kom je met mij in contact</h2>
-          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">Voor al uw klussen in en om het huis!</p>
+          <h2 class="display-20 display-md-18 display-lg-16">{{ $t('contact.description') }}</h2>
+          <p class="w-95 w-md-80 w-lg-60 w-xl-55 mx-auto mb-0">{{ $t('slogan') }}</p>
         </div>
 
         <div class="row mb-2-9">
           <div class="col-lg-4 col-md-12 mb-1-9 mb-lg-0">
             <div class="contact-box">
               <i class="fas fa-mobile-alt text-primary mb-1-6 display-md-19 display-lg-17 display-xl-14"></i>
-              <h4 class="h5 mb-3">Telefoon</h4>
+              <h4 class="h5 mb-3">{{ $t('contact.telefoon') }}</h4>
               <ul class="list-unstyled mb-0">
                 <li><a href="tel:31614968712">+31 6 1496 8712</a></li>
               </ul>
@@ -22,7 +22,7 @@
           <div class="col-lg-4 col-md-12 mb-1-9 mb-lg-0">
             <div class="contact-box">
               <i class="fas fa-map-marker-alt text-primary mb-1-6 display-22 display-md-19 display-lg-17 display-xl-14"></i>
-              <h4 class="h5 mb-3">Hoofdkantoor</h4>
+              <h4 class="h5 mb-3">{{ $t('contact.kantoor') }}</h4>
               <ul class="list-unstyled mb-0">
                 <li>Christinastraat 17</li>
                 <li>1432 HN AALSMEER</li>
@@ -32,7 +32,7 @@
           <div class="col-lg-4 col-md-12">
             <div class="contact-box">
               <i class="far fa-envelope text-primary mb-1-6 display-22 display-md-19 display-lg-17 display-xl-14"></i>
-              <h4 class="h5 mb-3">E-mail</h4>
+              <h4 class="h5 mb-3">{{ $t('contact.email') }}</h4>
               <ul class="list-unstyled mb-0">
                 <li><a href="mailto:your@info@klusvrouwmonique.nl">info@klusvrouwmonique.nl</a></li>
               </ul>
@@ -46,19 +46,19 @@
               <background-image class="cover-background h-100" :overlay-dark="0" background-image="/img/team/contact-monique.jpg"></background-image>
             </div>
             <div class="col-lg-6">
-              <b-alert class="m-5" variant="success" show v-show="formSubmitted">Dank je wel voor je bericht. Ik neem zo snel mogelijk contact met je op</b-alert>
+              <b-alert class="m-5" variant="success" show v-show="formSubmitted">{{ $t('contact.BedanktVoorJeBericht') }}</b-alert>
               <b-alert class="ml-2 mr-2" variant="danger" show v-show="errorMessage">{{ errorMessage }}</b-alert>
               <div class="contact-form-area" v-show="!formSubmitted">
-                <h3 class="mb-1-6">Ik hoor graag van je.</h3>
+                <h3 class="mb-1-6">{{ $t('contact.IkHoorGraagVanJe') }}</h3>
                 <form class="quform" v-on:submit.prevent="submitForm">
                   <div class="quform-elements">
                     <div class="row">
                       <!-- Begin Text input element -->
                       <div class="col-md-6">
                         <div class="quform-element form-group">
-                          <label for="name">Naam <span class="quform-required">*</span></label>
+                          <label for="name">{{ $t('contact.Naam') }} <span class="quform-required">*</span></label>
                           <div class="quform-input">
-                            <input class="form-control" type="text" v-model="form.name" placeholder="Jouw naam hier" />
+                            <input class="form-control" type="text" v-model="form.name"  />
                           </div>
                         </div>
                       </div>
@@ -67,9 +67,9 @@
                       <!-- Begin Text input element -->
                       <div class="col-md-6">
                         <div class="quform-element form-group">
-                          <label for="email">E-mailadres <span class="quform-required">*</span></label>
+                          <label for="email">{{ $t('contact.EmailAdres') }} <span class="quform-required">*</span></label>
                           <div class="quform-input">
-                            <input class="form-control" type="text" name="email" v-model="form.email" placeholder="Jouw e-mailadres hier" />
+                            <input class="form-control" type="text" name="email" v-model="form.email" />
                           </div>
                         </div>
                       </div>
@@ -78,9 +78,9 @@
                       <!-- Begin Text input element -->
                       <div class="col-md-6">
                         <div class="quform-element form-group">
-                          <label for="subject">Onderwerp</label>
+                          <label for="subject">{{ $t('contact.Onderwerp')}}</label>
                           <div class="quform-input">
-                            <input class="form-control" type="text" v-model="form.subject" placeholder="Jouw onderwerp hier" />
+                            <input class="form-control" type="text" v-model="form.subject"  />
                           </div>
                         </div>
                       </div>
@@ -89,9 +89,9 @@
                       <!-- Begin Text input element -->
                       <div class="col-md-6">
                         <div class="quform-element form-group">
-                          <label for="phone">Telefoonnummer</label>
+                          <label for="phone">{{ $t('contact.Telefoonnummer')}}</label>
                           <div class="quform-input">
-                            <input class="form-control" type="text" v-model="form.phone" placeholder="Jouw telefoonnr hier" />
+                            <input class="form-control" type="text" v-model="form.phone"  />
                           </div>
                         </div>
                       </div>
@@ -100,9 +100,9 @@
                       <!-- Begin Textarea element -->
                       <div class="col-md-12">
                         <div class="quform-element form-group">
-                          <label for="message">Bericht <span class="quform-required">*</span></label>
+                          <label for="message">{{ $t('contact.Bericht') }} <span class="quform-required">*</span></label>
                           <div class="quform-input">
-                            <textarea class="form-control" v-model="form.message" rows="3" placeholder="Stel je vraag in een aantal woorden"></textarea>
+                            <textarea class="form-control" v-model="form.message" rows="3" :placeholder="$t('contact.StelJeVraag')"></textarea>
                           </div>
                         </div>
                       </div>
@@ -110,7 +110,7 @@
 
                       <div class="col-md-12">
                         <div class="quform-submit-inner">
-                          <button class="butn theme butn-md" type="submit" :disabled="isBusy"><i class="fa fa-spinner fa-spin mr-2" v-show="isBusy"></i><span>Bericht verzenden</span></button>
+                          <button class="butn theme butn-md" type="submit" :disabled="isBusy"><i class="fa fa-spinner fa-spin mr-2" v-show="isBusy"></i><span>{{$t('contact.BerichtVerzenden')}}</span></button>
                         </div>
                         <div class="quform-loading-wrap text-left"><span class="quform-loading"></span></div>
                       </div>
@@ -148,17 +148,17 @@ export default {
       this.errorMessage = ""
       if (!this.form.name) {
         this.isBusy = false
-        this.errorMessage = "Naam is verplicht"
+        this.errorMessage = this.$t('contact.NaamIsVerplicht')
         return
       }
       if (!this.form.email) {
         this.isBusy = false
-        this.errorMessage = "E-mailadres is verplicht"
+        this.errorMessage = this.$t('contact.EmailAddressIsVerplicht')
         return
       }
       if (!this.form.message) {
         this.isBusy = false
-        this.errorMessage = "Bericht is verplicht"
+        this.errorMessage = this.$t('contact.BerichtIsVerplicht')
         return
       }
 

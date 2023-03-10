@@ -12,7 +12,13 @@ export default {
     Portfolio: "Portfolio",
     Projecten: "Projecten",
     Diensten: "Services",
-    Contact: "Contact"
+    Contact: "Contact",
+    LaatsteProjecten: "Laatste projecten",
+    Adres: "Adres",
+    Telefoon: "Telefoon",
+    OpeningsDagen: "Maandag t/m vrijdag",
+    OpeningsTijden: "8:00 tot 16:00 uur",
+    Email: "E-mail"
   },
   home: {
     JarenKlusErvaring: "Al jaren kluservaring",
@@ -25,11 +31,36 @@ export default {
     NetjesKundig: "Netjes, kundig en betrouwbaar",
     WensenEnPlanning: "Wensen en planning",
     Uitvoering: "Uitvoering",
-    MijnTeam: "Mijn team"
+    MijnTeam: "Mijn team",
+    SchilderwerkBinnen: "Schilderwerk binnen",
+    Benhangklussen: "Behangklussen",
+    KlussenInDeTuin: "Klussen in de tuin",
+    Timmerwerk: "Timmerwerk",
+    SchilderwerkBuiten: "Schilderwerk buiten"
+  },
+  diensten: {
+    title: "Diensten",
+    DienstenDieIkAanbied: "Diensten die ik aanbied"
   },
   contact: {
     title: "Contact",
-    description : "Vul het contactformulier in en wij nemen zo snel mogelijke contact met u op"
+    description: "Zo kom je met mij in contact",
+    telefoon: "Telefoon",
+    kantoor: "Kantoor",
+    email: "E-mail",
+    IkHoorGraagVanJe: "Ik hoor graag van je",
+    Naam: "Naam",
+    EmailAdres: "E-mailadres",
+    Onderwerp: "Onderwerp",
+    Telefoonnummer: "Telefoonnummer",
+    Bericht: "Bericht",
+    BerichtVerzenden: "Bericht verzenden",
+    BedanktVoorJeBericht: "Dank je wel voor je bericht. Ik neem zo snel mogelijk contact met je op",
+    NaamIsVerplicht: "NaamIsVerplicht",
+    EmailAddressIsVerplicht: "E-mailadres is verplicht",
+    BerichtIsVerplicht: "Bericht is verplicht",
+    IkHoorGraagVanJe: "Ik hoor graag van je.",
+    StelJeVraag: "Stel je vraag in een aantal woorden"
   },
   team: {
     title: "Mijn team",

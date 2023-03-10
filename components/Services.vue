@@ -8,7 +8,7 @@
         <h3 class="h5 mb-3" v-if="!service.details">
           {{ service.title }}
         </h3>
-        <nuxt-link v-if="service.details" :to="`/diensten/${service.slug}`">{{ service.title }}</nuxt-link>
+        <nuxt-link v-if="service.details" :to="localePath(`/diensten/${service.slug}`)">{{ service.title }}</nuxt-link>
         <p>{{ service.description }}</p>
         <!-- <div class="service-counter number-ordered-item"></div> -->
       </div>

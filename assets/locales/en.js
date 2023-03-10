@@ -11,7 +11,13 @@ export default {
     Portfolio: "Portfolio",
     Diensten: "Services",
     Projecten: "Projects",
-    Contact: "Contact"
+    Contact: "Contact",
+    LaatsteProjecten: "Latest projects",
+    Adres: "Address",
+    Telefoon: "Phone",
+    OpeningsDagen: "en => Maandag t/m vrijdag",
+    OpeningsTijden: "en => 8:00 tot 16:00 uur",
+    Email: "en => E-mail"
   },
   home: {
     JarenKlusErvaring: "en => Al jaren kluservaring",
@@ -24,7 +30,16 @@ export default {
     NetjesKundig: "en => Netjes, kundig en betrouwbaar",
     WensenEnPlanning: "en => Wensen en planning",
     MijnTeam: "My Team",
-    Uitvoering: "en => Uitvoering"
+    Uitvoering: "en => Uitvoering",
+    SchilderwerkBinnen: "en => Schilderwerk binnen",
+    Benhangklussen: "en => Behangklussen",
+    KlussenInDeTuin: "en => Klussen in de tuin",
+    Timmerwerk: "en => Timmerwerk",
+    SchilderwerkBuiten: "en => Schilderwerk buiten"
+  },
+  diensten: {
+    title: "en => Diensten",
+    DienstenDieIkAanbied: "en => Diensten die ik aanbied"
   },
   notfound: {
     title: "Oops! page not found",
@@ -32,7 +47,23 @@ export default {
   },
   contact: {
     title: "Contact",
-    description: "Vul het contactformulier in en wij nemen zo snel mogelijke contact met u op"
+    description: "en => Zo kom je met mij in contact",
+    telefoon: "en => Telefoon",
+    kantoor: "en => Kantoor",
+    email: "en => E-mail",
+    IkHoorGraagVanJe: "en => Ik hoor graag van je",
+    Naam: "en => Naam",
+    EmailAdres: "en => E-mailadres",
+    Onderwerp: "en => Onderwerp",
+    Telefoonnummer: "en => Telefoonnummer",
+    Bericht: "en => Bericht",
+    BerichtVerzenden: "en => Bericht verzenden",
+    BedanktVoorJeBericht: "en => Dank je wel voor je bericht. Ik neem zo snel mogelijk contact met je op",
+    NaamIsVerplicht: "en => NaamIsVerplicht",
+    EmailAddressIsVerplicht: "en => E-mailadres is verplicht",
+    BerichtIsVerplicht: "en => Bericht is verplicht",
+    IkHoorGraagVanJe: "en => Ik hoor graag van je.",
+    StelJeVraag: "en => Stel je vraag in een aantal woorden"
   },
   team: {
     title: "My team",
