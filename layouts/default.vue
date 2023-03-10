@@ -151,7 +151,7 @@ export default {
   async created() {
     this.latestProjects = await this.$content(this.$i18n.locale, "projects").only(["slug", "title", "createdAt"]).sortBy("createdAt", "desc").limit(3).fetch()
 
-    this.projects = await this.$content("projects").only(["slug", "title"]).where({ showInMenu: true }).sortBy("sequenceNumber", "desc").limit(10).fetch()
+    this.projects = await this.$content(this.$i18n.locale, "projects").only(["slug", "title"]).where({ showInMenu: true }).sortBy("sequenceNumber", "desc").limit(10).fetch()
   },
   computed: {
     availableLocales() {
