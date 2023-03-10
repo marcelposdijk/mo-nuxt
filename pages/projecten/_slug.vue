@@ -13,7 +13,7 @@
             </article>
           </div>
           <div class="col-lg-4 offset-lg-1">
-            <h3 class="mb-1-6">Projectinformatie</h3>
+            <h3 class="mb-1-6">{{$t('projecten.Projectinformatie')}}</h3>
             <div class="project-info-content">
               <ul>
                 <li v-if="project.location">
