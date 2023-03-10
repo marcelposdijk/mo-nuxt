@@ -1,10 +1,10 @@
 ---
-title: en => Portfolio
+title: Portfolio
 images:
   -
     thumbnail: /img/portfolio/grid-portfolio-01-autox400px.jpg
     image: /img/portfolio/grid-portfolio-01.jpg
-    title: en => Living room painted
+    title: Living room painted
     project: projectoceanblue
     services:
       - schilderwerk

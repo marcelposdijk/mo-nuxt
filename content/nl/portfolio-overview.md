@@ -4,14 +4,14 @@ images:
   -
     thumbnail: /img/portfolio/grid-portfolio-01-autox400px.jpg
     image: /img/portfolio/grid-portfolio-01.jpg
-    title: en => Woonkamer gesausd
+    title: Living room painted
     project: projectoceanblue
     services:
       - schilderwerk
   -
     thumbnail: /img/portfolio/grid-portfolio-02-autox400px.jpg
     image: /img/portfolio/grid-portfolio-02.jpg
-    title: en => Slaapkamer
+    title: Bedroom
     project: projecttaupe
     services:
       - behangen
