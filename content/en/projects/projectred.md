@@ -1,9 +1,9 @@
 ---
 title: Project Red
-description: Hal en keuken opgeknapt
+description: Hallway and kitchen redone
 image: /img/projecten/projectred/main-357xauto.jpg
 backgroundImage: /img/bg/bg-11.jpg
-location: Tussenwoning Amstelveen
+location: Terraced house Amstelveen
 sequenceNumber: 1
 showInMenu: true
 services:
@@ -35,6 +35,6 @@ images:
     showInCarousel: true
 ---
 
-# Over het project
+# About the project
 
-Plafond in hal na lekkage verwijderd en opnieuw geplaatst, muren behangen, schootjes geschilderd en muren in de keuken gesausd.
+Ceiling in hall after leakage removed and reinstalled, walls wallpapered, lap painted and walls in kitchen painted.

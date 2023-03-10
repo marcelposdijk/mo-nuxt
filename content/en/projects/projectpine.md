@@ -1,9 +1,9 @@
 ---
 title: Project Pine
-description: Buitenschilderwerk
+description: Exterior paintwork
 image: /img/projecten/projectpine/main-357xauto.jpg
 backgroundImage: /img/bg/bg-13.jpg
-location: Tussenwoning Aalsmeer
+location: Terraced house Aalsmeer
 sequenceNumber: 6
 showInMenu: true
 year: 
@@ -29,9 +29,9 @@ images:
 ---
 
 
-# Over het project
+# About the project
 
-Kozijnen gegrond en 2 x afgelakt. Rabatdelen gegrond en 2 x afgelakt. 
-2 onderdorpels met houtrot zelf verwijderd en nieuwe laten plaatsen. 
-Onderdorpels gegrond en 2 x afgelakt.
+Frames primed and varnished twice. Rabat parts primed and varnished twice. 
+2 lower sills with wood rot removed and new ones installed. 
+Sills primed and varnished twice.
 
