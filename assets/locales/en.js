@@ -18,7 +18,7 @@ export default {
     OpeningsDagen: "Monday to Friday",
     OpeningsTijden: "8:00 am to 4:00 pm",
     Email: "E-mail",
-    BezoekOnsOp: "en => Bezoek ons op:"
+    BezoekOnsOp: "Visit us at:"
   },
   home: {
     JarenKlusErvaring: "Many years of job experience",
@@ -53,7 +53,7 @@ export default {
     kantoor: "Office",
     email: "E-mail",
     IkHoorGraagVanJe: "I look forward to hearing from you",
-    Naam: "Nane",
+    Naam: "Name",
     EmailAdres: "E-mail address",
     Onderwerp: "Subject",
     Telefoonnummer: "Telephone number",
@@ -73,10 +73,10 @@ export default {
   portfolio: {
     title: "Portfolio",
     description: "An impression of the carpentry, painting and wallpapering projects carried out by us",
-    Alle: "en => Alle",
-    Behangen: "en => Behangen",
-    Timmerwerk: "en => Timmerwerk",
-    Schilderwerk: "en => Schilderwerk"
+    Alle: "All",
+    Behangen: "Wallpapered",
+    Timmerwerk: "Carpentry",
+    Schilderwerk: "Painting"
   },
   notfound: {
     title: "Oops! page not found",
