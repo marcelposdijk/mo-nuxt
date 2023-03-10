@@ -1,7 +1,7 @@
 ---
 title: Project White
-description: Alle wanden in een appartement gesaust
-location: Appartement Delft
+description: All walls in a flat painted
+location: Apartment in Delft
 sequenceNumber: 3
 showInMenu: true
 backgroundImage: /img/bg/bg-01.jpg
@@ -29,6 +29,6 @@ images:
     showInCarousel: false
 
 ---
-# Over project
+# About the project
 
-Alle wanden in een nieuwbouw appartement eerst met primer behandeld, daarna gesausd met Latex kleur 9010.
+All walls in a newly built flat first treated with primer, then painted with Latex colour 9010.

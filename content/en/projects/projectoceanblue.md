@@ -27,7 +27,7 @@ images:
     url: /img/projecten/projectoceanblue/carousel04.jpg
     showInCarousel: true
 ---
-# Over project
+# About the project
 
 Our client bought an existing house. Eline van Lenthe, my interior consultant, created an interior design. And I carried this out.
 

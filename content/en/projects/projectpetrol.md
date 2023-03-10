@@ -45,7 +45,7 @@ images:
     showInCarousel: true
 ---
 
-# Over het project
+# About the project
 
 Coat rack in hall removed. Hallway wallpapered. Side wall of meter cupboard replaced. Meter cupboard and pantry painted. Bench made. Heating surround made. Stairs painted.
 

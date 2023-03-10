@@ -1,9 +1,9 @@
 ---
 title: Project Taupe
-description: Slaapkamers opgeknapt
+description: Bedrooms redone
 image: /img/projecten/projecttaupe/main-357xauto.jpg
 backgroundImage: /img/bg/bg-08.jpg 
-location: Tussenwoning Aalsmeer
+location: Terraced house Aalsmeer
 sequenceNumber: 2
 showInMenu: true
 year: 
@@ -39,8 +39,7 @@ images:
 ---
 
 
-# Over het project
+# About the project
 
-In vier slaapkamers een enkele muur behangen. Ikeakasten in elkaar gezet. Lampen opgehangen. Accessoires aan de muur gemaakt. Magneetsticker op de muur bevestigd.
-
+Wallpapered a single wall in four bedrooms. Ikea cupboards put together. Lamps hung. Accessories made on the wall. Magnet sticker attached to wall.
 
