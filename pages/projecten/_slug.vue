@@ -20,7 +20,7 @@
                   <div class="media">
                     <i class="ti-location-pin align-middle mr-3 display-24"></i>
                     <div class="media-body">
-                      <h4 class="h6 mb-3">Locatie</h4>
+                      <h4 class="h6 mb-3">{{$t('projecten.Locatie')}}</h4>
                       <p class="mb-0 mt-n2">{{ project.location }}</p>
                     </div>
                   </div>
@@ -29,7 +29,7 @@
                   <div class="media">
                     <i class="ti-ruler-pencil align-middle mr-3 display-24"></i>
                     <div class="media-body">
-                      <h4 class="h6 mb-3">Vierkante Meters</h4>
+                      <h4 class="h6 mb-3">{{$t('projecten.Vierkantemeters')}}</h4>
                       <p class="mb-0 mt-n2">{{ project.m2 }} m<sup class="letter-spacing-1">2</sup></p>
                     </div>
                   </div>
@@ -38,7 +38,7 @@
                   <div class="media">
                     <i class="ti-calendar align-middle mr-3 display-24"></i>
                     <div class="media-body">
-                      <h4 class="h6 mb-3">Project Jaar</h4>
+                      <h4 class="h6 mb-3">{{$t('projecten.Projectjaar')}}</h4>
                       <p class="mb-0 mt-n2">{{ project.year }}</p>
                     </div>
                   </div>
@@ -47,7 +47,7 @@
                   <div class="media">
                     <i class="ti-user align-middle mr-3 display-24"></i>
                     <div class="media-body">
-                      <h4 class="h6 mb-3">Projectleider</h4>
+                      <h4 class="h6 mb-3">{{$t('projecten.Projectleider')}}</h4>
                       <p class="mb-0 mt-n2">
                         {{ project.lead ? project.lead : "Monique van den Nouweland" }}
                       </p>

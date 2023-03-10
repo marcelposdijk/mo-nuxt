@@ -8,6 +8,7 @@ export default {
   slogan: "Voor al uw klussen in en om het huis!",
   volgende: "Volgende",
   vorige: "Vorige",
+  Zieproject: "Zie project",
   main: {
     Home: "Home",
     MijnTeam: "Mijn Team",
@@ -22,7 +23,7 @@ export default {
     OpeningsTijden: "8:00 tot 16:00 uur",
     Email: "E-mail",
     BezoekOnsOp: "Bezoek ons op:",
-    Zieproject: "Zie project",
+
   },
   home: {
     JarenKlusErvaring: "Al jaren kluservaring",
@@ -68,7 +69,9 @@ export default {
   },
   team: {
     title: "Mijn team",
-    description : "Mijn team staat voor u klaar voor al uw klussen in en om het huis!"
+    description : "Mijn team staat voor u klaar voor al uw klussen in en om het huis!",
+    eigenaarklusvrouw: "Eigenaar, klusvrouw",
+    interieuradviesenontwerp: "Interieur advies en -ontwerp",
   },
   portfolio: {
     title: "Portfolio",
@@ -84,5 +87,10 @@ export default {
   },
   projecten: {
     Projectinformatie: "Projectinformatie",
+    Locatie: "Locatie",
+    Projectleider: "Projectleider",
+    Vierkantemeters: "Vierkante meters",
+    Projectjaar: "Project jaar"
+  
   }
 }

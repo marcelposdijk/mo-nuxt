@@ -7,7 +7,7 @@
         </div>
         <div class="team-info team-overlay">
           <h3 style="font-size: 16px" class="team-title">Monique van den Nouweland</h3>
-          <h6 class="team-position">Eigenaar, klusvrouw</h6>
+          <h6 class="team-position">{{$t('team.eigenaarklusvrouw')}}</h6>
           <ul class="social-icon">
             <li>
               <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -29,7 +29,7 @@
         </div>
         <div class="team-info team-overlay">
           <h3 class="team-title">Eline van Lenthe</h3>
-          <h6 class="team-position">Interieur advies- en ontwerp</h6>
+          <h6 class="team-position">{{$t('team.interieuradviesenontwerp')}}</h6>
           <!-- <ul v-show="false" class="social-icon">
             <li>
               <a href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -48,7 +48,7 @@
         </div>
         <div class="team-info team-overlay">
           <h3 style="font-size: 16px" class="team-title">Monique van den Nouweland</h3>
-          <h6 class="team-position">Eigenaar, klusvrouw</h6>
+          <h6 class="team-position">{{$t('team.eigenaarklusvrouw')}}</h6>
           <ul class="social-icon">
             <li>
               <a href="https://www.facebook.com/profile.php?id=100076447965172" target="_blank"><i class="fab fa-facebook-f"></i></a>

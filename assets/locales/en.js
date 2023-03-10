@@ -7,6 +7,7 @@ export default {
   slogan: "For all your jobs in and around the house!",
   volgende: "Next",
   vorige: "Previous",
+  Zieproject: "See project",
   main: {
     Home: "Home",
     MijnTeam: "My Team",
@@ -21,7 +22,7 @@ export default {
     OpeningsTijden: "8:00 am to 4:00 pm",
     Email: "E-mail",
     BezoekOnsOp: "Visit us at:",
-    Zieproject: "See project",
+
   },
   home: {
     JarenKlusErvaring: "Many years of job experience",
@@ -71,7 +72,9 @@ export default {
   },
   team: {
     title: "My team",
-    description: "My team is at your service for all your jobs in and around the house!"
+    description: "My team is at your service for all your jobs in and around the house!",
+    eigenaarklusvrouw: "Owner, handywoman",
+    interieuradviesenontwerp: "Interior advice and -design",
   },
   portfolio: {
     title: "Portfolio",
@@ -86,6 +89,10 @@ export default {
     description: "The page you were looking for was not found"
   },
   projecten: {
-    Projectinformatie: "Projectinformatie",
+    Projectinformatie: "Projectinformation",
+    Locatie: "Location",
+    Projectleider: "Projectleader",
+    Vierkantemeters: "Square meters",
+    Projectjaar: "Project Year"
   }
 }
