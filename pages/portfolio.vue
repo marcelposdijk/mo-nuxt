@@ -41,9 +41,9 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const portfolio = await $content("portfolio-overview").fetch()
-    const services = await $content("services").only(["slug", "title", "shortTitle"]).fetch()
+  async asyncData({ $content, params, app }) {
+    const portfolio = await $content(app.i18n.locale,"portfolio-overview").fetch()
+    const services = await $content(app.i18n.locale, "services").only(["slug", "title", "shortTitle"]).fetch()
     return { portfolio, services }
   },
   components: {},

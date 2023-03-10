@@ -37,7 +37,7 @@ export default {
     return { reviews: [] }
   },
   async created() {
-    this.reviews = await this.$content("reviews").sortBy("sequenceNumber").fetch()
+    this.reviews = await this.$content(this.$i18n.locale, "reviews").sortBy("sequenceNumber").fetch()
   },
   mounted() {
     setTimeout(() => {

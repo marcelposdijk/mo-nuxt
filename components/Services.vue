@@ -22,7 +22,7 @@ export default {
     return { services: [] }
   },
   async created() {
-    this.services = await this.$content("services").only(["slug", "title", "description", "icon", "details"]).sortBy("sequenceNumber").fetch()
+    this.services = await this.$content(this.$i18n.locale, "services").only(["slug", "title", "description", "icon", "details"]).sortBy("sequenceNumber").fetch()
   },
   methods: {
     getIconClass(service) {

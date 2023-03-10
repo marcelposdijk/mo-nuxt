@@ -107,12 +107,12 @@
 import SlickSlideshow from "@/components/SlickSlideshow"
 import ProjectsCarousel from "@/components/ProjectsCarousel"
 export default {
-  async asyncData({ $content, params }) {
-    const project = await $content("projects", params.slug).fetch()
-    const [prev, next] = await $content("projects").only(["title", "slug"]).sortBy("sequenceNumber", "asc").surround(params.slug).fetch()
+  async asyncData({ $content, app, params }) {
+    const project = await $content(app.i18n.locale, "projects", params.slug).fetch()
+    const [prev, next] = await $content(app.i18n.locale, "projects").only(["title", "slug"]).sortBy("sequenceNumber", "asc").surround(params.slug).fetch()
     let relatedProjects = []
     if (project.relatedProjects) {
-      relatedProjects = await $content("projects")
+      relatedProjects = await $content(app.i18n.locale, "projects")
         .only(["slug", "title", "description", "image"])
         .where({ slug: { $in: project.relatedProjects } })
         .fetch()

@@ -32,12 +32,12 @@ export default {
       ],
     }
   },
-  async asyncData({ $content, params }) {
-    const service = await $content("services", params.slug).fetch()
-    const [prev, next] = await $content("services").only(["title", "slug"]).sortBy("createdAt", "asc").surround(params.slug).fetch()
+  async asyncData({ $content, app, params }) {
+    const service = await $content(app.i18n.locale, "services", params.slug).fetch()
+    const [prev, next] = await $content(app.i18n.locale, "services").only(["title", "slug"]).sortBy("createdAt", "asc").surround(params.slug).fetch()
     let relatedservices = []
     if (service.relatedservices) {
-      relatedservices = await $content("services")
+      relatedservices = await $content(this.app.i18n.locale, "services")
         .only(["slug", "title", "description", "image"])
         .where({ slug: { $in: service.relatedservices } })
         .fetch()

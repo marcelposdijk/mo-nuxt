@@ -1,10 +1,10 @@
 ---
-title: Portfolio
+title: en => Portfolio
 images:
   -
     thumbnail: /img/portfolio/grid-portfolio-01-autox400px.jpg
     image: /img/portfolio/grid-portfolio-01.jpg
-    title: Woonkamer gesausd
+    title: en => Woonkamer gesausd
     project: projectoceanblue
     services:
       - schilderwerk
