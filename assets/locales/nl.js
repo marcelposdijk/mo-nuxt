@@ -21,7 +21,8 @@ export default {
     OpeningsDagen: "Maandag t/m vrijdag",
     OpeningsTijden: "8:00 tot 16:00 uur",
     Email: "E-mail",
-    BezoekOnsOp: "Bezoek ons op:"
+    BezoekOnsOp: "Bezoek ons op:",
+    Zieproject: "Zie project",
   },
   home: {
     JarenKlusErvaring: "Al jaren kluservaring",

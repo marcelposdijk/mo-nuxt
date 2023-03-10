@@ -8,7 +8,7 @@
             <h3 class="project-title">{{ project.title }}</h3>
             <p class="project-description">{{ project.description }}</p>
           </div>
-          <NuxtLink :to="localePath(`/projecten/${project.slug}/`)" class="link-arrow">Zie project<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
+          <NuxtLink :to="localePath(`/projecten/${project.slug}/`)" class="link-arrow">{{$t('Zieproject')}}<i class="fas fa-long-arrow-alt-right vertical-align-middle display-30 ml-2"></i></NuxtLink>
         </div>
       </div>
     </vue-slick-carousel>
