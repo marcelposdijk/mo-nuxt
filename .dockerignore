@@ -1,0 +1,14 @@
+node_modules
+dist
+.nuxt
+.output
+.git
+.gitignore
+*.md
+.env
+.env.*
+!.env.example
+.cursor
+docker-compose*.yml
+npm-debug.log*
+yarn-error.log*

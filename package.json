@@ -3,10 +3,10 @@
   "version": "1.0.3",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --disable-warning=DEP0040\" nuxt",
+    "build": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --disable-warning=DEP0040\" nuxt build",
+    "start": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --disable-warning=DEP0040\" nuxt start",
+    "generate": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --disable-warning=DEP0040\" nuxt generate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -30,7 +30,7 @@
     "yarn": "^1.22.17"
   },
   "devDependencies": {
-    "fibers": "^5.0.0",
+    "cross-env": "^7.0.3",
     "sass": "^1.43.4",
     "sass-loader": "^10.2.0"
   }
