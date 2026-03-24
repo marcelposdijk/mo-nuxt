@@ -1,6 +1,6 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  // Target: https://go.nuxtjs.dev/config-target ('server' for `nuxt start` / Docker Node runtime)
+  target: 'server',
   ssr: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

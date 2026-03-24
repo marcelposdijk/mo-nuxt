@@ -1,8 +1,8 @@
-# mo-nuxt — static Nuxt 2 site (npm run generate → nginx)
+# mo-nuxt — Nuxt 2 SSR (npm run build → npm run start)
 #
 # Build:  docker build -t mo-nuxt .
-# Run:    docker run --rm -p 8080:80 mo-nuxt
-# Open:   http://localhost:8080
+# Run:    docker run --rm -p 3000:3000 mo-nuxt
+# Open:   http://localhost:3000
 
 # syntax=docker/dockerfile:1
 
@@ -12,28 +12,35 @@ FROM node:${NODE_VERSION}-bookworm-slim AS builder
 
 WORKDIR /app
 
-# devDependencies (sass, cross-env) required for generate
 ENV NODE_ENV=development
 
 COPY package.json package-lock.json ./
-# npm ci requires lockfile to match the npm version in the image; npm install is more tolerant for legacy trees
 RUN npm install --no-audit --no-fund
 
 COPY . .
 
-# Same flags as package.json scripts (OpenSSL 3 + punycode deprecation noise)
 ENV NODE_OPTIONS="--openssl-legacy-provider --disable-warning=DEP0040"
 
-RUN npm run generate
+RUN npm run build
 
 # ---
 
-FROM nginx:1.27-alpine AS runner
+FROM node:${NODE_VERSION}-bookworm-slim AS runner
 
-COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=builder /app/dist /usr/share/nginx/html
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NODE_OPTIONS="--openssl-legacy-provider --disable-warning=DEP0040"
+ENV NUXT_HOST=0.0.0.0
+ENV NUXT_PORT=3000
+
+COPY --from=builder /app ./
+
+RUN npm prune --omit=dev --no-audit --no-fund
 
 EXPOSE 3000
 
-HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
-    CMD wget -qO- http://127.0.0.1/ > /dev/null || exit 1
+HEALTHCHECK --interval=30s --timeout=3s --start-period=20s --retries=3 \
+    CMD node -e "require('http').get('http://127.0.0.1:3000/',(r)=>process.exit(r.statusCode>=200&&r.statusCode<400?0:1)).on('error',()=>process.exit(1))"
+
+CMD ["node", "node_modules/nuxt/bin/nuxt.js", "start"]
