@@ -40,7 +40,4 @@ RUN npm prune --omit=dev --no-audit --no-fund
 
 EXPOSE 3000
 
-HEALTHCHECK --interval=30s --timeout=3s --start-period=20s --retries=3 \
-    CMD node -e "require('http').get('http://127.0.0.1:3000/',(r)=>process.exit(r.statusCode>=200&&r.statusCode<400?0:1)).on('error',()=>process.exit(1))"
-
 CMD ["node", "node_modules/nuxt/bin/nuxt.js", "start"]
